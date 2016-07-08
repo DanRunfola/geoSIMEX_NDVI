@@ -1,0 +1,48 @@
+\section{Introduction}
+The lack of exact geographic information on where measurements are obtained presents a barrier to research.
+This has become increasingly evident as more scholars integrate geographic data from multiple sources - for example, census, satellite, and GPS sources - to try and establish causal or predictive relationships (c.f., EXAMPLES).
+Many scholars have engaged in research seeking to integrate information on the precision of geographic data to improve the accuracy of modeling efforts, variably referred to as spatial (im)precision (CITE), spatial uncertainty (CITE), and spatial allocation (CITE).
+This paper presents a generalizeable approach to integrating information on the precision of geographic data into both linear and non-linear models - geoSIMEX.
+We illustrate the capability of geoSIMEX to provide more accurate parameter estimates than traditional approaches through a simulation framework. 
+Using a novel dataset, we then apply both tradional models and a geoSIMEX model to examine the causal impact of Chinese Aid on vegetation in Africa.
+We use this case study to illustrate the importance of including information on spatial imprecision into analyses.
+Finally, we provide all data and an accompanying R package to users seeking to perform similar styles of analysis.
+
+\subsection{Literature Review}
+(dont include SIMEX here, just general lit on spatial uncertainty..  3 paragraphs.)
+
+
+\subsection{(geo)SIMEX}
+1 paragraph outlining the basic principles of SIMEX with cites..
+
+1 paragraph showing cases where SIMEX has been used with cites.
+
+\par
+In geoSIMEX, we take this approach and modify $\lambda$ to capture the degree of spatial imprecision in a given dataset, relative to the maximum amount of imprecision that could be observed.
+The practical need for a geographic version of SIMEX can be demonstrated through a hypothetical example, in which a researcher seeks to measure the degree to which the amount of precipitation across 200 fields can explain the number of apples grown in each field.
+These hypothetical researchers measure precipitation in each of 200 fields using satellite imagery, and counts each of the apples by hand.
+In the simplest form, these researchers then use these measurements to model the relationship between rainfall and apples following:
+\begin{equation}\label{eq:precip}
+\text{CountOfApples} = \beta_{0} + \theta * \text{Rainfall} + \sum{\beta_{j} * X_{j}} + \epsilon
+\end{equation}
+\noindent in which $\beta_{j}$ and $X_{j}$ represent vectors of parameter estimates and controls, respectively. 
+In this equation, a common goal would be to estimate $\theta$ with a high degree of accuracy, as this parameter helps to explain the degree to which precipitation impacted the count of apples.
+\par
+In this example, if each field was a perfect square of the same resolution as the satellite imagery (and had perfect overlap), then the measurements of rainfall would have no measurement error due to imprecision.
+In practice, this rarely is the case, and thus the parameter $\theta$ can be biased due to imprecision in measurements.
+Consider, for example, the worst case of imprecision in which a coarse reolution satellite sensor provides only one measurement of rainfall for every crop.
+A responsible researcher seeking to use this data might leverage a model averaging framework to overcome concerns of the ecological fallacy - i.e., randomly distributing rainfall to each crop, fitting equation \ref{eq:precip}, and repeating this hundreds of times to estimate the range of possible coefficients that could be observed given the available data.
+However, in cases of complete spatial imprecision, these estimates will be heavily biased towards 0.
+This has two implications - first, the mean estimated coefficient will likely under-estimate the true coefficient, and second the distribution of possible coefficients (i.e., at a 95\% confidence level) will be centered at this biased coefficient.  
+This suggests that not only can mean estimates be incorrect, but under cases of spatial imprecision statements regarding the significance of variables can also be biased.
+\par
+While it is rare that satellite measurements perfectly line up with units of analysis, it is also rare that researchers only have one measurement for all units of analysis.
+More reasonably, researchers commonly have a mixture - i.e., satellite imagery that may cover portions of some crops but not others, leading to variable imprecision across the study area.
+geoSIMEX takes advantage of the known level of precision in the data available ot the research (which we define as $\lambda$), and intentionally adds imprecision to establish the relationship between additional imprecision and coefficient bias.
+The geoSIMEX procedure then uses this relationship to back-extrapolate to an unbiased coefficient estimate, i.e. the value at $\lambda$ = 0.
+Finally, we employ a bootstrapping procedure to estimate the additional variance attributable to spatial imprecision.
+
+
+
+
+

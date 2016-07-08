@@ -1,0 +1,12 @@
+\maketitle 
+\begin{flushleft}
+\textbf{Corresponding Author}:\\
+Dr. Daniel Runfola\\
+Institute for the Theory and Practice of International Relations, \emph{AidData}\\
+427 Scotland Street, Williamsburg, VA 23185\\
+Email: dsmillerrunfol@wm.edu
+Telephone: 508.316.9109
+Fax: 757.221.4650
+\end{flushleft}
+
+

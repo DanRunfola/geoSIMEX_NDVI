@@ -1,0 +1,11 @@
+\section{Figures}
+
+\begin{figure}[!htbp]
+\includegraphics{nepal_ex}
+\caption{Hypothetical example of spatial imprecision in aid allocation.}\label{fig:nepalex}
+\end{figure}
+
+\begin{figure}[!htbp]
+\includegraphics{steps}
+\caption{Steps of the geoSIMEX procedure.}\label{fig:steps}
+\end{figure}

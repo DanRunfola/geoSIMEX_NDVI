@@ -1,0 +1,93 @@
+%%Target for future reference:
+%http://www.journals.elsevier.com/environmental-modelling-and-software/
+
+%Init document class
+\documentclass[11pt]{article}
+
+%Package for Authors on Title Page
+\usepackage{authblk}
+
+%Double Spacing Package
+\usepackage{setspace}
+
+%Biblatex Init
+\usepackage[backend=bibtex, style=authoryear, citestyle=authoryear]{biblatex}
+\bibliography{geoSIMEX}
+
+%Figures Init
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+%Enable footnotes in tables
+\usepackage{tablefootnote}
+
+%Enable the \text{} command for use in equations
+\usepackage{amsmath}
+
+%Authors and Affiliations
+\author[1]{Daniel Runfola}
+\author[1]{Rob Marty}
+\author[1]{Seth Goodman}
+\author[1]{Michael LeFew}
+\affil[1]{Institute for the Theory and Practice of International Relations, AidData, The College of William and Mary}
+\renewcommand\Authands{ and }
+
+%Title
+\title{geoSIMEX: A Generalized Approach To Modeling Spatial Imprecision}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+%-------------------------------------
+%-------------------------------------
+%Paper Sections 
+%-------------------------------------
+%-------------------------------------
+
+%Title Page (title.Rnw)
+\SweaveInput{title}
+\newpage
+
+%Toggle spacing for document
+\doublespacing
+
+%Abstract (abstract.Rnw)
+\SweaveInput{abstract}
+\newpage
+
+%Introduction
+\SweaveInput{introduction}
+\newpage
+
+%Data and Methods
+\SweaveInput{dataMethods}
+\newpage
+
+%Results
+\SweaveInput{results}
+\newpage
+
+%Discussion
+\SweaveInput{discussion}
+\newpage
+
+%Conclusion
+\SweaveInput{conclusion}
+\newpage
+
+%Tables
+\SweaveInput{tables}
+\newpage
+
+%Figures
+\SweaveInput{figures}
+\newpage
+
+%Acknowledgements
+\SweaveInput{acknowledgements}
+\newpage
+
+%Bibliography
+\printbibliography
+
+\end{document}

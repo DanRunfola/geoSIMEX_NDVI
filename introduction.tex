@@ -1,0 +1,37 @@
+\section{Introduction}
+The lack of exact geographic information on where measurements are obtained presents a barrier to research.
+This has become increasingly evident as more scholars integrate geographic data from multiple sources - for example, census, satellite, and GPS sources - to try and establish causal or predictive relationships (c.f., EXAMPLES).
+Many scholars have engaged in research seeking to integrate information on the precision of geographic data to improve the accuracy of modeling efforts, variably referred to as spatial (im)precision (CITE), spatial uncertainty (CITE), and spatial allocation (CITE).
+This paper presents a generalizeable approach to integrating information on the precision of geographic data into both linear and non-linear models - geoSIMEX.
+We illustrate the capability of geoSIMEX to provide more accurate parameter estimates than traditional approaches through a simulation framework. 
+Using a novel dataset, we then apply both tradional models and a geoSIMEX model to examine the causal impact of Chinese Aid on vegetation in Africa.
+We use this case study to illustrate the importance of including information on spatial imprecision into analyses.
+Finally, we provide all data and an accompanying R package to users seeking to perform similar styles of analysis.
+\subsection{Literature Review}
+
+\subsection{SIMEX}
+Traditional SIMEX procedures leverage the relationship between measurement error and bias to provide more accurate estimations of true model parameters (CITE).  
+This can be demonstrated through a hypothetical example, in which a researcher seeks to measure the degree to which the tonnes of fertilizer applied to a field can explain the number of apples grown in the same field.
+These hypothetical researchers weigh the tonnes of fertilizer in each of 200 fields, and count each of the apples.
+In the simplest form, these researchers then use these measurements to model the relationship between fertilizer and apples following:
+\begin{equation}\label{eq:fertilizer}
+\text{CountOfApples} = \beta_{0} + \theta * \text{FertilizerTonnes} + \sum{\beta_{j} * X_{j}} + \epsilon
+\end{equation}
+\noindent in which $\beta_{j}$ and $X_{j}$ represent vectors of parameter estimates and controls, respectively. 
+In this equation, a common goal would be to estimate $\theta$ with a high degree of accuracy, as this parameter helps to explain the degree to which fertilizer impacted the count of apples.
+\par
+Traditional SIMEX procedures are used when there is suspected measurement error in the variables being examined.
+In this example, if the scale used to measure the tonnes of fertilizer over- or under-estimates the true tonnes, the paramter $\theta$ can be biased depending on the distribution of errors.
+SIMEX intentionally simulates additional error into observed measurements and then re-paramaterizes the model of interest.
+This procedure is followed to estimate a model of the relationship between additional error (parameterized as $\lambda$) and the coefficient estimates ($\theta$).
+This relationship is then back-extrapolated to what the true coefficient estimate would be in the case of no measurement error ($\lambda$ = 0; see \ref{fig:steps}).
+\par
+In geoSIMEX, we take this approach and modify $\lambda$ to capture the degree of spatial imprecision in a given dataset, relative to the maximum amount of imprecision that could be observed.
+We then calibrate a regression model to estimate model parameters, and iteratively reduce the precision of our data to observe the relationship between additional spatial imprecision and our parameter estimates.
+A relationship is fit between model parameters and the level of spatial imprecision in the simulated data, and the parameter at $\lambda$ = 0 is interpreted as the estimated parameter in which the dataset had complete spatial precision.
+Finally, we employ a bootstrapping procedure to estimate the additional variance attributable to spatial imprecision.
+
+
+
+
+

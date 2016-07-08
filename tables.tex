@@ -1,0 +1,51 @@
+\section{Tables}
+%Table 1
+\begin{table}[!htbp]
+\begin{tabular}[h]{|p{4.5cm}||p{7cm}|}
+\hline
+\multicolumn{2}{|c|}{\texttt{Data Sources}} \\
+\hline
+\textbf{Data Name} & \textbf{Source} \\
+\hline
+Chinese Aid Locations & AidData\begin{math}\tablefootnote{http://china.aiddata.org}\end{math} \\
+\hline
+Gridded Population of the World & Center for International Earth Science Information Network\tablefootnote{http://sedac.ciesin.columbia.edu/data/collection/gpw-v3/sets/browse} \\
+\hline
+Nighttime Lights & Defense Meteorological Satellite Program\tablefootnote{Stable Lights retrieved from http://ngdc.noaa.gov/eog/dmsp.html}\\
+\hline
+Precipitation and Temperature & University of Delaware (\cite{willmott_terrestrial_2001})\tablefootnote{Variables derived from these product included the average precipitation (P) and temperature (T) before a project was implemented (from 1992), the linear trend in P and T from 1992 to the project implementation, the average temperature from the date the project was implemented until the end of the temporal record(2012), and the post-project trend through 2012. Absolute measurements of each variable were also retained. } \\
+\hline
+Urban Travel Time & European Commission Joint Research Centre\tablefootnote{http://forobs.jrc.ec.europa.eu/products/gam/download.php}\\
+\hline
+Distance to Rivers & World Wildlife Fund \tablefootnote{http://hydrosheds.cr.usgs.gov/index.php}\\
+\hline
+Vegetation & NASA LTDR\tablefootnote{http://ltdr.nascom.nasa.gov/cgi-bin/ltdr/ltdrPage.cgi} \\
+\hline
+Distance to Roads & CIESIN gRoads\tablefootnote{http://sedac.ciesin.columbia.edu/data/set/groads-global-roads-open-access-v1} \\
+\hline
+\end{tabular}
+\caption{Data sources used in this analysis.}\label{data_source_table}
+\end{table}
+
+
+%Table 2 - Precision  Example
+\begin{table}[!htbp]
+	\begin{tabular}{| l | l | l |}
+	\hline
+	Project Location & Precision & Area of Coverage\\
+    \hline
+    A &  1 & Populated Area in District 5 (3 $\text{km}^2$) \\ \hline
+    B &  4 & Districts 5-8 (32,000 $\text{km}^2$) \\ \hline
+    C &  8 & Entire Country (112,500 $\text{km}^2$) \\ \hline
+	\end{tabular}
+\doublespacing
+
+\onehalfspacing
+	\begin{tabular}{| l | l | l | l | l | l |}
+    \hline
+    District & 5 & 6 & 7 & 8 & All Other \\ \hline
+    Area ($\text{km}^2$) & 10,000 & 5,000 & 7,500 & 10,000 & 80,000 \\
+    \hline
+	\end{tabular}
+	\caption{Example of the geographic area across which aid projects might be located given limited spatial information.}\label{precision_example}
+\end{table}

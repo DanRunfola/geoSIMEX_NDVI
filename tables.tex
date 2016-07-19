@@ -1,5 +1,5 @@
 \section{Tables}
-%Table 1
+%Data
 \begin{table}[!htbp]
 \begin{tabular}[h]{|p{4.5cm}||p{7cm}|}
 \hline
@@ -27,25 +27,77 @@ Distance to Roads & CIESIN gRoads\tablefootnote{http://sedac.ciesin.columbia.edu
 \caption{Data sources used in this analysis.}\label{data_source_table}
 \end{table}
 
-
-%Table 2 - Precision  Example
+\newpage
+%Precision  Example
 \begin{table}[!htbp]
 	\begin{tabular}{| l | l | l |}
 	\hline
-	Project Location & Precision & Area of Coverage\\
+	Project Location & Relative Precision & Known Aid Location (Geographic Size)\\
     \hline
-    A &  1 & Populated Area in District 5 (3 $\text{km}^2$) \\ \hline
-    B &  4 & Districts 5-8 (32,000 $\text{km}^2$) \\ \hline
-    C &  8 & Entire Country (112,500 $\text{km}^2$) \\ \hline
-	\end{tabular}
-\doublespacing
-
-\onehalfspacing
-	\begin{tabular}{| l | l | l | l | l | l |}
-    \hline
-    District & 5 & 6 & 7 & 8 & All Other \\ \hline
-    Area ($\text{km}^2$) & 10,000 & 5,000 & 7,500 & 10,000 & 80,000 \\
-    \hline
+    A &  Very High & Populated Area in District 5 (3 $\text{km}^2$) \\ \hline
+    B &  Moderate & Districts 5-8 (32,000 $\text{km}^2$) \\ \hline
+    C &  Very Low & Entire Country (112,500 $\text{km}^2$) \\ \hline
 	\end{tabular}
 	\caption{Example of the geographic area across which aid projects might be located given limited spatial information.}\label{precision_example}
 \end{table}
+
+\newpage
+%Simulations Results
+%\begin{landscape}
+\import{/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Simulation_Results/}{sim_results.tex}
+%\end{landscape}
+
+\newpage
+%Case Study Results
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Jul 19, 2016 - 11:09:19 AM
+\begin{table}[!htbp] \centering 
+  \caption{Impact of Infrastructure Aid on Forest Loss} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{Forest Loss} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{4}{c}{} \\ 
+ & Naive & Naive (Low PC) & Model Avg & geoSIMEX \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Aid & 0.117$^{***}$ & 0.066$^{*}$ & 0.114$^{***}$ & 0.189 \\ 
+  & (0.035) & (0.037) & (0.036) & (0.289) \\ 
+  & & & & \\ 
+ Air Temp (Max) & 0.113 & 0.116 & 0.112 & 0.100 \\ 
+  & (0.248) & (0.248) & (0.248) & (0.260) \\ 
+  & & & & \\ 
+ Air Temp (Min) & 1.046$^{**}$ & 0.988$^{*}$ & 1.043$^{**}$ & 1.059$^{*}$ \\ 
+  & (0.522) & (0.522) & (0.522) & (0.630) \\ 
+  & & & & \\ 
+ Air Temp (Avg) & 3.472$^{***}$ & 3.583$^{***}$ & 3.494$^{***}$ & 3.409$^{***}$ \\ 
+  & (0.925) & (0.927) & (0.925) & (1.188) \\ 
+  & & & & \\ 
+ Precip (Max) & 0.286$^{***}$ & 0.287$^{***}$ & 0.286$^{***}$ & 0.285$^{***}$ \\ 
+  & (0.029) & (0.029) & (0.029) & (0.030) \\ 
+  & & & & \\ 
+ Precip  (Min) & 0.007$^{**}$ & 0.009$^{***}$ & 0.008$^{**}$ & 0.007 \\ 
+  & (0.003) & (0.003) & (0.003) & (0.005) \\ 
+  & & & & \\ 
+ Precip  (Avg) & $-$0.032$^{**}$ & $-$0.036$^{**}$ & $-$0.033$^{**}$ & $-$0.030 \\ 
+  & (0.015) & (0.015) & (0.015) & (0.019) \\ 
+  & & & & \\ 
+ lnyx & 0.0001 & 0.0001 & 0.0001 & 0.0001 \\ 
+  & (0.0002) & (0.0002) & (0.0002) & (0.0002) \\ 
+  & & & & \\ 
+ Nighttime Lights & $-$0.021 & $-$0.021 & $-$0.021 & $-$0.017 \\ 
+  & (0.033) & (0.033) & (0.033) & (0.034) \\ 
+  & & & & \\ 
+ Constant & 2.009$^{***}$ & 2.038$^{***}$ & 2.010$^{***}$ & 1.978$^{***}$ \\ 
+  & (0.335) & (0.335) & (0.335) & (0.375) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 1,869 & 1,869 & 1,869 & 1,869 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{4}{r}{Standard errors in parentheses} \\ 
+\end{tabular} 
+\end{table} 

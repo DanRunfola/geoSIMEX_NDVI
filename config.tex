@@ -1,0 +1,33 @@
+%Init document class
+\documentclass[11pt]{article}
+
+%Package for Authors on Title Page
+\usepackage{authblk}
+
+%Double Spacing Package
+\usepackage{setspace}
+
+%Biblatex Init
+\usepackage[backend=bibtex, style=authoryear, citestyle=authoryear]{biblatex}
+\bibliography{geoSIMEX}
+
+%Figures Init
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+%Enable footnotes in tables
+\usepackage{tablefootnote}
+
+%Enable the \text{} command for use in equations
+\usepackage{amsmath}
+
+% For importing results
+\usepackage{import}
+
+% For formatting simulation results table:
+\usepackage{dcolumn}
+\usepackage{lscape}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}} 

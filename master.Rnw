@@ -1,28 +1,8 @@
 %%Target for future reference:
 %http://www.journals.elsevier.com/environmental-modelling-and-software/
 
-%Init document class
-\documentclass[11pt]{article}
-
-%Package for Authors on Title Page
-\usepackage{authblk}
-
-%Double Spacing Package
-\usepackage{setspace}
-
-%Biblatex Init
-\usepackage[backend=bibtex, style=authoryear, citestyle=authoryear]{biblatex}
-\bibliography{geoSIMEX}
-
-%Figures Init
-\usepackage{graphicx}
-\graphicspath{ {images/} }
-
-%Enable footnotes in tables
-\usepackage{tablefootnote}
-
-%Enable the \text{} command for use in equations
-\usepackage{amsmath}
+%Latex Configuration
+\input{"/home/aiddata/Desktop/Github/geoSIMEX_NDVI/config.tex"}
 
 %Authors and Affiliations
 \author[1]{Daniel Runfola}

@@ -1,2 +1,9 @@
 \section{Results}
-Placeholder
+\subsubsection{Simulations}
+
+Table (NUM) shows results from the simulation analysis. Results are subset according to the spatial imprecession of the Chinese aid data. The naive model using the expected value of aid captures true coefficient about 50\% of the time within a 95\% confidence interval when there is low spatial uncertainty ($\lambda < 0.3$), and the ability for the model to capture the true coefficient declines as spatial imprecesion increases. The naive model using the subset of aid projects measured with complete spatial uncertainty captures the true coefficient 60\% to 70\% of the time depending on the level of spatial imprecesion in the data. The model averaging approach performs well under low levels of spatial imprecession; however, as spatial imprecession increases the ability for the model averaging approach to capture the true coefficient decreases. Under low levels of spatial imprecession the model averaging approach captures the true coefficient 85\% of the time, but under high levels of spatial imprecession the model captures the true coefficient 46\% of the time. 
+\par
+The geoSIMEX model outperforms the model averaging approach in its ability to capture the true coefficient at all levels of spatial imprecession. At low levels of spatial imprecession the geoSIMEX model captures the true coefficient 90\% of the time; however, it captures both the true relation and statistical significance 52\% of the time compared to 84\% of the time from using model averaging. Higher spatial imprecesion leads to larger standard errors in the geoSIMEX model, reflected by the percentage of time the geoSIMEX model captures the true relation and statistical significance declining as spatial imprecesion grows. At high levels of spatial imprecesion ($\lambda > 0.7$), the geoSIMEX model captures the true relation 100\% of the time; however, large standard errors results in it capturing the true relation and statistical significance 0\% of the time.   
+
+\subsubsection{Chinese Aid in Africa}
+

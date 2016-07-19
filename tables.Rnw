@@ -1,5 +1,5 @@
 \section{Tables}
-%Table 1
+%Data
 \begin{table}[!htbp]
 \begin{tabular}[h]{|p{4.5cm}||p{7cm}|}
 \hline
@@ -28,7 +28,7 @@ Distance to Roads & CIESIN gRoads\tablefootnote{http://sedac.ciesin.columbia.edu
 \end{table}
 
 \newpage
-%Table 2 - Precision  Example
+%Precision  Example
 \begin{table}[!htbp]
 	\begin{tabular}{| l | l | l |}
 	\hline
@@ -40,3 +40,15 @@ Distance to Roads & CIESIN gRoads\tablefootnote{http://sedac.ciesin.columbia.edu
 	\end{tabular}
 	\caption{Example of the geographic area across which aid projects might be located given limited spatial information.}\label{precision_example}
 \end{table}
+
+\newpage
+%Simulations Results
+%\begin{landscape}
+\import{/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Simulation_Results/}{sim_results.tex}
+%\end{landscape}
+
+\newpage
+%Case Study Results
+<<CaseStudy, cache=TRUE, results=tex, echo=FALSE>>=
+source("/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Code/CaseStudy_SEAsia.R")
+@

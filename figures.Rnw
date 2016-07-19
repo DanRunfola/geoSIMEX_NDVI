@@ -9,3 +9,17 @@
 \includegraphics{steps}
 \caption{Steps of the geoSIMEX procedure.}\label{fig:steps}
 \end{figure}
+
+\begin{figure}[!htbp]
+<<StudyArea, cache=TRUE, echo=FALSE>>=
+#gadm.adm2 <- readShapePoly(paste(source_dir, "/Data/ADM2/GADM_MacEcohotspotSubset_ADM2.shp", sep=""))
+#spplot(gadm.adm2)
+@
+\caption{Study area and units of observation.}\label{fig:studyarea}
+\end{figure}
+
+\begin{figure}[!htbp]
+\includegraphics{geoSIMEX_plot.png}
+\caption{geoSIMEX Plot of Aid.}\label{fig:geoSIMEX_plot}
+\end{figure}
+

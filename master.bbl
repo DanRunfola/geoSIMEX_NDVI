@@ -16,6 +16,421 @@
   {}
 \endgroup
 
+\entry{clark_effects_1976}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Clark}{C.}%
+     {W.~A.~V.}{W.~A.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Avery}{A.}%
+     {Karen~L.}{K.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CWAVAKL1}
+  \strng{fullhash}{CWAVAKL1}
+  \field{labelyear}{1976}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1111/j.1538-4632.1976.tb00549.x
+  \endverb
+  \field{issn}{0016-7363}
+  \field{number}{4}
+  \field{pages}{428\bibrangedash 438}
+  \field{title}{The {Effects} of {Data} {Aggregation} in {Statistical}
+  {Analysis}}
+  \verb{url}
+  \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMw3V3PS8MwFA7T
+  \verb i4KIP3E6IScvo6Vp0qQ9eChT8ebBeS5Jk8wdNkUnuv_epE3abjIEj15LeKR5X9-P8r0vAOA
+  \verb 4jIK1mEAjnfKEC0wSmzC1UohpqoRGMZe0lGujVv7m0vbZf3H8bcvSuOELPswnpq2ecE9stB
+  \verb VmJdBs_eNUSbpVqrsZ_fnnAs_oqah54TAPW5Jsbs5m2cyXuWkGWQ_YMdow05oYiWjAsAs7q
+  \verb g2LhOKVuJl24EE6MZC4ae86nZJavGVzpPamQ7uZ-kc1yTyHsyuPvZa2GjJhp40xtgprq7C2
+  \verb Cmer-LqyMuozOS0X12oePD1umR49tZ06ehg1aTtm9V3a_vWdQq2jfW3Y5Wo1s5rMq0Q8PgD
+  \verb 7rrWAeQ2JQ9BT8yOw4325PAbMQAM6aMAXDS00YAcacDqHHWhA7_kTML67HY_uA3dxRlCyLA
+  \verb oUKTMmqKJcaWS1Xq36ayYTK9yEkIgEiwknTGcZjwjXSVRGkqZYJBJzUy8ifAr2uJ2vmC-qO
+  \verb Ux5BqDCWHDEsFCmAicCm-VUi1gzKVTKy6wPsD-I4rXWSSl-d0wfDPyZFe4Tei-sAJRZalqJ
+  \verb 8z8ZvQC7La4HYHvx9qEuQe9z9g0Os2ax
+  \endverb
+  \field{volume}{8}
+  \field{journaltitle}{Geographical Analysis}
+  \field{year}{1976}
+\endentry
+
+\entry{cramer_efficient_1964}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cramer}{C.}%
+     {J.~S.}{J.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CJS1}
+  \strng{fullhash}{CJS1}
+  \field{labelyear}{1964}
+  \field{sortinit}{C}
+  \field{abstract}{%
+  Prais and Aitchison have shown that the common practice of grouping the
+  individual observations in Engel curve analysis does not introduce a basis in
+  the estimate of the regression coefficient, and that the classification of
+  the individual households by income minimizes the increase in the variance of
+  the estimate. The present paper provides an approximate numerical evaluation
+  of the effects of such efficient grouping under the usual conditions of
+  budget survey analysis. It is shown that in this case (i) the regression
+  estimates based on individual observations and on weighted income class means
+  are highly correlated; (ii) the variance of the estimates increases by a few
+  per cent at most; and (iii) the correlation coefficient is vastly overstated
+  by the grouped data.%
+  }
+  \field{issn}{0162-1459}
+  \field{number}{305}
+  \field{pages}{233\bibrangedash 250}
+  \field{title}{Efficient {Grouping}, {Regression} and {Correlation} in {Engel}
+  {Curve} {Analysis}}
+  \verb{url}
+  \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwlV3LTsMwEFxV
+  \verb nCoh3ohHK_kDCMQbO3ZPCFWtOKNyjhw_EIhGpbT09_EjgQoOiA9IFNnJ7Gw8OwNQ4HWe_cA
+  \verb ELYwZaW4cjhgV2pZaa4dUGaasEVH8vjVqBV2oYxBZRpVgPNP3dKl-tTcYugSBt4u3LIRHhU
+  \verb PWNknDIzH1BS7Z5H7jsYjpk57bYEYZ_1Ie_kLfiJDTfXjsBnOSkmQz3xJXb7k0_vPhDmCv5
+  \verb ZjkLr0Uh9CzzRH0A61MrszHMJ1E5whfcEj8-eTr1xV5sE9JFNsQ1RgyDrkdSSlHnhsyCepX
+  \verb Ml4vPyzpnExOYDadzMb3WZuokL1ISrMRK3OnkSnpiiI3BjF31ncUqIXjohCeyklNdSkldQp
+  \verb pzTz21ZzKnEuLyjOZU9hVQXjfrOKAnjkD4kxpaen8vZhgPMeaC1SestvcITemOIdhXKRqkd
+  \verb wzKt91BPF51a7UOQy6Xajaz-e9Ch5AMpjz4cUfl19CP1iKJVXYAHZWy7UdQm8z_wSas74h
+  \endverb
+  \field{volume}{59}
+  \field{journaltitle}{Journal of the American Statistical Association}
+  \field{year}{1964}
+\endentry
+
+\entry{gehlke_certain_1934}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gehlke}{G.}%
+     {C.~E.}{C.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Biehl}{B.}%
+     {Katherine}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GCEBK1}
+  \strng{fullhash}{GCEBK1}
+  \field{labelyear}{1934}
+  \field{sortinit}{G}
+  \field{issn}{0162-1459}
+  \field{number}{185}
+  \field{pages}{169\bibrangedash 170}
+  \field{title}{Certain {Effects} of {Grouping} {Upon} the {Size} of the
+  {Correlation} {Coefficient} in {Census} {Tract} {Material}}
+  \verb{url}
+  \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwlV3NS8MwFH8M
+  \verb TwPxW_wavIPXatNkTXeSURxePLmdS2IzEFxXXWXgX7_3kg63HRRvgUBIacj7te_3ASCTuzj
+  \verb auRMIVWeDMnudaqWcFKyHlKxMsCYu-8K6bakVrEMdmWTpWYK-p09wyb67-yTRVNb0Q_0RcX
+  \verb gUN1nbJA26iQUVuGCT-3Mfa58-SdgmiYTq7zAPfR0ZHcJkrcYJ9JHlbINRvWHN-M8dHcFBC
+  \verb yxxGE7CMXRcdQJdxpLBivkUTB7a_xgcixc4n6L_9UTVCyf1vEICg_jy9u14hsc5R3cEshyN
+  \verb nXeboCKFtEbOERkLHLPICp9N4w_yGdyOHsf5U-T3XtTByaKgLwAmghftA8hz2DdMrK8aL8A
+  \verb rLwDLNDN2oA33a1RqCZDHUsnY0svXokzFJfR-XfPqj_lr6BKGVIHWdQN7zeeX60FnOVsB3V
+  \verb WtVQ
+  \endverb
+  \field{volume}{29}
+  \field{journaltitle}{Journal of the American Statistical Association}
+  \field{year}{1934}
+\endentry
+
+\entry{gotway_combining_2002}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gotway}{G.}%
+     {Carol~A.}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Young}{Y.}%
+     {Linda~J.}{L.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{AREAL UNIT PROBLEM, BAYESIAN-ANALYSIS, change of support, DATA
+  AGGREGATION, data assimilation, ECOLOGICAL FALLACY, ecological inference,
+  FRACTAL GEOMETRY, General Regional Economics: Econometric and Input-Output
+  Models, Other Models (R15), GEOGRAPHICAL REGIONS, modifiable areal unit
+  problem, multiscale processes, POISSON REGRESSION, Research, Single Equation
+  Models, Single Variables: Cross-Sectional Models, Spatial Models, Treatment
+  Effect Models, Quantile Regressions (C21), SMOOTH PYCNOPHYLACTIC
+  INTERPOLATION, Spatial, Spatial analysis (Statistics), spatially-misaligned
+  data, STATISTICAL-ANALYSIS, Statistical analysis, Statistical data,
+  STATISTICS \& PROBABILITY, WEIGHTING VALUES}
+  \strng{namehash}{GCAYLJ1}
+  \strng{fullhash}{GCAYLJ1}
+  \field{labelyear}{2002}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  Global positioning systems (GPSs) and geographical information systems (GISs)
+  have been widely used to collect and synthesize spatial data from a variety
+  of sources, New advances in satellite imagery and remote sensing now permit
+  scientists to access spatial data at several different resolutions. The
+  Internet facilitates fast and easy data acquisition. In any one study,
+  several different types of data may be collected at differing scales and
+  resolutions, at different spatial locations, and in different dimensions.
+  Many statistical issues are associated with combining such data for modeling
+  and inference, This article gives an overview of these issues and the
+  approaches for integrating such disparate data, drawing on work from
+  geography, ecology, agriculture, geology, and statistics. Emphasis is on
+  state-of-the-art statistical solutions to this complex and important
+  problem.; Global positioning systems (GPSs) and geographical information
+  systems (GISs) have been widely used to collect and synthesize spatial data
+  from a variety of sources. New advances in satellite imagery and remote
+  sensing now permit scientists to access spatial data at several different
+  resolutions. The Internet facilitates fast and easy data acquisition. In any
+  one study, several different types of data may be collected at differing
+  scales and resolutions, at different spatial locations, and in different
+  dimensions. Many statistical issues are associated with combining such data
+  for modeling and inference. This article gives an overview of these issues
+  and the approaches for integrating such disparate data, drawing on work from
+  geography, ecology, agriculture, geology, and statistics. Emphasis is on
+  state-of-the-art statistical solutions to this complex and important
+  problem.; Global positioning systems (GPSs) and geographical information
+  systems (GISs) have been widely used to collect and synthesize spatial data
+  from a variety of sources. New advances in satellite imagery and remote
+  sensing now permit scientists to access spatial data at several different
+  resolutions. The Internet facilitates fast and easy data acquisition. In any
+  one study, several different types of data may be collected at differing
+  scales and resolutions, at different spatial locations, and in different
+  dimensions. Many statistical issues are associated with combining such data
+  for modeling and inference. This article gives an overview of these issues
+  and the approaches for integrating such disparate data, drawing on work from
+  geography, ecology, agriculture, geology, and statistics. Emphasis is on
+  state-of-the-art statistical solutions to this complex and important
+  problem.;   Global positioning systems (GSPs) and geographical informajtion
+  systems (GISs) have been widely used to collect and synthesize spatial data
+  from a variety of sources. New advances in satellite imagery and remote
+  sensing now permit scientists to access spatial data at several different
+  resolutions.%
+  }
+  \verb{doi}
+  \verb 10.1198/016214502760047140
+  \endverb
+  \field{issn}{0162-1459}
+  \field{number}{458}
+  \field{pages}{632\bibrangedash 648}
+  \field{title}{Combining {Incompatible} {Spatial} {Data}}
+  \verb{url}
+  \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwnV1bS8MwFD5M
+  \verb fRmI92HVwUDfpNo2XZI-iYjDH6CITyFpEl_c1LVjf9-cNNvqBRFfSiG9pD3pyXdOvn4HgGQ
+  \verb XSfzFJ9DEcjmUiuRDnDCtMSmz1CibZlLTUn_-1QoWqhDB2gsn6T23fi0xaX6J4RSjLMmv3t
+  \verb 5jrCKFq62hpMYabGRZQnCUs8enlWdmvg6lQzlZnOYoT9qai4JHbliJn_DmDzOSd6qj7abEa
+  \verb uVFC5F0Mh-3eNgtQcf_PscObAVcOrhuBtIudMxkD7oIRRsl5304da5D-XISA1R0GCMVW72Y
+  \verb QYU77lTkmh7Aw-j2_uYuDiUW4jIrUh4TriwdGmIKmnFpqNWUUeMgAEegw0vNOdG4gKIdvMX
+  \verb oR-VMF7y0CdOyyBPSg02JVPxJ7X_Z04cwMIQomTKijANruXIhsKJWZZZpZbgsiwjOF29dvD
+  \verb WSGsKHIgUXaBpnGRcrU9SxdNFfBGdoGBFqcrpNhVmL6lnOqkpcc47MUkYj6PvD8AVMkDPzr
+  \verb b0X2u1rPZWlWDUceIsvu0IcCKWMRXC8MJeQCtNOZV0Jhw8pEofareGjr8TSkq7P7SGzvLRX
+  \verb J6K4cOqzmhGkfznsJoi1o0hBffTrjY-h66vV-CzRCazX05npQ2c-_gCDnhRs
+  \endverb
+  \field{volume}{97}
+  \field{journaltitle}{Journal of the American Statistical Association}
+  \field{year}{2002}
+\endentry
+
+\entry{perez-heydrich_guidelines_2013}{misc}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Perez-Heydrich}{P.-H.}%
+     {Carolina}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Warren}{W.}%
+     {Joshua~L}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Burgert}{B.}%
+     {Clara~R}{C.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Emch}{E.}%
+     {Michael~E}{M.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {United States Agency for International Development}%
+  }
+  \strng{namehash}{PHC+1}
+  \strng{fullhash}{PHCWJLBCREME1}
+  \field{labelyear}{2013}
+  \field{sortinit}{P}
+  \field{title}{Guidelines on the use of {DHS} {GPS} {Data}: {DHS} {Spatial}
+  {Analysis} {Reports} 8}
+  \verb{url}
+  \verb https://dhsprogram.com/pubs/pdf/SAR8/SAR8.pdf
+  \endverb
+  \field{month}{09}
+  \field{year}{2013}
+\endentry
+
+\entry{rettie_overcoming_1999}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rettie}{R.}%
+     {WJ}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McLoughlin}{M.}%
+     {PD}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Animal behavior, ANIMAL LOCATION SYSTEM, Animals, AVAILABILITY, Bias,
+  BIOTELEMETRY, DIFFERENTIAL CORRECTION, Geographic information systems,
+  Habitats, Habitat selection, Identification systems, Methods, Models, Monte
+  Carlo methods, PERFORMANCE, RADIO-LOCATION, Radio-tagging, RESOURCE
+  SELECTION, STATISTICAL TECHNIQUES, TELEMETRY, TRIANGULATION ERROR, ZOOLOGY}
+  \strng{namehash}{RWMP1}
+  \strng{fullhash}{RWMP1}
+  \field{labelyear}{1999}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  For many species, determination of habitat selection is based on habitat-use
+  data obtained through radiotelemetry. Recent papers pertaining to study
+  techniques have largely ignored the effect of habitat-dependent bias in the
+  performance of radiotelemetry systems. Such biases cannot be overcome by
+  increasing radiotelemetry precision, excluding data, or increasing sample
+  sizes, as the biases are centred around data that are missing or that contain
+  habitat-dependent errors in location. The problem is best addressed at the
+  data-analysis stage through the use of geographic information systems. We
+  used Monte Carlo simulations to assess the effect of habitat-dependent bias
+  in radiotelemetry studies on the assessment of habitat selection. We looked
+  at the effects of habitat-patch size, level of telemetry signal inhibition,
+  level of habitat co-occurrence, and selection pattern. We demonstrated that
+  regarding use as the composition of habitat types within a circular area
+  around each telemetry location can help to overcome the inaccurate assessment
+  of habitat-selection patterns that biased data produce. The size of the
+  circular area best able to overcome the bias is related to habitat patch size
+  and to the level of association between two or more habitat types.
+  Furthermore, we argue that the characteristics of habitat mosaics selected by
+  animals can and should be studied in this way.;   Rettie and McLoughlin used
+  Monte Carlo simulations to assess the effect of habitat-dependent bias in
+  radiotelemetry studies on the assessment of habitat selection. The size of
+  the circular area best able to overcome the bias is related to habitat patch
+  size and to the level of association between two or more habitat types.; For
+  many species, determination of habitat selection is based on habitat-use data
+  obtained through radiotelemetry. Recent papers pertaining to study techniques
+  have largely ignored the effect of habitat-dependent bias in the performance
+  of radiotelemetry systems. Such biases cannot be overcome by increasing
+  radiotelemetry precision, excluding data, or increasing sample sizes, as the
+  biases are centred around data that are missing or that contain
+  habitat-dependent errors in location. The problem is best addressed at the
+  data-analysis stage through the use of geographic information systems. We
+  used Monte Carlo simulations to assess the effect of habitat-dependent bias
+  in radiotelemetry studies on the assessment of habitat selection. We looked
+  at the effects of habitat-patch size, level of telemetry signal inhibition,
+  level of habitat co-occurrence, and selection pattern. We demonstrated that
+  regarding use as the composition of habitat types within a circular area
+  around each telemetry location can help to overcome the inaccurate assessment
+  of habitat-selection patterns that biased data produce. The size of the
+  circular area best able to overcome the bias is related to habitat patch size
+  and to the level of association between two or more habitat types.
+  Furthermore, we argue that the characteristics of habitat mosaics selected by
+  animals can and should be studied in this way.%
+  }
+  \verb{doi}
+  \verb 10.1139/cjz-77-8-1175
+  \endverb
+  \field{issn}{0008-4301}
+  \field{number}{8}
+  \field{pages}{1175\bibrangedash 1184}
+  \field{title}{Overcoming radiotelemetry bias in habitat-selection studies}
+  \verb{url}
+  \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwnV1NS8QwEB1W
+  \verb RRDEb7GuQg_irdo2bdLiQWRx8eZFL15KmqSwwn64rSz6651J27WKiHhum5RMMvOSvHkDwMI
+  \verb L3_vmE6LAL5goYtKnCiT3i1Cj7Q1nMi1kUZivqVbQqkI01m6dpPXceqro0PySMkQRDghxPX
+  \verb vxqIoU3bY2JTVWYC1En0wUr2R4u_TMXAR1SoqfeBFr6sAsY9EnwPwhBNlwM9yua6qWVqWQW
+  \verb CaLcYd43VFw_O-P78BWA0Tdm3rm7ELPTPZg_Wlqj9n34eoe5zi2h5HNnUs9mlaGiObV_M3N
+  \verb R7J0RxOXJL4RqnqlLaWD9nXLmpR4AI_D24fBndcUWvAUBvzASwi0SMH9lJFqMdOI4bhQEvd
+  \verb meZTmvEh1qBKjQh3qVMfGRBJxWxrxWGphZMEOYVMSIX9S2cQ9fQQuNohfcgSELIkiX-VKIT
+  \verb jhWopEYlw2Dpy3Y5_NamGNzG5IWJqp5_dMiCwhJfLYgX47jJnM6fxHVWVGG6kYfUv3abP6y
+  \verb mw5wg6cdU257MgiZSZiEdrbDQeCv7w2aFTTSS2gOv614z5s1PoOxBQ8gdVq_mpOobcYfwC2
+  \verb kvED
+  \endverb
+  \field{volume}{77}
+  \field{journaltitle}{CANADIAN JOURNAL OF ZOOLOGY-REVUE CANADIENNE DE
+  ZOOLOGIE}
+  \field{year}{1999}
+\endentry
+
+\entry{robinson_ecological_2009}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Robinson}{R.}%
+     {WS}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{CITIES, PUBLIC, ENVIRONMENTAL \& OCCUPATIONAL HEALTH}
+  \strng{namehash}{RW1}
+  \strng{fullhash}{RW1}
+  \field{labelyear}{2009}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb 10.1093/ije/dyn357
+  \endverb
+  \field{issn}{0300-5771}
+  \field{number}{2}
+  \field{pages}{337\bibrangedash 341}
+  \field{title}{Ecological {Correlations} and the {Behavior} of {Individuals}}
+  \verb{url}
+  \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwjV1LS8NAEB6K
+  \verb BxGKj_qKVVmw19gku9kkRwktehBBFLyFfYJCo7SV4r93t5vURLR6zmZJdjYz32Tm-xYAR5e
+  \verb B_80n0ECnLGYck9gGTK1UmGiquA4jJqmQbaoVDH4p6Gd4-PyihvKjxPGSQU6wTbju755WlQ
+  \verb NCHOTFQeDHSRLWkqStW1tBqEVsa-DLH0PR0quOdyCvyTuu22QxaTRgN5Qc177ALmxXqBNdu
+  \verb W2yBx1V9mDztqqr96Dr_t4hR0rah2QkaqeIcnt-R9Uxh1gpkYGMqJJVnKJXjW5WnK7ZATyO
+  \verb Rw_5tV8dseALK9HpYy0YVSKW3MBGbfBPZuBbFKQkZjK0h48HMhMqiam20FAoqw4Ym4jGI8q
+  \verb VYhk-hC6zrfjlfEnZk8eAFMachQnmyoA1wk0KzKnmkU4kVykTmQcX9eIXb05So3ClcFyYxS
+  \verb nc4nhwbuyydkC_NllRfXezIrLpp_GboQdHzopfM2TWFxHqwaBp1tV1GxsoSTO7c4yr8yD8z
+  \verb 7C8UlK3CgLzk7-euQ9bdTUqCE9hYz59V2fQWUw-AfbK7-M
+  \endverb
+  \field{volume}{38}
+  \field{journaltitle}{International journal of epidemiology}
+  \field{year}{2009}
+\endentry
+
+\entry{selvin_durkheims_1958}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {SELVIN}{S.}%
+     {HANAN~C.}{H.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SHC1}
+  \strng{fullhash}{SHC1}
+  \field{labelyear}{1958}
+  \field{sortinit}{S}
+  \field{issn}{0002-9602}
+  \field{number}{5}
+  \field{pages}{607}
+  \field{title}{Durkheim's {Suicide} and {Problems} of {Empirical} {Research}}
+  \verb{url}
+  \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMw3V1dS8MwFL1M
+  \verb nwQRP9E5ISDMp0rbrE334EOZlQkyRKevo2kSLNJN1g7x39s0TVoV-gN8baEpOXDuvck95wJ
+  \verb g99q2fnGCb4sg9mKKR54MmIJzhwifU-G4MfMT9lNqZayfm2f_Afjbzfr9jcshySQveSFNUm
+  \verb Y0AXJ2TNW7EWUfqTIH0a137SzVXOO00lWjbDFnMtHD633VJDANZ-GsPm5lSlHnBU27XsuMt
+  \verb qsBRBNnWewo4uSaK4nlYTXtU5NpzVZp-7q6YkbfJkPpZp6xNClu-NJ6ed4qS-VAFsxPk8eW
+  \verb 5Zft6pJFLvgnRlZxbL4Pe_UWoFDt9AH0-PIQ-mY70BApiTNSjitfR-BpCK5yVAOASgCQBgC
+  \verb tBDIAIA3AMVzeRfPJ1NI_sqjhzhdldB9LC0GP4BPYjaUoYVlU4kV2CohjTGOHYMrLtHVEcY
+  \verb CpL6grCKM8iJPxGQy6Ptnvfn0OOw2cA9gu1ht-Ab3P7BvEYB4u
+  \endverb
+  \field{volume}{63}
+  \field{journaltitle}{American Journal of Sociology}
+  \field{year}{1958}
+\endentry
+
 \entry{weng_global_2014}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -24,8 +439,11 @@
      {}{}%
      {}{}}%
   }
+  \list{language}{1}{%
+    {en}%
+  }
   \list{publisher}{1}{%
-    {{CRC} Press}%
+    {CRC Press}%
   }
   \keyw{Social Science / Human Geography, Technology \& Engineering / Civil /
   General, Technology \& Engineering / Environmental / General, Technology \&
@@ -39,15 +457,15 @@
   environmental problems related to waste disposal, and air and water
   pollution. There is a rapidly growing need for technologies that will enable
   monitoring of the world’s natural resources and urban assets, and managing
-  exposure to natural and man-made risks. The Group on Earth Observation
-  ({GEO}) calls for strengthening the cooperation and coordination among global
+  exposure to natural and man-made risks. The Group on Earth Observation (GEO)
+  calls for strengthening the cooperation and coordination among global
   observing systems and research programs. Global Urban Monitoring and
   Assessment through Earth Observation introduces this important international
   collaborative effort, reviews the current state of global urban remote
   sensing, and expands on future directions in the field. The book reviews the
   current state of global urban monitoring, assessment, modeling, and
   prediction through Earth observation and related technologies. It then
-  introduces {GEO}’s important international collaborative effort—Global
+  introduces GEO’s important international collaborative effort—Global
   Urban Observation and Information Task—and the current state of global
   urban remote sensing and future directions. It explores groundbreaking work
   in urban remote sensing and examines how it could contribute to the
@@ -55,7 +473,7 @@
   development. Despite significant progress in recent years, there remain
   substantial gaps in ongoing national, regional, and global efforts to address
   environmental challenges. Edited by a well-known expert in the field of
-  remote sensing, {GIS}, and other geospatial technologies, this book addresses
+  remote sensing, GIS, and other geospatial technologies, this book addresses
   the gaps in an effective and long-term manner, highlighting the importance of
   increased coordination and networking among major stakeholders and of working
   together with other key international mechanisms. Drawing on the expertise of
@@ -65,11 +483,8 @@
   development—one of the most important issues facing society in the future.%
   }
   \field{isbn}{978-1-4665-6450-3}
-  \field{pagetotal}{412}
-  \field{title}{Global Urban Monitoring and Assessment through Earth
-  Observation}
-  \field{langid}{english}
-  \field{day}{23}
+  \field{title}{Global {Urban} {Monitoring} and {Assessment} through {Earth}
+  {Observation}}
   \field{month}{05}
   \field{year}{2014}
 \endentry
@@ -91,12 +506,90 @@
   \strng{fullhash}{WCMK1}
   \field{labelyear}{2001}
   \field{sortinit}{W}
-  \field{title}{Terrestrial Air Temperature and Precipitation: Monthly and
-  Annual Time Series (1950-1999)}
+  \field{title}{Terrestrial {Air} {Temperature} and {Precipitation}: {Monthly}
+  and {Annual} {Time} {Series} (1950-1999)}
   \verb{url}
   \verb http://climate.geog.udel.edu/~climate/html_pages/README.ghcn_ts2.html
   \endverb
   \field{year}{2001}
+\endentry
+
+\entry{zhu_combined_2004}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Zhu}{Z.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {Cristine L.~S.}{C.~L.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Norman}{N.}%
+     {John~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yue}{Y.}%
+     {Wei}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lowery}{L.}%
+     {Birl}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{AGRICULTURE, SOIL SCIENCE, Data combining, Downscaling, FIELD,
+  PREDICTION, Soil mapping, Spatial prediction, Upscaling, WATER CONTENT}
+  \strng{namehash}{ZJ+1}
+  \strng{fullhash}{ZJMCLSNJMYWLB1}
+  \field{labelyear}{2004}
+  \field{sortinit}{Z}
+  \field{abstract}{%
+  Accurate maps of various key soil properties on fine spatial resolutions play
+  an important role in precision modeling of agricultural systems. Recent
+  development of alternatives to soil coring enables us to collect multiple
+  sources of data, but data quality and spatial resolutions may differ greatly
+  from one source to another. In this article, we use a multi-scale model for
+  combining all data sources, despite varying resolutions and accuracies, to
+  produce soil maps. We demonstrate that the method gives accurate results via
+  computer simulations. Using the multi-scale method, we combine soil coring,
+  penetrometer, and topographic data to map the depth-to-till on a 10-m
+  resolution in an Arlington, Wisconsin field, and combine soil coring and soil
+  electrical conductivity measurements to map field capacity on a 20-m
+  resolution in a Waunakee, Wisconsin field. The proposed mapping technique has
+  several advantages: (1) it is computationally fast and hence is well suited
+  for landscape modeling-, (2) it provides a means to combine more than two
+  sources of data; and (3) it provides a way to accommodate prior knowledge of
+  spatial dependencies associated with various data sources. (C) 2003 Elsevier
+  B.V. All rights reserved.%
+  }
+  \verb{doi}
+  \verb 10.1016/S0016-7061(03)00217-9
+  \endverb
+  \field{issn}{0016-7061}
+  \field{number}{3}
+  \field{pages}{321\bibrangedash 334}
+  \field{title}{Combined mapping of soil properties using a multi-scale
+  tree-structured spatial model}
+  \verb{url}
+  \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwpV1LT8MwDLYG
+  \verb u4AQb8R4SDlwgEOhjy1tjmNi4gA3JnGrksaZJjGYGBJ_HzvNxkAgEFx6iJqktS3bST5_Acj
+  \verb S8zj65BMoarqsk2iVWlu1FSplM4OG0hOZFMavGxdKrerSmACyDJGg9vDed4eWiyDbi8loxB
+  \verb W_icwpOJHRcpqtlqDJ5kuG3ry8ub_tzY8W8jhwNSYy4g7vZT31IL7xNM7O_DiR-i5gfRGnf
+  \verb Ezqb4CeVfbUUJTX8QI6e4Hm8R9_twnrIWEV3fq9LWjg4zasdofPgbQDd2BAToUW2GjFWDPd
+  \verb w1A8OTF9Gj2ICW_1PzNnq2CA_VBo4RGM0ZRMAwWfiEc1gy0NZMWU4d00mb-eZxcG_au73nU
+  \verb UrmuIKkobswhV7BKXt6WrnHTSxqaTKUwQM61iLHSKHVcZtGhpUVnkiCY3Ric6t5Rk8d2Re7
+  \verb CmGdb_-OLL_-w-CM3sQGidS51tG0lTkPoq107jqkql0y04nymnnNT0HOU7bo2fLLUyzkovt
+  \verb 1K1oJipsPwg-5JCyE9dTxZVPp-P02RapyhZ-IS6BclvXusFCnamHng5-PtXHcJKDSbiXaEj
+  \verb WCad4TE0XsdvQPELRw
+  \endverb
+  \field{volume}{118}
+  \field{journaltitle}{Geoderma}
+  \field{year}{2004}
 \endentry
 
 \lossort

@@ -13,7 +13,18 @@
 \renewcommand\Authands{ and }
 
 %Title
-\title{geoSIMEX: A Generalized Approach To Modeling Spatial Imprecision}
+\title{Introducing geoSIMEX: A Generalized Approach To Modeling Spatial Imprecision}
+
+%-------------------------------------
+%-------------------------------------
+%Analysis
+%-------------------------------------
+%-------------------------------------
+<<Analysis, results=hide, echo=FALSE>>=
+run_analysis = FALSE
+source("/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Code/CaseStudy_SEAsia.R")
+@
+
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}

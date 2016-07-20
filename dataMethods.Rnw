@@ -167,22 +167,18 @@ A difference-in-difference modeling strategy is followed, in which the average o
 \begin{equation}\label{eq:caseStudy}
 Y_{i} = \beta_0 + \theta * Aid_{i} + \sum_{i=k}^{n}(\beta_{k} * X_{i})
 \end{equation}
-Where $Y_{i}$ is the difference in the average forest loss post-2011 and pre-2004 in district $i$; $Aid_{i}$ is the estimated aid that went to each district; $X_{i}$ is a vector of control variables; $\beta_{k}$ is a vector of parameters for each beta covariate, and $\theta$ is the estimated impact of aid.
-
-
-
-%macArth.inf$even_split_commitments <- log(macArth.inf$even_split_commitments+1)
-
-
-% Years for aid projects are based on the transaction date of the project which extend from 2005 to 2010.
-
-
-% Lambda Value of Aid Data: 0.2160792
+Where $Y_{i}$ is the difference in the average forest loss post-2011 and pre-2004 in district $i$; $Aid_{i}$ is the log of the aid commitments to each district; $X_{i}$ is a vector of control variables; $\beta_{k}$ is a vector of parameters for each beta covariate, and $\theta$ is the estimated impact of aid.
+We calculate the initial lambda value for our dataset following \ref{lambda}, and simulate additional spatial imprecision by allocating aid to increasingly coarse units of administration.  
+For example, aid which was known to be allocated to a district might be instead allocated to a state, and the bias this introduces is estimated through a re-calculated $\lambda$ each geoSIMEX iteration.
+We further repeat this analysis using three alternative modeling approaches to contrast their outcomes to geoSIMEX: (1) an ordinary least squares model in which imprecision is ignored (representative of a traditional case of the ecological fallacy), (2) a linear model in which all coarse-resolution data is removed from the dataset, and (3) a Monte Carlo model averaging approach in which hundreds of equally-probable worlds are generated based on the initial dataset, and the average beta coefficient and standard errors are reported.\footnote{It should be noted there are many approaches to model averaging, including AIC weighting, that are not tested in this paper. It is possible some of these alternative approaches may outperform the Monte Carlo procedure presented here.}
 
 
 
 
-Aid is the log of total commitments to administrative divisions allocated from 2005 to 2010.
 
-Controls include aid temperature (maximum, minimum, and average), precipitation (maximum, minimum, and average), lnyx, and nighttime lights. Variables are averaged within administrative units, then averaged into pre-aid and post-aid groupings (pre-aid includes average within 2001 to 2004 and post-aid includes average within 2011 to 2013). 
+
+
+
+
+
 

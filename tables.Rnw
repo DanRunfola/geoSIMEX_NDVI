@@ -49,6 +49,5 @@ Distance to Roads & CIESIN gRoads\tablefootnote{http://sedac.ciesin.columbia.edu
 
 \newpage
 %Case Study Results
-<<CaseStudy, cache=TRUE, results=tex, echo=FALSE>>=
-source("/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Code/CaseStudy_SEAsia.R")
-@
+\input{"/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Results/CaseTable.tex"}
+

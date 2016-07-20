@@ -1,6 +1,8 @@
 # MacArther analysis using geoSIMEX
 # ADM2-Based Analysis
 
+if(run_analysis == TRUE)
+{
 library(maptools)
 library(sp)
 library(jsonlite)
@@ -317,8 +319,9 @@ model.modelAvg_randProb.expected_aid <- modelAverageRandProb(iterations=500,
 #---------------------------------------------------#
 
 # Expected Aid
-CaseStudy_results <- stargazer(model.naive.expected_aid, model.naive.expected_aid.lowPC, model.modelAvg_randProb.expected_aid, model.geoSIMEX.expected_aid,
+CaseStudy_results_table <- stargazer(model.naive.expected_aid, model.naive.expected_aid.lowPC, model.modelAvg_randProb.expected_aid, model.geoSIMEX.expected_aid,
           title="Impact of Infrastructure Aid on Forest Loss", 
+          label="seresults",
           covariate.labels=c("Aid",
                              "Air Temp (Max)",
                              "Air Temp (Min)",
@@ -331,6 +334,7 @@ CaseStudy_results <- stargazer(model.naive.expected_aid, model.naive.expected_ai
           omit.stat = c("f","ser","rsq","adj.rsq"),
           dep.var.caption = "Forest Loss",
           dep.var.labels   = c("",""),
+          out="/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Results/CaseTable.tex",
           column.labels = c("Naive","Naive (Low PC)", "Model Avg", "geoSIMEX"),
           notes = "Standard errors in parentheses")
 
@@ -338,3 +342,5 @@ png("/home/aiddata/Desktop/Github/geoSIMEX_NDVI/images/geoSIMEX_plot.png")
 plot(model.geoSIMEX.expected_aid, "expected_aid", name_variable="Aid")
 dev.off()
 
+
+}

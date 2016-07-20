@@ -13,7 +13,14 @@
 \renewcommand\Authands{ and }
 
 %Title
-\title{geoSIMEX: A Generalized Approach To Modeling Spatial Imprecision}
+\title{Introducing geoSIMEX: A Generalized Approach To Modeling Spatial Imprecision}
+
+%-------------------------------------
+%-------------------------------------
+%Analysis
+%-------------------------------------
+%-------------------------------------
+
 
 \usepackage{Sweave}
 \begin{document}
@@ -289,24 +296,20 @@ A difference-in-difference modeling strategy is followed, in which the average o
 \begin{equation}\label{eq:caseStudy}
 Y_{i} = \beta_0 + \theta * Aid_{i} + \sum_{i=k}^{n}(\beta_{k} * X_{i})
 \end{equation}
-Where $Y_{i}$ is the difference in the average forest loss post-2011 and pre-2004 in district $i$; $Aid_{i}$ is the estimated aid that went to each district; $X_{i}$ is a vector of control variables; $\beta_{k}$ is a vector of parameters for each beta covariate, and $\theta$ is the estimated impact of aid.
-
-
-
-%macArth.inf$even_split_commitments <- log(macArth.inf$even_split_commitments+1)
-
-
-% Years for aid projects are based on the transaction date of the project which extend from 2005 to 2010.
-
-
-% Lambda Value of Aid Data: 0.2160792
+Where $Y_{i}$ is the difference in the average forest loss post-2011 and pre-2004 in district $i$; $Aid_{i}$ is the log of the aid commitments to each district; $X_{i}$ is a vector of control variables; $\beta_{k}$ is a vector of parameters for each beta covariate, and $\theta$ is the estimated impact of aid.
+We calculate the initial lambda value for our dataset following \ref{lambda}, and simulate additional spatial imprecision by allocating aid to increasingly coarse units of administration.  
+For example, aid which was known to be allocated to a district might be instead allocated to a state, and the bias this introduces is estimated through a re-calculated $\lambda$ each geoSIMEX iteration.
+We further repeat this analysis using three alternative modeling approaches to contrast their outcomes to geoSIMEX: (1) an ordinary least squares model in which imprecision is ignored (representative of a traditional case of the ecological fallacy), (2) a linear model in which all coarse-resolution data is removed from the dataset, and (3) a Monte Carlo model averaging approach in which hundreds of equally-probable worlds are generated based on the initial dataset, and the average beta coefficient and standard errors are reported.\footnote{It should be noted there are many approaches to model averaging, including AIC weighting, that are not tested in this paper. It is possible some of these alternative approaches may outperform the Monte Carlo procedure presented here.}
 
 
 
 
-Aid is the log of total commitments to administrative divisions allocated from 2005 to 2010.
 
-Controls include aid temperature (maximum, minimum, and average), precipitation (maximum, minimum, and average), lnyx, and nighttime lights. Variables are averaged within administrative units, then averaged into pre-aid and post-aid groupings (pre-aid includes average within 2001 to 2004 and post-aid includes average within 2011 to 2013). 
+
+
+
+
+
 
 \newpage
 
@@ -318,7 +321,19 @@ Table (NUM) shows results from the simulation analysis. Results are subset accor
 \par
 The geoSIMEX model outperforms the model averaging approach in its ability to capture the true coefficient at all levels of spatial imprecession. At low levels of spatial imprecession the geoSIMEX model captures the true coefficient 90\% of the time; however, it captures both the true relation and statistical significance 52\% of the time compared to 84\% of the time from using model averaging. Higher spatial imprecesion leads to larger standard errors in the geoSIMEX model, reflected by the percentage of time the geoSIMEX model captures the true relation and statistical significance declining as spatial imprecesion grows. At high levels of spatial imprecesion ($\lambda > 0.7$), the geoSIMEX model captures the true relation 100\% of the time; however, large standard errors results in it capturing the true relation and statistical significance 0\% of the time.   
 
-\subsubsection{Chinese Aid in Africa}
+\subsubsection{Chinese Aid in Southeast Asia}
+We examine the model results from our analysis of the impact of Chinese Aid in southeast Asia to provide an illustrative example of how accounting for spatial imprecision can lead to substantively different conclusions than alternative modeling approaches.
+Table \ref{seresults} summarizes these findings.
+In (1) a linear model that ignores spatial imprecision (i.e., commits an ecological fallacy), (2) a linear model that omits imprecise spatial information, and (3) a Monte Carlo model averaging approach, findings suggest that Chinese Aid has contributed to deforestation (or, more explicitly, an increase in the reduction of NDVI).
+However, when the spatial imprecision of the data is explicitly modeled (4), we find that insufficient evidence exists to determine if Chinese Aid has had a positive or negative impact on vegetations.
+\par
+Figure \ref{fig:geoSIMEX_plot} provides an illustration of the geoSIMEX results calculated in model 4.
+In this figure, the y axis represents coefficient estimates for aid ($\theta$), and the x axis represents the amount of spatial imprecision in the data calculated following equation \ref{lambda}.
+The red point and line at $\lambda$ = .22 represents the solution that would be found when constructing a model which ignores spatial imprecision (equivalent to model 1 in table \ref{serresults}), in which the point represents the coefficient estimate for aid ($\theta$), and the line represents the 95\% confidence interval.
+By simulating additional error and back-extrapolating to $\lambda$ = 0, the geoSIMEX estimate for aid ($\theta$) can be observed in the blue point in line, which is equivalent to model 4 in table \ref{serresults}.
+\par
+Further, leveraging geoSIMEX we seperately estimate the contribution of (1) spatial imprecision and (2) unexplained model variance to the standard errors estimated for $\theta$.
+In this example, we find that ...
 
 \newpage
 
@@ -420,3 +435,40 @@ Distance to Roads & CIESIN gRoads\tablefootnote{http://sedac.ciesin.columbia.edu
 
 \newpage
 %Case Study Results
+\input{"/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Results/CaseTable.tex"}
+
+\newpage
+
+%Figures
+\section{Figures}
+
+\begin{figure}[!htbp]
+\includegraphics{nepal_ex}
+\caption{Hypothetical example of spatial imprecision in aid allocation.}\label{fig:nepalex}
+\end{figure}
+
+\begin{figure}[!htbp]
+\includegraphics{steps}
+\caption{Steps of the geoSIMEX procedure.}\label{fig:steps}
+\end{figure}
+
+\begin{figure}[!htbp]
+\caption{Study area and units of observation.}\label{fig:studyarea}
+\end{figure}
+
+\begin{figure}[!htbp]
+\includegraphics{geoSIMEX_plot.png}
+\caption{geoSIMEX Plot of Aid.}\label{fig:geoSIMEX_plot}
+\end{figure}
+
+\newpage
+
+%Acknowledgements
+\section{Acknowledgements}
+Remember: USAID grant, Relevant SciClone grants, Ben Dykstra, Ariel
+\newpage
+
+%Bibliography
+\printbibliography
+
+\end{document}

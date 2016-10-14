@@ -47,11 +47,13 @@ macArth.inf <- macArth.inf[macArth.inf$recipients_iso3 != "Unspecified",]
 macArth.inf <- macArth.inf[!is.na(macArth.inf$project_id),]
 
 # Aid Project Summary Statistics
+macArth.inf <- macArth.inf[macArth.inf$recipients %in% c("Cambodia", "Laos", "Myanmar", "Thailand", "Viet Nam"),]
+
 nrow(table(macArth.inf$project_id)) # Number of Projects
 nrow(macArth.inf) # Number of Project Locations
 sum(macArth.inf$even_split_commitments, na.rm=TRUE) # Total Commitments
 table(macArth.inf$precision_code) # Precision Codes
-
+table(macArth.inf$recipients)
 # Years for aid projects are based on the transaction date of the project which extend from 2005 to 2010.
 # The resulting dataset includes 65 discrete projects allocated across 222 project locations, totaling in $7,729,666,290 committed.
 # Precision Codes
@@ -218,9 +220,13 @@ dta.all.adm2$per_loss_cuml.change <- eval(parse(text = paste("dta.all.adm2$per_l
 ##### * Calculating Expected Value of Aid * #####
 #---------------------------------------------------#
 
-# Transform Aid Commitments
-macArth.inf$even_split_commitments[is.na(macArth.inf$even_split_commitments)] <- 0
-macArth.inf$even_split_commitments <- log(macArth.inf$even_split_commitments+1)
+###### Transform Aid Commitments
+# Log of Aid
+#macArth.inf$even_split_commitments[is.na(macArth.inf$even_split_commitments)] <- 0
+#macArth.inf$even_split_commitments <- log(macArth.inf$even_split_commitments+1)
+
+# Number of Projects
+macArth.inf$even_split_commitments <- 1
 
 # Subset for low PC-only case; save all data.
 macArth.inf.temp.lowPC <- macArth.inf[macArth.inf$precision_code %in% c(1,2,3),]
@@ -293,6 +299,9 @@ model.geoSIMEX.expected_aid <- geoSIMEX(model=model.naive.expected_aid,
                                         roi.pc6.name="NAME_0.id", 
                                         aid.pc1.centroid.name="NAME_2.id",
                                         aid.precision.code="precision_code")
+
+model.geoSIMEX.expected_aid$variance.model.imprecision$expected_aid[1] / sum(model.geoSIMEX.expected_aid$variance.model.imprecision$expected_aid)
+model.geoSIMEX.expected_aid$variance.model.imprecision$expected_aid[2] / sum(model.geoSIMEX.expected_aid$variance.model.imprecision$expected_aid)
 
 
 #---------------------------------------------------#

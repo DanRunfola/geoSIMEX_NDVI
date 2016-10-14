@@ -9,7 +9,9 @@
 \author[1]{Rob Marty}
 \author[1]{Seth Goodman}
 \author[1]{Michael LeFew}
-\affil[1]{Institute for the Theory and Practice of International Relations, AidData, The College of William and Mary}
+\author[2]{Ariel BenYishay}
+\affil[1]{Institute for the Theory and Practice of International Relations, AidData, William and Mary}
+\affil[2]{Department of Economics, William and Mary}
 \renewcommand\Authands{ and }
 
 %Title
@@ -44,7 +46,6 @@ Telephone: 508.316.9109
 Fax: 757.221.4650
 \end{flushleft}
 
-
 \newpage
 
 %Toggle spacing for document
@@ -57,9 +58,9 @@ Following this, there is a large and growing set of literature examining how dif
 Here, we present a flexible approach - geoSIMEX - which can provide parameter and error estimates for both linear and non-linear models while adjusting for spatial imprecision.
 Further, this approach can provide an estimate of the potential value of additional spatial information by distinguishing between traditional model error and additional errors introduced by imprecision.
 We illustrate this approach through a case study leveraging a novel, publically available dataset recording the location of Chinese aid in Africa at varying levels of precision.
-Using a difference-in-difference model, we integrate this information with satellite derived data on vegetation (NDVI) and a number of other spatially explicit covariates to examine if there is evidence Chinese aid has caused an increase or decrease in vegetation.
+Using a difference-in-difference modelling approach, we integrate Chinese aid information with satellite derived data on vegetation (NDVI) and a number of other spatially explicit covariates to examine if there is evidence Chinese aid has caused an increase or decrease in vegetation.
 Following commonly employed procedures which do not incorporate spatial imprecision, we found that Chinese Aid had a negative impact on vegetation; once spatial imprecision was incorporated into our estimates through the geoSIMEX procedure no evidence of impact was found.
-We use these findings to argue for the importance of incorporating spatial imprecision into analyses, and introduce new software in the R programming language to enable similar analyses for other purposes.
+We use these findings to argue for the importance of incorporating spatial imprecision into analyses, and introduce new software in the R programming language to enable similar analyses.
 
 \textbf{Keywords}: SIMEX, Spatial Uncertainty, Spatial Data Integration, Simulation, Ecological Fallacy\\
 \newpage
@@ -67,7 +68,7 @@ We use these findings to argue for the importance of incorporating spatial impre
 %Introduction
 \section{Introduction}
 The lack of exact geographic information on where measurements are obtained presents a barrier to research.
-This has become increasingly evident as more scholars integrate geographic data from multiple sources - for example, census, satellite, and GPS sources - to try and establish causal or predictive relationships (c.f., EXAMPLES).
+This has become increasingly evident as more scholars integrate geographic data from multiple sources - for example, census, satellite, and GPS sources - to try and establish causal or predictive relationships (c.f., \cite{bare_assessing_2015,buntaine_titling_2015,gallo_mapping_2012,andam_measuring_2008}).
 Many scholars have engaged in research seeking to integrate information on the precision of geographic data to improve the accuracy of modeling efforts, variably referred to as spatial (im)precision (CITE), spatial uncertainty (CITE), and spatial allocation (CITE).
 This paper presents a generalizeable approach to integrating information on the precision of geographic data into both linear and non-linear models - geoSIMEX.
 We illustrate the capability of geoSIMEX to provide more accurate parameter estimates than traditional approaches through a simulation framework. 
@@ -76,11 +77,12 @@ We use this case study to illustrate the importance of including information on 
 Finally, we provide all data and an accompanying R package to users seeking to perform similar styles of analysis.
 
 \subsection{Literature Review}
-% (dont include SIMEX here, just general lit on spatial uncertainty..  3 paragraphs.)
 
 The literature has shown that uncertainty in the locations of where measurements were taken can produce biased estimates in empirical analyses.\cite{perez-heydrich_guidelines_2013,rettie_overcoming_1999} For example, Perez-Heydrich et al. show that regression coefficients will be biased when using raster data in conjunction with point data, where the true locations of the point data are only known to exist within some 5-10km radii of the measured location.\cite{perez-heydrich_guidelines_2013} One recommended solution is to take average raster values within a buffer encompassing where the point could have fallen, instead of the single raster value associated with the point.\cite{perez-heydrich_guidelines_2013, rettie_overcoming_1999}
 \par
-Another practice to address spatial uncertainty is to aggregate to some higher spatial scale where there is no spatial uncertainty.\cite{perez-heydrich_guidelines_2013} However, aggregating to a higher spatial scales can introduce bias. A large body of literature shows that analyzing data at different levels of aggregation can produce different regression coefficients and correlation coefficients.\cite{clark_effects_1976, selvin_durkheims_1958, gotway_combining_2002, gehlke_certain_1934, cramer_efficient_1964} Estimates from aggregate data are invalid for disaggregate data due to different magnitude of correlations and regression coefficients. For example, a seminal study by Robinson illustrates this point. Using data from the 1930 US census, Robinson found a negative correlation between the proportion of immigrants in a state and average literacy levels, but a positive correlation between being an immigrant and literacy level.\cite{robinson_ecological_2009} A number of techniques have been proposed to address aggregation bias. Approaches focus on dis-aggregating data to finer scales; however, these involve using covariats to help predict the variable of interest.\cite{gotway_combining_2002, zhu_combined_2004} 
+Another practice to address spatial uncertainty is to aggregate to some higher spatial scale where there is no spatial uncertainty.\cite{perez-heydrich_guidelines_2013} However, aggregating to a higher spatial scales can introduce bias. 
+%%Suggestion (mcl): Specify that bias introduced because when you aggregate at lower resolution, that data reflects values more characteristic of global effects i.e. mean intensity, and less of the local variation seen at the resolution where the independent variable may have an effect.
+A large body of literature shows that analyzing data at different levels of aggregation can produce different regression coefficients and correlation coefficients.\cite{clark_effects_1976, selvin_durkheims_1958, gotway_combining_2002, gehlke_certain_1934, cramer_efficient_1964} Estimates from aggregate data are invalid for disaggregate data due to different magnitude of correlations and regression coefficients. For example, a seminal study by Robinson illustrates this point. Using data from the 1930 US census, Robinson found a negative correlation between the proportion of immigrants in a state and average literacy levels, but a positive correlation between being an immigrant and literacy level.\cite{robinson_ecological_2009} A number of techniques have been proposed to address aggregation bias. Approaches focus on dis-aggregating data to finer scales; however, these involve using covariats to help predict the variable of interest.\cite{gotway_combining_2002, zhu_combined_2004} 
 
 % ** Other Studies Incorporating Spatial Uncertainty **
 
@@ -294,9 +296,9 @@ This process is repeated 100,000 times.
 In an illustrative case study of geoSIMEX, we examine the causal impact that Chinese aid distributed from 2005 to 2010 had on vegetation (measured using NDVI) in southeast asia.  
 A difference-in-difference modeling strategy is followed, in which the average of NDVI before aid was allocated (pre-2004) is contrasted to the average of NDVI after aid was allocated (post-2011) for each of 351 districts:
 \begin{equation}\label{eq:caseStudy}
-Y_{i} = \beta_0 + \theta * Aid_{i} + \sum_{i=k}^{n}(\beta_{k} * X_{i})
+Y_{i} = \beta_0 + \theta * Aid_{i} + \sum_{k=1}^{n}(\beta_{k} * X_{i})
 \end{equation}
-Where $Y_{i}$ is the difference in the average forest loss post-2011 and pre-2004 in district $i$; $Aid_{i}$ is the log of the aid commitments to each district; $X_{i}$ is a vector of control variables; $\beta_{k}$ is a vector of parameters for each beta covariate, and $\theta$ is the estimated impact of aid.
+Where $Y_{i}$ is the difference in the average forest loss post-2011 and pre-2004 in district $i$; $Aid_{i}$ is the number of aid projects to each district; $X_{i}$ is a vector of control variables; $\beta_{k}$ is a vector of parameters for each beta covariate, and $\theta$ is the estimated impact of aid.
 We calculate the initial lambda value for our dataset following \ref{lambda}, and simulate additional spatial imprecision by allocating aid to increasingly coarse units of administration.  
 For example, aid which was known to be allocated to a district might be instead allocated to a state, and the bias this introduces is estimated through a re-calculated $\lambda$ each geoSIMEX iteration.
 We further repeat this analysis using three alternative modeling approaches to contrast their outcomes to geoSIMEX: (1) an ordinary least squares model in which imprecision is ignored (representative of a traditional case of the ecological fallacy), (2) a linear model in which all coarse-resolution data is removed from the dataset, and (3) a Monte Carlo model averaging approach in which hundreds of equally-probable worlds are generated based on the initial dataset, and the average beta coefficient and standard errors are reported.\footnote{It should be noted there are many approaches to model averaging, including AIC weighting, that are not tested in this paper. It is possible some of these alternative approaches may outperform the Monte Carlo procedure presented here.}
@@ -315,25 +317,25 @@ We further repeat this analysis using three alternative modeling approaches to c
 
 %Results
 \section{Results}
-\subsubsection{Simulations}
+\subsection{Simulations}
 
-Table (NUM) shows results from the simulation analysis. Results are subset according to the spatial imprecession of the Chinese aid data. The naive model using the expected value of aid captures true coefficient about 50\% of the time within a 95\% confidence interval when there is low spatial uncertainty ($\lambda < 0.3$), and the ability for the model to capture the true coefficient declines as spatial imprecesion increases. The naive model using the subset of aid projects measured with complete spatial uncertainty captures the true coefficient 60\% to 70\% of the time depending on the level of spatial imprecesion in the data. The model averaging approach performs well under low levels of spatial imprecession; however, as spatial imprecession increases the ability for the model averaging approach to capture the true coefficient decreases. Under low levels of spatial imprecession the model averaging approach captures the true coefficient 85\% of the time, but under high levels of spatial imprecession the model captures the true coefficient 46\% of the time. 
+Table (NUM) shows results from the simulation analysis. Results are subset according to the spatial imprecession of the Chinese aid data. The naive model using the expected value of aid (i.e., ignores spatial imprecision) captures true coefficient about 50\% of the time within a 95\% confidence interval when there is low spatial uncertainty ($\lambda < 0.3$), and the ability for the model to capture the true coefficient declines as spatial imprecesion increases. The naive model that omits aid projects measured with spatial uncertainty captures the true coefficient 60\% to 70\% of the time depending on the level of spatial imprecesion in the data. The model averaging approach performs well under low levels of spatial imprecession; however, as spatial imprecession increases the ability for the model averaging approach to capture the true coefficient decreases. Under low levels of spatial imprecession the model averaging approach captures the true coefficient 85\% of the time, but under high levels of spatial imprecession the model captures the true coefficient 46\% of the time. 
 \par
 The geoSIMEX model outperforms the model averaging approach in its ability to capture the true coefficient at all levels of spatial imprecession. At low levels of spatial imprecession the geoSIMEX model captures the true coefficient 90\% of the time; however, it captures both the true relation and statistical significance 52\% of the time compared to 84\% of the time from using model averaging. Higher spatial imprecesion leads to larger standard errors in the geoSIMEX model, reflected by the percentage of time the geoSIMEX model captures the true relation and statistical significance declining as spatial imprecesion grows. At high levels of spatial imprecesion ($\lambda > 0.7$), the geoSIMEX model captures the true relation 100\% of the time; however, large standard errors results in it capturing the true relation and statistical significance 0\% of the time.   
-
-\subsubsection{Chinese Aid in Southeast Asia}
-We examine the model results from our analysis of the impact of Chinese Aid in southeast Asia to provide an illustrative example of how accounting for spatial imprecision can lead to substantively different conclusions than alternative modeling approaches.
-Table \ref{seresults} summarizes these findings.
-In (1) a linear model that ignores spatial imprecision (i.e., commits an ecological fallacy), (2) a linear model that omits imprecise spatial information, and (3) a Monte Carlo model averaging approach, findings suggest that Chinese Aid has contributed to deforestation (or, more explicitly, an increase in the reduction of NDVI).
-However, when the spatial imprecision of the data is explicitly modeled (4), we find that insufficient evidence exists to determine if Chinese Aid has had a positive or negative impact on vegetations.
 \par
 Figure \ref{fig:geoSIMEX_plot} provides an illustration of the geoSIMEX results calculated in model 4.
 In this figure, the y axis represents coefficient estimates for aid ($\theta$), and the x axis represents the amount of spatial imprecision in the data calculated following equation \ref{lambda}.
 The red point and line at $\lambda$ = .22 represents the solution that would be found when constructing a model which ignores spatial imprecision (equivalent to model 1 in table \ref{serresults}), in which the point represents the coefficient estimate for aid ($\theta$), and the line represents the 95\% confidence interval.
 By simulating additional error and back-extrapolating to $\lambda$ = 0, the geoSIMEX estimate for aid ($\theta$) can be observed in the blue point in line, which is equivalent to model 4 in table \ref{serresults}.
+
+\subsection{Chinese Aid in Southeast Asia}
+We examine the model results from our analysis of the impact of Chinese Aid in southeast Asia to provide an illustrative example of how accounting for spatial imprecision can lead to substantively different conclusions than alternative modeling approaches.
+Table \ref{seresults} summarizes these findings.
+In (1) a linear model that ignores spatial imprecision (i.e., commits an ecological fallacy), (2) a linear model that omits imprecise spatial information, and (3) a Monte Carlo model averaging approach, findings suggest that Chinese Aid has contributed to deforestation (or, more explicitly, an increase in the reduction of NDVI). Specifically, an additional aid project within a district is associated with a 1.1 to 1.7 percentage point increase in forest loss (p < 0.05).
+However, when the spatial imprecision of the data is explicitly modeled (4), we find that insufficient evidence exists to determine if Chinese Aid has had a positive or negative impact on vegetation (p > 0.1).
 \par
 Further, leveraging geoSIMEX we seperately estimate the contribution of (1) spatial imprecision and (2) unexplained model variance to the standard errors estimated for $\theta$.
-In this example, we find that ...
+In this example, we find that spatial imprecision contributes 98.5\% to the variance aroudn $\theta$, while unexplained model variance contributes 1.5\%.
 
 \newpage
 

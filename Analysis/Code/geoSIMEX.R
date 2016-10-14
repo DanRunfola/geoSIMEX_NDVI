@@ -185,6 +185,22 @@ geoSIMEX_est <- function(model,
   se.geoSIMEX <- as.data.frame(se.geoSIMEX)
   names(se.geoSIMEX) <- names(boot.coefs.matrix)
   
+  ##### Standard Error by Parts #####
+  model.var <- colMeans(boot.se.matrix^2)
+  
+  calcVar.imprecision <- function(i, boot.coefs.matrix){
+    var <- sum((1/nrow(boot.coefs.matrix)) * (boot.coefs.matrix[,i] - mean(boot.coefs.matrix[,i]))^2)
+    return(var)
+  }
+  
+  var.imprecision <- lapply(1:ncol(boot.coefs.matrix), calcVar.imprecision, boot.coefs.matrix=boot.coefs.matrix)
+  var.imprecision <- as.data.frame(var.imprecision)
+  names(var.imprecision) <- names(boot.coefs.matrix)
+  
+  #sqrt(model.var + var.imprecision)
+  #se.geoSIMEX
+  
+  
   ##### Collecting Results #####
   row.names(coef.geoSIMEX) <- "Coefficients"
   coef <- t(coef.geoSIMEX)
@@ -196,12 +212,18 @@ geoSIMEX_est <- function(model,
   # Values so will work with stargazer
   # https://github.com/cran/stargazer/blob/master/R/stargazer-internal.R
   # NOTE: Fix so will reflect geoSIMEX coefficients and not naive coefficients?
-  residuals = model$residuals 
+  #residuals = model$residuals 
+  residuals <- rep(NA, length(model$residuals))
+  
+  model.imprecision.variance <- rbind(model.var,var.imprecision)
+  row.names(model.imprecision.variance) <- c("Model Variance", "Imprecision Variance")
+  model.imprecision.variance <- as.data.frame(model.imprecision.variance)
   
   return(list(coefficients=coef.geoSIMEX,
               StdErr=se.geoSIMEX,
               coef.se = coef.se,
               df = df,
+              variance.model.imprecision = model.imprecision.variance,
               residuals = residuals,
               naive.model = model,
               lambda_naive = lambda_naive,

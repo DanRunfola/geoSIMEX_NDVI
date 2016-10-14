@@ -9,7 +9,9 @@
 \author[1]{Rob Marty}
 \author[1]{Seth Goodman}
 \author[1]{Michael LeFew}
-\affil[1]{Institute for the Theory and Practice of International Relations, AidData, The College of William and Mary}
+\author[2]{Ariel BenYishay}
+\affil[1]{Institute for the Theory and Practice of International Relations, AidData, William and Mary}
+\affil[2]{Department of Economics, William and Mary}
 \renewcommand\Authands{ and }
 
 %Title

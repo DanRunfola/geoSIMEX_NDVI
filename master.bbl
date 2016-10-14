@@ -16,6 +16,243 @@
   {}
 \endgroup
 
+\entry{andam_measuring_2008}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Andam}{A.}%
+     {Kwaw~S.}{K.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferraro}{F.}%
+     {Paul~J.}{P.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pfaff}{P.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanchez-Azofeifa}{S.-A.}%
+     {G.~Arturo}{G.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Robalino}{R.}%
+     {Juan~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{avoided deforestation, Conservation of Natural Resources, conservation
+  policy, empirical evaluation, Sensitivity and Specificity, spatial
+  spillovers, Time Factors}
+  \strng{namehash}{AKS+1}
+  \strng{fullhash}{AKSFPJPASAGARJA1}
+  \field{labelyear}{2008}
+  \field{sortinit}{A}
+  \field{abstract}{%
+  Global efforts to reduce tropical deforestation rely heavily on the
+  establishment of protected areas. Measuring the effectiveness of these areas
+  is difficult because the amount of deforestation that would have occurred in
+  the absence of legal protection cannot be directly observed. Conventional
+  methods of evaluating the effectiveness of protected areas can be biased
+  because protection is not randomly assigned and because protection can induce
+  deforestation spillovers (displacement) to neighboring forests. We
+  demonstrate that estimates of effectiveness can be substantially improved by
+  controlling for biases along dimensions that are observable, measuring
+  spatial spillovers, and testing the sensitivity of estimates to potential
+  hidden biases. We apply matching methods to evaluate the impact on
+  deforestation of Costa Rica's renowned protected-area system between 1960 and
+  1997. We find that protection reduced deforestation: approximately 10\% of
+  the protected forests would have been deforested had they not been protected.
+  Conventional approaches to evaluating conservation impact, which fail to
+  control for observable covariates correlated with both protection and
+  deforestation, substantially overestimate avoided deforestation (by over
+  65\%, based on our estimates). We also find that deforestation spillovers
+  from protected to unprotected forests are negligible. Our conclusions are
+  robust to potential hidden bias, as well as to changes in modeling
+  assumptions. Our results show that, with appropriate empirical methods,
+  conservation scientists and policy makers can better understand the
+  relationships between human and natural systems and can use this to guide
+  their attempts to protect critical ecosystem services.%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.0800437105
+  \endverb
+  \field{issn}{1091-6490}
+  \field{number}{42}
+  \field{pages}{16089\bibrangedash 16094}
+  \field{title}{Measuring the effectiveness of protected area networks in
+  reducing deforestation}
+  \field{volume}{105}
+  \verb{file}
+  \verb Full Text PDF:/Users/robmarty/Library/Application Support/Zotero/Profil
+  \verb es/z7w58wxo.default/zotero/storage/MH5CDUMP/Andam et al. - 2008 - Measu
+  \verb ring the effectiveness of protected area netw.pdf:application/pdf;Snaps
+  \verb hot:/Users/robmarty/Library/Application Support/Zotero/Profiles/z7w58wx
+  \verb o.default/zotero/storage/ZTHCZ7PQ/16089.html:text/html
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{month}{10}
+  \field{year}{2008}
+\endentry
+
+\entry{bare_assessing_2015}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bare}{B.}%
+     {Matthew}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kauffman}{K.}%
+     {Craig}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miller}{M.}%
+     {Daniel~C.}{D.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {en}%
+  }
+  \strng{namehash}{BMKCMDC1}
+  \strng{fullhash}{BMKCMDC1}
+  \field{labelyear}{2015}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  International conservation donors have spent at least \$3.4 billion to
+  protect biodiversity and stem tropical deforestation in Africa since the
+  early 1990s. Despite more than two decades of experience, however, there is
+  little research on the effect of this aid at a region-wide scale. Numerous
+  case studies exist, but show mixed results. Existing research is usually
+  based on community perception or focused on short-term donor objectives
+  rather than specific conservation outcomes, like deforestation rates. Thus,
+  the impact of billions of dollars of conservation aid on deforestation rates
+  remains an open question. This article uses an original dataset to analyze
+  the effect of international conservation aid on deforestation rates in 42
+  African countries between 2000 and 2013. We first describe patterns of
+  conservation aid across the continent and then assess its impact (with one to
+  five-year lags), controlling for other factors that may also affect
+  deforestation, including rural population, protected areas (PAs), governance,
+  and other economic and commodity production variables. We find that
+  conservation aid is associated with higher rates of forest loss after one- or
+  two-year lags. A similar result holds for PA extent, suggesting possible
+  displacement of deforestation from PAs. However, governance quality in high
+  forest cover countries moderates these effects such that deforestation rates
+  are reduced. Rural population is the most consistent factor associated with
+  forest loss, confirming previous studies of this driver. Our results suggest
+  that in heavily forested countries, development projects designed to support
+  conservation work initially in conditions of good governance, but that
+  conservation aid alone is insufficient to mitigate larger deforestation
+  drivers.%
+  }
+  \verb{doi}
+  \verb 10.1088/1748-9326/10/12/125010
+  \endverb
+  \field{issn}{1748-9326}
+  \field{number}{12}
+  \field{pages}{125010}
+  \field{title}{Assessing the impact of international conservation aid on
+  deforestation in sub-{Saharan} {Africa}}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-9326/10/i=12/a=125010
+  \endverb
+  \field{volume}{10}
+  \verb{file}
+  \verb IOP Full Text PDF:/Users/robmarty/Library/Application Support/Zotero/Pr
+  \verb ofiles/z7w58wxo.default/zotero/storage/64Q934R3/Bare et al. - 2015 - As
+  \verb sessing the impact of international conservation.pdf:application/pdf
+  \endverb
+  \field{journaltitle}{Environmental Research Letters}
+  \field{year}{2015}
+  \field{urlday}{23}
+  \field{urlmonth}{05}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{buntaine_titling_2015}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Buntaine}{B.}%
+     {Mark~T.}{M.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hamilton}{H.}%
+     {Stuart~E.}{S.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Millones}{M.}%
+     {Marco}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Community management, Deforestation, Geospatial evaluation, Land
+  tenure, Land titling}
+  \strng{namehash}{BMTHSEMM1}
+  \strng{fullhash}{BMTHSEMM1}
+  \field{labelyear}{2015}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Assigning land title to collective landholders is one of the primary policies
+  land management agencies use to avoid deforestation worldwide. Such programs
+  are designed to improve the ability of landholders to legally exclude
+  competing users and thereby strengthen incentives to manage forests for
+  long-term benefits. Despite the prevalence of this hypothesis, findings about
+  the impacts of land titling programs on deforestation are mixed. Evidence is
+  often unreliable because programs are targeted according to factors that
+  independently influence the conversion of forests. We evaluate a donor-funded
+  land titling and land management program for indigenous communities
+  implemented in Morona-Santiago, Ecuador. This program offers a close to best
+  case scenario for a land titling program to reduce deforestation because of
+  colonization pressure, availability of payments when titled communities
+  maintain forests, and limited opportunities for commercial agriculture. We
+  match plots in program areas with similar plots outside program areas on
+  covariates that influence the conversion of forests. Based on matched
+  comparisons, we do not find evidence that land titling or community
+  management plans reduced forest loss in the five years following legal
+  recognition. The results call into question land titling as a direct
+  deforestation strategy and suggests land titling is better viewed a precursor
+  to other programs.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.gloenvcha.2015.04.001
+  \endverb
+  \field{issn}{0959-3780}
+  \field{pages}{32\bibrangedash 43}
+  \field{shorttitle}{Titling community land to prevent deforestation}
+  \field{title}{Titling community land to prevent deforestation: {An}
+  evaluation of a best-case program in {Morona}-{Santiago}, {Ecuador}}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0959378015000503
+  \endverb
+  \field{volume}{33}
+  \verb{file}
+  \verb ScienceDirect Full Text PDF:/Users/robmarty/Library/Application Support
+  \verb /Zotero/Profiles/z7w58wxo.default/zotero/storage/GNV4BQRK/Buntaine et a
+  \verb l. - 2015 - Titling community land to prevent deforestation A.pdf:appli
+  \verb cation/pdf;ScienceDirect Snapshot:/Users/robmarty/Library/Application S
+  \verb upport/Zotero/Profiles/z7w58wxo.default/zotero/storage/ZJBWMD33/Buntain
+  \verb e et al. - 2015 - Titling community land to prevent deforestation A.htm
+  \verb l:text/html
+  \endverb
+  \field{journaltitle}{Global Environmental Change}
+  \field{month}{07}
+  \field{year}{2015}
+  \field{urlday}{16}
+  \field{urlmonth}{03}
+  \field{urlyear}{2016}
+\endentry
+
 \entry{clark_effects_1976}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -101,6 +338,63 @@
   \field{volume}{59}
   \field{journaltitle}{Journal of the American Statistical Association}
   \field{year}{1964}
+\endentry
+
+\entry{gallo_mapping_2012}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gallo}{G.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goodchild}{G.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GJGM1}
+  \strng{fullhash}{GJGM1}
+  \field{labelyear}{2012}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  Collaborative and community-based approaches to conservation and natural
+  resource management often utilize maps that designate particular areas as
+  being high priorities for conservation. These maps are used in stakeholder
+  workshops and/or public discourse, but have often been highly contentious and
+  counterproductive. We propose that quantifying and visualizing some of the
+  uncertainty involved in making such maps could decrease their potential for
+  causing conflict, thereby facilitating discourse and eventually, conservation
+  action. We propose that an extra bonus could be attained by mapping the
+  effects of missing or sparse input data regarding landowner “willingness to
+  conserve” (given fair market compensation). The primary contributions of
+  this action research are in the development of the propositions and in their
+  implementation using a stochastic approach (Monte Carlo simulation).
+  Preliminary assessment of the propositions occurred, but further research is
+  needed to more formally evaluate them. Some practical suggestions and
+  additional research considerations are provided.%
+  }
+  \verb{doi}
+  \verb 10.1080/08941920.2011.578119
+  \endverb
+  \field{issn}{0894-1920}
+  \field{number}{1}
+  \field{pages}{22\bibrangedash 36}
+  \field{title}{Mapping {Uncertainty} in {Conservation} {Assessment} as a
+  {Means} {Toward} {Improved} {Conservation} {Planning} and {Implementation}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1080/08941920.2011.578119
+  \endverb
+  \field{volume}{25}
+  \verb{file}
+  \verb Snapshot:/Users/robmarty/Library/Application Support/Zotero/Profiles/z7
+  \verb w58wxo.default/zotero/storage/5VKTVDGP/08941920.2011.html:text/html
+  \endverb
+  \field{journaltitle}{Society \&amp; Natural Resources}
+  \field{year}{2012}
+  \field{urlday}{24}
+  \field{urlmonth}{07}
+  \field{urlyear}{2014}
 \endentry
 
 \entry{gehlke_certain_1934}{article}{}

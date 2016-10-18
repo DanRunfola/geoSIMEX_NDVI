@@ -2,14 +2,6 @@
 In this piece, we introduce a flexible method to account for spatial imprecison in datasets for the purpose of fitting linear or non-linear models - geoSIMEX.
 We illustrated the relative accuracy of geoSIMEX as contrasted to other methods which do not account for spatial imprecision, finding that geoSIMEX outperforms all other tested approaches under cases of imprecision.
 Additionally, as an illustrative example we applied geoSIMEX to the case of Chinese Aid's impact on NDVI in southeast Asia.  
-In models which did not account for spatial imprecision, it was found that Chinese Aid had a negative impact on forest cover.
-By accounting for spatial imprecision, we illustrated that in fact there was insufficient evidence to draw this conclusion.
-\par
-We identify a number of advantages of the geoSIMEX procedure.  
-
-
-Further, this approach can provide an estimate of the potential value of additional spatial information by distinguishing between traditional model error and additional errors introduced by imprecision.
-We illustrate this approach through a case study leveraging a novel, publically available dataset recording the location of Chinese aid in Africa at varying levels of precision.
-Using a difference-in-difference model, we integrate this information with satellite derived data on vegetation (NDVI) and a number of other spatially explicit covariates to examine if there is evidence Chinese aid has caused an increase or decrease in vegetation.
-Following commonly employed procedures which do not incorporate spatial imprecision, we found that Chinese Aid had a negative impact on vegetation; once spatial imprecision was incorporated into our estimates through the geoSIMEX procedure no evidence of impact was found.
+In models which did not account for spatial imprecision, it was found that Chinese Aid had a statistically significant, detrimental impact on forest cover.
+By accounting for spatial imprecision, we illustrated that there was insufficient evidence to draw this conclusion.
 We use these findings to argue for the importance of incorporating spatial imprecision into analyses, and introduce new software in the R programming language to enable similar analyses for other purposes.

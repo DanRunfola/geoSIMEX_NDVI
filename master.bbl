@@ -16,6 +16,75 @@
   {}
 \endgroup
 
+\entry{aerts_accounting_2003}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Aerts}{A.}%
+     {Jeroen C. J.~H.}{J.~C. J.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goodchild}{G.}%
+     {Michael~F.}{M.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Heuvelink}{H.}%
+     {Gerard B.~M.}{G.~B.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Land Dynamics, Leerstoelgroep Landdynamiek, {PE}\&{RC}}
+  \strng{namehash}{AJCJHGMFHGBM1}
+  \strng{fullhash}{AJCJHGMFHGBM1}
+  \field{labelyear}{2003}
+  \field{sortinit}{A}
+  \field{abstract}{%
+  Spatial decision support systems ({SDSS}) are designed to make complex
+  resource allocation problems more transparent and to support the design and
+  evaluation of allocation plans. Recent developments in this field focus on
+  the design of allocation plans using optimization techniques. In this paper
+  we analyze how uncertainty in spatial (input) data propagates through, and
+  affects the results of, an optimization model. The optimization model
+  calculates the optimal location for a ski run based on a slope map, which is
+  derived from a digital elevation model ({DEM}). The uncertainty propagation
+  is a generic method following a Monte Carlo approach, whereby realizations of
+  the spatially correlated {DEM} error are generated using ‘sequential
+  Gaussian simulation’. We successfully applied the methodology to a case
+  study in the Austrian Alps, showing the influence of spatial uncertainty on
+  the optimal location of a ski run and the associated development costs. We
+  also discuss the feasibility of routine incorporation of uncertainty
+  propagation methodologies in an {SDSS}.%
+  }
+  \verb{doi}
+  \verb 10.1111/1467-9671.00141
+  \endverb
+  \field{issn}{1467-9671}
+  \field{number}{2}
+  \field{pages}{211\bibrangedash 230}
+  \field{title}{Accounting for Spatial Uncertainty in Optimization with Spatial
+  Decision Support Systems}
+  \verb{url}
+  \verb http://onlinelibrary.wiley.com/doi/10.1111/1467-9671.00141/abstract
+  \endverb
+  \field{volume}{7}
+  \field{langid}{english}
+  \verb{file}
+  \verb Full Text PDF:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profil
+  \verb es\\wcsyeyq4.default\\zotero\\storage\\524T74MK\\Aerts et al. - 2003 -
+  \verb Accounting for Spatial Uncertainty in Optimization.pdf:application/pdf;
+  \verb Snapshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\w
+  \verb csyeyq4.default\\zotero\\storage\\9H73GARF\\abstract.html:text/html
+  \endverb
+  \field{journaltitle}{Transactions in {GIS}}
+  \field{day}{01}
+  \field{month}{03}
+  \field{year}{2003}
+  \field{urlday}{24}
+  \field{urlmonth}{07}
+  \field{urlyear}{2014}
+\endentry
+
 \entry{andam_measuring_2008}{article}{}
   \name{author}{5}{}{%
     {{}%
@@ -43,9 +112,6 @@
      {Juan~A.}{J.~A.}%
      {}{}%
      {}{}}%
-  }
-  \list{language}{1}{%
-    {eng}%
   }
   \keyw{avoided deforestation, Conservation of Natural Resources, conservation
   policy, empirical evaluation, Sensitivity and Specificity, spatial
@@ -86,18 +152,20 @@
   \field{issn}{1091-6490}
   \field{number}{42}
   \field{pages}{16089\bibrangedash 16094}
+  \field{shortjournal}{Proc. Natl. Acad. Sci. U.S.A.}
   \field{title}{Measuring the effectiveness of protected area networks in
   reducing deforestation}
   \field{volume}{105}
   \verb{file}
-  \verb Full Text PDF:/Users/robmarty/Library/Application Support/Zotero/Profil
-  \verb es/z7w58wxo.default/zotero/storage/MH5CDUMP/Andam et al. - 2008 - Measu
-  \verb ring the effectiveness of protected area netw.pdf:application/pdf;Snaps
-  \verb hot:/Users/robmarty/Library/Application Support/Zotero/Profiles/z7w58wx
-  \verb o.default/zotero/storage/ZTHCZ7PQ/16089.html:text/html
+  \verb Full Text PDF:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profil
+  \verb es\\wcsyeyq4.default\\zotero\\storage\\MH5CDUMP\\Andam et al. - 2008 -
+  \verb Measuring the effectiveness of protected area netw.pdf:application/pdf;
+  \verb Snapshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\w
+  \verb csyeyq4.default\\zotero\\storage\\ZTHCZ7PQ\\16089.html:text/html
   \endverb
   \field{journaltitle}{Proceedings of the National Academy of Sciences of the
   United States of America}
+  \field{day}{21}
   \field{month}{10}
   \field{year}{2008}
 \endentry
@@ -120,9 +188,6 @@
      {}{}%
      {}{}}%
   }
-  \list{language}{1}{%
-    {en}%
-  }
   \strng{namehash}{BMKCMDC1}
   \strng{fullhash}{BMKCMDC1}
   \field{labelyear}{2015}
@@ -141,18 +206,18 @@
   African countries between 2000 and 2013. We first describe patterns of
   conservation aid across the continent and then assess its impact (with one to
   five-year lags), controlling for other factors that may also affect
-  deforestation, including rural population, protected areas (PAs), governance,
-  and other economic and commodity production variables. We find that
-  conservation aid is associated with higher rates of forest loss after one- or
-  two-year lags. A similar result holds for PA extent, suggesting possible
-  displacement of deforestation from PAs. However, governance quality in high
-  forest cover countries moderates these effects such that deforestation rates
-  are reduced. Rural population is the most consistent factor associated with
-  forest loss, confirming previous studies of this driver. Our results suggest
-  that in heavily forested countries, development projects designed to support
-  conservation work initially in conditions of good governance, but that
-  conservation aid alone is insufficient to mitigate larger deforestation
-  drivers.%
+  deforestation, including rural population, protected areas ({PAs}),
+  governance, and other economic and commodity production variables. We find
+  that conservation aid is associated with higher rates of forest loss after
+  one- or two-year lags. A similar result holds for {PA} extent, suggesting
+  possible displacement of deforestation from {PAs}. However, governance
+  quality in high forest cover countries moderates these effects such that
+  deforestation rates are reduced. Rural population is the most consistent
+  factor associated with forest loss, confirming previous studies of this
+  driver. Our results suggest that in heavily forested countries, development
+  projects designed to support conservation work initially in conditions of
+  good governance, but that conservation aid alone is insufficient to mitigate
+  larger deforestation drivers.%
   }
   \verb{doi}
   \verb 10.1088/1748-9326/10/12/125010
@@ -160,16 +225,19 @@
   \field{issn}{1748-9326}
   \field{number}{12}
   \field{pages}{125010}
+  \field{shortjournal}{Environ. Res. Lett.}
   \field{title}{Assessing the impact of international conservation aid on
-  deforestation in sub-{Saharan} {Africa}}
+  deforestation in sub-Saharan Africa}
   \verb{url}
   \verb http://stacks.iop.org/1748-9326/10/i=12/a=125010
   \endverb
   \field{volume}{10}
+  \field{langid}{english}
   \verb{file}
-  \verb IOP Full Text PDF:/Users/robmarty/Library/Application Support/Zotero/Pr
-  \verb ofiles/z7w58wxo.default/zotero/storage/64Q934R3/Bare et al. - 2015 - As
-  \verb sessing the impact of international conservation.pdf:application/pdf
+  \verb IOP Full Text PDF:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Pr
+  \verb ofiles\\wcsyeyq4.default\\zotero\\storage\\64Q934R3\\Bare et al. - 2015
+  \verb  - Assessing the impact of international conservation.pdf:application/p
+  \verb df
   \endverb
   \field{journaltitle}{Environmental Research Letters}
   \field{year}{2015}
@@ -229,21 +297,22 @@
   \endverb
   \field{issn}{0959-3780}
   \field{pages}{32\bibrangedash 43}
+  \field{shortjournal}{Global Environmental Change}
   \field{shorttitle}{Titling community land to prevent deforestation}
-  \field{title}{Titling community land to prevent deforestation: {An}
-  evaluation of a best-case program in {Morona}-{Santiago}, {Ecuador}}
+  \field{title}{Titling community land to prevent deforestation: An evaluation
+  of a best-case program in Morona-Santiago, Ecuador}
   \verb{url}
   \verb http://www.sciencedirect.com/science/article/pii/S0959378015000503
   \endverb
   \field{volume}{33}
   \verb{file}
-  \verb ScienceDirect Full Text PDF:/Users/robmarty/Library/Application Support
-  \verb /Zotero/Profiles/z7w58wxo.default/zotero/storage/GNV4BQRK/Buntaine et a
-  \verb l. - 2015 - Titling community land to prevent deforestation A.pdf:appli
-  \verb cation/pdf;ScienceDirect Snapshot:/Users/robmarty/Library/Application S
-  \verb upport/Zotero/Profiles/z7w58wxo.default/zotero/storage/ZJBWMD33/Buntain
-  \verb e et al. - 2015 - Titling community land to prevent deforestation A.htm
-  \verb l:text/html
+  \verb ScienceDirect Full Text PDF:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\
+  \verb Zotero\\Profiles\\wcsyeyq4.default\\zotero\\storage\\GNV4BQRK\\Buntaine
+  \verb  et al. - 2015 - Titling community land to prevent deforestation A.pdf:
+  \verb application/pdf;ScienceDirect Snapshot:C\:\\Users\\dan\\AppData\\Roamin
+  \verb g\\Zotero\\Zotero\\Profiles\\wcsyeyq4.default\\zotero\\storage\\ZJBWMD3
+  \verb 3\\Buntaine et al. - 2015 - Titling community land to prevent deforesta
+  \verb tion A.html:text/html
   \endverb
   \field{journaltitle}{Global Environmental Change}
   \field{month}{07}
@@ -251,6 +320,31 @@
   \field{urlday}{16}
   \field{urlmonth}{03}
   \field{urlyear}{2016}
+\endentry
+
+\entry{burnham_information_2002}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Burnham}{B.}%
+     {{KP}}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anderson}{A.}%
+     {{DR}}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BKAD1}
+  \strng{fullhash}{BKAD1}
+  \field{labelyear}{2002}
+  \field{sortinit}{B}
+  \field{pages}{49\bibrangedash 97}
+  \field{title}{Information and likelihood theory: a basis for model selection
+  and inference}
+  \field{journaltitle}{Model selection and multimodel inference: a practical
+  information-theoretic approach}
+  \field{year}{2002}
 \endentry
 
 \entry{clark_effects_1976}{article}{}
@@ -276,8 +370,8 @@
   \field{issn}{0016-7363}
   \field{number}{4}
   \field{pages}{428\bibrangedash 438}
-  \field{title}{The {Effects} of {Data} {Aggregation} in {Statistical}
-  {Analysis}}
+  \field{shortjournal}{Geogr.Anal.}
+  \field{title}{The Effects of Data Aggregation in Statistical Analysis}
   \verb{url}
   \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMw3V3PS8MwFA7T
   \verb i4KIP3E6IScvo6Vp0qQ9eChT8ebBeS5Jk8wdNkUnuv_epE3abjIEj15LeKR5X9-P8r0vAOA
@@ -323,8 +417,8 @@
   \field{issn}{0162-1459}
   \field{number}{305}
   \field{pages}{233\bibrangedash 250}
-  \field{title}{Efficient {Grouping}, {Regression} and {Correlation} in {Engel}
-  {Curve} {Analysis}}
+  \field{title}{Efficient Grouping, Regression and Correlation in Engel Curve
+  Analysis}
   \verb{url}
   \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwlV3LTsMwEFxV
   \verb nCoh3ohHK_kDCMQbO3ZPCFWtOKNyjhw_EIhGpbT09_EjgQoOiA9IFNnJ7Gw8OwNQ4HWe_cA
@@ -338,6 +432,88 @@
   \field{volume}{59}
   \field{journaltitle}{Journal of the American Statistical Association}
   \field{year}{1964}
+\endentry
+
+\entry{dreher_aid_2015}{report}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Dreher}{D.}%
+     {Axel}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fuchs}{F.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hodler}{H.}%
+     {Roland}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parks}{P.}%
+     {Bradley}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raschky}{R.}%
+     {Paul~A.}{P.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tierney}{T.}%
+     {Michael~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Africa, aid allocation, China, favoritism, foreign aid, georeferenced
+  data, official development assistance, spatial analysis}
+  \strng{namehash}{DA+1}
+  \strng{fullhash}{DAFAHRPBRPATMJ1}
+  \field{labelyear}{2015}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  This article investigates whether China's foreign aid is particularly prone
+  to political capture by political leaders of aid-receiving countries.
+  Specifically, we examine whether more Chinese aid is allocated to the
+  political leaders' birth regions and regions populated by the ethnic group to
+  which the leader belongs, controlling for indicators of need and various
+  fixed effects. We have collected data on 117 African leaders' birthplaces and
+  ethnic groups and geocoded 1,650 Chinese development finance projects across
+  3,097 physical locations committed to Africa over the 2000-2012 period. Our
+  econometric results show that current political leaders' birth regions
+  receive substantially larger financial flows from China than other regions.
+  On the contrary, when we replicate the analysis for the World Bank, our
+  regressions with region-fixed effects show no evidence of such favoritism.
+  For Chinese and World Bank aid alike, we also find no evidence that African
+  leaders direct more aid to areas populated by groups who share their
+  ethnicity, when controlling for region-fixed effects.%
+  }
+  \field{number}{{ID} 2630152}
+  \field{shorttitle}{Aid on Demand}
+  \field{title}{Aid on Demand: African Leaders and the Geography of China's
+  Foreign Assistance}
+  \verb{url}
+  \verb https://papers.ssrn.com/abstract=2630152
+  \endverb
+  \list{location}{1}{%
+    {Rochester, {NY}}%
+  }
+  \list{institution}{1}{%
+    {Social Science Research Network}%
+  }
+  \verb{file}
+  \verb Snapshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\w
+  \verb csyeyq4.default\\zotero\\storage\\AHDQNDJG\\papers.html:text/html
+  \endverb
+  \field{type}{{SSRN} Scholarly Paper}
+  \field{day}{01}
+  \field{month}{07}
+  \field{year}{2015}
+  \field{urlday}{14}
+  \field{urlmonth}{10}
+  \field{urlyear}{2016}
 \endentry
 
 \entry{gallo_mapping_2012}{article}{}
@@ -380,15 +556,16 @@
   \field{issn}{0894-1920}
   \field{number}{1}
   \field{pages}{22\bibrangedash 36}
-  \field{title}{Mapping {Uncertainty} in {Conservation} {Assessment} as a
-  {Means} {Toward} {Improved} {Conservation} {Planning} and {Implementation}}
+  \field{title}{Mapping Uncertainty in Conservation Assessment as a Means
+  Toward Improved Conservation Planning and Implementation}
   \verb{url}
   \verb http://dx.doi.org/10.1080/08941920.2011.578119
   \endverb
   \field{volume}{25}
   \verb{file}
-  \verb Snapshot:/Users/robmarty/Library/Application Support/Zotero/Profiles/z7
-  \verb w58wxo.default/zotero/storage/5VKTVDGP/08941920.2011.html:text/html
+  \verb Snapshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\w
+  \verb csyeyq4.default\\zotero\\storage\\5VKTVDGP\\08941920.2011.html:text/htm
+  \verb l
   \endverb
   \field{journaltitle}{Society \&amp; Natural Resources}
   \field{year}{2012}
@@ -417,8 +594,8 @@
   \field{issn}{0162-1459}
   \field{number}{185}
   \field{pages}{169\bibrangedash 170}
-  \field{title}{Certain {Effects} of {Grouping} {Upon} the {Size} of the
-  {Correlation} {Coefficient} in {Census} {Tract} {Material}}
+  \field{title}{Certain Effects of Grouping Upon the Size of the Correlation
+  Coefficient in Census Tract Material}
   \verb{url}
   \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwlV3NS8MwFH8M
   \verb TwPxW_wavIPXatNkTXeSURxePLmdS2IzEFxXXWXgX7_3kg63HRRvgUBIacj7te_3ASCTuzj
@@ -447,26 +624,26 @@
      {}{}%
      {}{}}%
   }
-  \keyw{AREAL UNIT PROBLEM, BAYESIAN-ANALYSIS, change of support, DATA
-  AGGREGATION, data assimilation, ECOLOGICAL FALLACY, ecological inference,
-  FRACTAL GEOMETRY, General Regional Economics: Econometric and Input-Output
-  Models, Other Models (R15), GEOGRAPHICAL REGIONS, modifiable areal unit
-  problem, multiscale processes, POISSON REGRESSION, Research, Single Equation
-  Models, Single Variables: Cross-Sectional Models, Spatial Models, Treatment
-  Effect Models, Quantile Regressions (C21), SMOOTH PYCNOPHYLACTIC
-  INTERPOLATION, Spatial, Spatial analysis (Statistics), spatially-misaligned
-  data, STATISTICAL-ANALYSIS, Statistical analysis, Statistical data,
-  STATISTICS \& PROBABILITY, WEIGHTING VALUES}
+  \keyw{{AREAL} {UNIT} {PROBLEM}, {BAYESIAN}-{ANALYSIS}, change of support,
+  {DATA} {AGGREGATION}, data assimilation, {ECOLOGICAL} {FALLACY}, ecological
+  inference, {FRACTAL} {GEOMETRY}, General Regional Economics: Econometric and
+  Input-Output Models, Other Models (R15), {GEOGRAPHICAL} {REGIONS}, modifiable
+  areal unit problem, multiscale processes, {POISSON} {REGRESSION}, Research,
+  Single Equation Models, Single Variables: Cross-Sectional Models, Spatial
+  Models, Treatment Effect Models, Quantile Regressions (C21), {SMOOTH}
+  {PYCNOPHYLACTIC} {INTERPOLATION}, Spatial, Spatial analysis (Statistics),
+  spatially-misaligned data, {STATISTICAL}-{ANALYSIS}, Statistical analysis,
+  Statistical data, {STATISTICS} \& {PROBABILITY}, {WEIGHTING} {VALUES}}
   \strng{namehash}{GCAYLJ1}
   \strng{fullhash}{GCAYLJ1}
   \field{labelyear}{2002}
   \field{sortinit}{G}
   \field{abstract}{%
-  Global positioning systems (GPSs) and geographical information systems (GISs)
-  have been widely used to collect and synthesize spatial data from a variety
-  of sources, New advances in satellite imagery and remote sensing now permit
-  scientists to access spatial data at several different resolutions. The
-  Internet facilitates fast and easy data acquisition. In any one study,
+  Global positioning systems ({GPSs}) and geographical information systems
+  ({GISs}) have been widely used to collect and synthesize spatial data from a
+  variety of sources, New advances in satellite imagery and remote sensing now
+  permit scientists to access spatial data at several different resolutions.
+  The Internet facilitates fast and easy data acquisition. In any one study,
   several different types of data may be collected at differing scales and
   resolutions, at different spatial locations, and in different dimensions.
   Many statistical issues are associated with combining such data for modeling
@@ -474,8 +651,8 @@
   approaches for integrating such disparate data, drawing on work from
   geography, ecology, agriculture, geology, and statistics. Emphasis is on
   state-of-the-art statistical solutions to this complex and important
-  problem.; Global positioning systems (GPSs) and geographical information
-  systems (GISs) have been widely used to collect and synthesize spatial data
+  problem.; Global positioning systems ({GPSs}) and geographical information
+  systems ({GISs}) have been widely used to collect and synthesize spatial data
   from a variety of sources. New advances in satellite imagery and remote
   sensing now permit scientists to access spatial data at several different
   resolutions. The Internet facilitates fast and easy data acquisition. In any
@@ -486,8 +663,8 @@
   and the approaches for integrating such disparate data, drawing on work from
   geography, ecology, agriculture, geology, and statistics. Emphasis is on
   state-of-the-art statistical solutions to this complex and important
-  problem.; Global positioning systems (GPSs) and geographical information
-  systems (GISs) have been widely used to collect and synthesize spatial data
+  problem.; Global positioning systems ({GPSs}) and geographical information
+  systems ({GISs}) have been widely used to collect and synthesize spatial data
   from a variety of sources. New advances in satellite imagery and remote
   sensing now permit scientists to access spatial data at several different
   resolutions. The Internet facilitates fast and easy data acquisition. In any
@@ -498,11 +675,11 @@
   and the approaches for integrating such disparate data, drawing on work from
   geography, ecology, agriculture, geology, and statistics. Emphasis is on
   state-of-the-art statistical solutions to this complex and important
-  problem.;   Global positioning systems (GSPs) and geographical informajtion
-  systems (GISs) have been widely used to collect and synthesize spatial data
-  from a variety of sources. New advances in satellite imagery and remote
-  sensing now permit scientists to access spatial data at several different
-  resolutions.%
+  problem.;   Global positioning systems ({GSPs}) and geographical
+  informajtion systems ({GISs}) have been widely used to collect and synthesize
+  spatial data from a variety of sources. New advances in satellite imagery and
+  remote sensing now permit scientists to access spatial data at several
+  different resolutions.%
   }
   \verb{doi}
   \verb 10.1198/016214502760047140
@@ -510,7 +687,7 @@
   \field{issn}{0162-1459}
   \field{number}{458}
   \field{pages}{632\bibrangedash 648}
-  \field{title}{Combining {Incompatible} {Spatial} {Data}}
+  \field{title}{Combining Incompatible Spatial Data}
   \verb{url}
   \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwnV1bS8MwFD5M
   \verb fRmI92HVwUDfpNo2XZI-iYjDH6CITyFpEl_c1LVjf9-cNNvqBRFfSiG9pD3pyXdOvn4HgGQ
@@ -526,6 +703,305 @@
   \field{volume}{97}
   \field{journaltitle}{Journal of the American Statistical Association}
   \field{year}{2002}
+\endentry
+
+\entry{kuchenhoff_general_2006}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Küchenhoff}{K.}%
+     {Helmut}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mwalili}{M.}%
+     {Samuel~M.}{S.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lesaffre}{L.}%
+     {Emmanuel}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Logistic regression, Misclassification, Response error, {SIMEX}}
+  \strng{namehash}{KHMSMLE1}
+  \strng{fullhash}{KHMSMLE1}
+  \field{labelyear}{2006}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  Summary We have developed a new general approach for handling
+  misclassification in discrete covariates or responses in regression models.
+  The simulation and extrapolation ({SIMEX}) method, which was originally
+  designed for handling additive covariate measurement error, is applied to the
+  case of misclassification. The statistical model for characterizing
+  misclassification is given by the transition matrix Π from the true to the
+  observed variable. We exploit the relationship between the size of
+  misclassification and bias in estimating the parameters of interest. Assuming
+  that Π is known or can be estimated from validation data, we simulate data
+  with higher misclassification and extrapolate back to the case of no
+  misclassification. We show that our method is quite general and applicable to
+  models with misclassified response and/or misclassified discrete regressors.
+  In the case of a binary response with misclassification, we compare our
+  method to the approach of Neuhaus (1999, Biometrika86, 843–855), and to the
+  matrix method of Morrissey and Spiegelman (1999, Biometrics55, 338–344) in
+  the case of a misclassified binary regressor. We apply our method to a study
+  on caries with a misclassified longitudinal response.%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1541-0420.2005.00396.x
+  \endverb
+  \field{issn}{1541-0420}
+  \field{number}{1}
+  \field{pages}{85\bibrangedash 96}
+  \field{shorttitle}{A General Method for Dealing with Misclassification in
+  Regression}
+  \field{title}{A General Method for Dealing with Misclassification in
+  Regression: The Misclassification {SIMEX}}
+  \verb{url}
+  \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1541-0420.2005.00396.x/abs
+  \verb tract
+  \endverb
+  \field{volume}{62}
+  \field{langid}{english}
+  \verb{file}
+  \verb Full Text PDF:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profil
+  \verb es\\wcsyeyq4.default\\zotero\\storage\\226EUMH3\\Küchenhoff et al. - 2
+  \verb 006 - A General Method for Dealing with Misclassificatio.pdf:applicatio
+  \verb n/pdf;Snapshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profi
+  \verb les\\wcsyeyq4.default\\zotero\\storage\\VFVV59TJ\\abstract.html:text/ht
+  \verb ml
+  \endverb
+  \field{journaltitle}{Biometrics}
+  \field{day}{01}
+  \field{month}{03}
+  \field{year}{2006}
+  \field{urlday}{14}
+  \field{urlmonth}{10}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{li_functional_2003}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Li}{L.}%
+     {Yi}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Xihong}{X.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Asymptotic bias, Clustered survival data, Efficiency, Frailty model,
+  Martingale residual, Measurement error, Robustness, Score test, {SIMEX},
+  Variance component}
+  \strng{namehash}{LYLX1}
+  \strng{fullhash}{LYLX1}
+  \field{labelyear}{2003}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  We consider frailty models for clustered survival data in the presence of
+  measurement errors in covariates. We first show that when the measurement
+  error is accounted for in a full likelihood analysis but the distribution of
+  the unobserved covariate is misspecified, the maximum likelihood estimators
+  are asymptotically biased, especially for the variance component, whose bias
+  can be substantial. We then discuss making inference using functional
+  estimation via the {SIMEX} method where no distribution of the unobserved
+  error-prone covariate is assumed. The {SIMEX} method is easy to implement by
+  repeatedly fitting standard frailty models. We study the asymptotic
+  properties of the {SIMEX} estimates and show that they are consistent and
+  asymptotically normal. In simulation studies, we compare the {SIMEX} method
+  and the likelihood method in terms of efficiency and robustness. We also
+  propose a {SIMEX} score test for the variance component to test for the
+  within-cluster correlation and evaluate its performance through simulation
+  studies. The {SIMEX} variance component score test does not require
+  specifying distributions for the random effect and the unobserved error-prone
+  covariate, and is easy to implement by repeatedly fitting standard Cox
+  models. The proposed methods are illustrated using the Kenya parasitemia
+  data.%
+  }
+  \verb{doi}
+  \verb 10.1198/016214503388619210
+  \endverb
+  \field{issn}{0162-1459}
+  \field{number}{461}
+  \field{pages}{191\bibrangedash 203}
+  \field{title}{Functional Inference in Frailty Measurement Error Models for
+  Clustered Survival Data Using the {SIMEX} Approach}
+  \verb{url}
+  \verb http://dx.doi.org/10.1198/016214503388619210
+  \endverb
+  \field{volume}{98}
+  \verb{file}
+  \verb Full Text PDF:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profil
+  \verb es\\wcsyeyq4.default\\zotero\\storage\\FAX5ZXGW\\Li and Lin - 2003 - Fu
+  \verb nctional Inference in Frailty Measurement Error .pdf:application/pdf;Sn
+  \verb apshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\wcs
+  \verb yeyq4.default\\zotero\\storage\\47H22XGM\\016214503388619210.html:text/
+  \verb html
+  \endverb
+  \field{journaltitle}{Journal of the American Statistical Association}
+  \field{day}{01}
+  \field{month}{03}
+  \field{year}{2003}
+  \field{urlday}{14}
+  \field{urlmonth}{10}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{ogryczak_efficient_2009}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ogryczak}{O.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sliwinski}{S.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Agglomeration, {AGGREGATION}, Aggregation operators, Approximation,
+  Article, {CHOICE}, Computational efficiency, {COMPUTER} {SCIENCE},
+  {ARTIFICIAL} {INTELLIGENCE}, {CONDITIONAL} {VALUE}, Criteria, Decision
+  analysis, Decision under risk, Linear programming, Mathematical analysis,
+  Mathematical models, Mathematical optimization, {MINIMAX} {DISPARITY},
+  {MODEL}, {MULTIPLE} {CRITERIA}, Optimization, {OWA}, Preference modeling,
+  Risk, {WEIGHTED} {OWA} {OPERATOR}, {WOWA}}
+  \strng{namehash}{OWST1}
+  \strng{fullhash}{OWST1}
+  \field{labelyear}{2009}
+  \field{sortinit}{O}
+  \field{abstract}{%
+  The problem of averaging outcomes under several scenarios to form overall
+  objective functions is of considerable importance in decision support under
+  uncertainty. The so-called Weighted {OWA} ({WOWA}) aggregation offers a
+  well-suited approach to this problem. The {WOWA} aggregation, similar to the
+  classical ordered weighted averaging ({OWA}), uses the preferential weights
+  assigned to the ordered values (i.e. to the worst value, the second worst and
+  so on) rather than to the specific criteria. This allows one to model various
+  preferences with respect to the risk. Simultaneously, importance weighting of
+  scenarios can be introduced. In this paper, we analyze solution procedures
+  for optimization problems with the {WOWA} objective functions related to
+  decisions under risk. Linear programming formulations are introduced for
+  optimization of the {WOWA} objective with monotonic preferential weights thus
+  representing risk averse preferences. Their computational efficiency is
+  demonstrated.; The problem of averaging outcomes under several scenarios to
+  form overall objective functions is of considerable importance in decision
+  support under uncertainty. The so-called Weighted {OWA} ({WOWA}) aggregation
+  offers a well-suited approach to this problem. The {WOWA} aggregation,
+  similar to the classical ordered weighted averaging ({OWA}), uses the
+  preferential weights assigned to the ordered values (i.e. to the worst value,
+  the second worst and so on) rather than to the specific criteria. This allows
+  one to model various preferences with respect to the risk. Simultaneously,
+  importance weighting of scenarios can be introduced. In this paper, we
+  analyze solution procedures for optimization problems with the {WOWA}
+  objective functions related to decisions under risk. Linear programming
+  formulations are introduced for optimization of the {WOWA} objective with
+  monotonic preferential weights thus representing risk averse preferences.
+  Their computational efficiency is demonstrated.; The problem of averaging
+  outcomes under several scenarios to form overall objective functions is of
+  considerable importance in decision support under uncertainty. The so-called
+  Weighted {OWA} ({WOWA}) aggregation offers a well-suited approach to this
+  problem. The {WOWA} aggregation, similar to the classical ordered weighted
+  averaging ({OWA}). uses the preferential weights assigned to the ordered
+  values (i.e. to the worst value, the second worst and so on) rather than to
+  the specific criteria. This allows one to model various preferences with
+  respect to the risk. Simultaneously, importance weighting of scenarios can be
+  introduced. In this paper, we analyze solution procedures for optimization
+  problems with the {WOWA} objective functions related to decisions under risk.
+  Linear programming formulations are introduced for optimization of the {WOWA}
+  objective with monotonic preferential weights thus representing risk averse
+  preferences. Their computational efficiency is demonstrated. (C) 2009
+  Elsevier Inc. All rights reserved.; The problem of averaging outcomes under
+  several scenarios to form overall objective functions is of considerable
+  importance in decision support under uncertainty. The so-called Weighted
+  {OWA} ({WOWA}) aggregation offers a well-suited approach to this problem. The
+  {WOWA} aggregation, similar to the classical ordered weighted averaging
+  ({OWA}), uses the preferential weights assigned to the ordered values (i.e.
+  to the worst value, the second worst and so on) rather than to the specific
+  criteria. This allows one to model various preferences with respect to the
+  risk. Simultaneously, importance weighting of scenarios can be introduced. In
+  this paper, we analyze solution procedures for optimization problems with the
+  {WOWA} objective functions related to decisions under risk. Linear
+  programming formulations are introduced for optimization of the {WOWA}
+  objective with monotonic preferential weights thus representing risk averse
+  preferences. Their computational efficiency is demonstrated.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.ijar.2009.02.010
+  \endverb
+  \field{issn}{0888-613X}
+  \field{number}{6}
+  \field{pages}{915\bibrangedash 928}
+  \field{title}{On efficient {WOWA} optimization for decision support under
+  risk}
+  \verb{url}
+  \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMw3V1Na9swGBbd
+  \verb ToOx7w-vHegwdgkujiTb8qGFtLT0lkNScjSyJA-HxS2OS7f8-umVZMdJOth51yQmivTk0fO
+  \verb 8vB8IUXIahXucYESpEfqaxEpqwmihMiqymAjNmblxbPemYalVl0m0fe1_OPhpDUkalS10HC
+  \verb 2mi8noztDCytdb2rRC5QfrjNYP96C_7TDcxqaZD8XqYbRwK12bu1-VEbsw9UGsbUi3D9f-a
+  \verb H7LjbAsu5hM1cZ8t242PbJ-Vo_VxE_LnkN20mYn8pBtM6RcOOygJMazFjd-1A75NReMY1We
+  \verb 0pClnu497bp-sx5eQw7NXH3nAbe7MMPytFqKxjcaNUjzSbE7jbQvZjfeKO-20gZgEOMo4-_
+  \verb QV32lKtme6Tq8nT0zpp2DdY9m1_09DmNYnAdxP8iXXLnswP1F7Mia_cv9SVFjBcz8DXrljw
+  \verb 9PHGLeoiNdv0Ovu6ke2JP8e3Q-rXEPIAwAwkMAYQMg3AEIewBhCyAMAPqAbq-v5pc3oZ-yE
+  \verb coxj3go44IVojQ8zKgQiaKca1ISJsapoCWHfoRa6VhEGSkTmcSpjFQsaKwFmGdZ0I_opYBq
+  \verb jLq1VZvqM8JUqDSKlJIyEcbfRkVmbAOjkuiCFCVjARp1u5Xfu64qeZduuMxhb2E8apZHJDd
+  \verb 7G6BPsKE5oKFthMz7cwzQcbfHuSggNijbdU4Zixnj5rmTJ97NIHXBqHAeoG_DU-kXAiIhSY
+  \verb 3TINZQBWj8Lx-79C31oZVE--WvKz5GL7Z_pRP0vG0e9Fd09Lj6A1KeovA
+  \endverb
+  \field{volume}{50}
+  \field{journaltitle}{{INTERNATIONAL} {JOURNAL} {OF} {APPROXIMATE}
+  {REASONING}}
+  \field{year}{2009}
+\endentry
+
+\entry{oloughlin_can_2000}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {O'Loughlin}{O.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{geographical scale, Moscow, national monuments, post-Soviet politics,
+  Russia, Russian Orthodox Church, Soviet Union, the Cathedral of Christ the
+  Savior}
+  \strng{namehash}{OJ1}
+  \strng{fullhash}{OJ1}
+  \field{labelyear}{2000}
+  \field{sortinit}{O}
+  \field{abstract}{%
+  Book reviewed in this article: Gary King, On A Solution to the Ecological
+  Problem: Reconstructing Individual Behavior from Aggregate Data%
+  }
+  \verb{doi}
+  \verb 10.1111/0004-5608.00213
+  \endverb
+  \field{issn}{0004-5608}
+  \field{number}{3}
+  \field{pages}{592\bibrangedash 601}
+  \field{shorttitle}{Can King's Ecological Inference Method Answer a Social
+  Scientific Puzzle}
+  \field{title}{Can King's Ecological Inference Method Answer a Social
+  Scientific Puzzle: Who Voted for the Nazi Party in Weimar Germany?}
+  \verb{url}
+  \verb http://dx.doi.org/10.1111/0004-5608.00213
+  \endverb
+  \field{volume}{90}
+  \verb{file}
+  \verb Snapshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\w
+  \verb csyeyq4.default\\zotero\\storage\\QFVTPHWM\\0004-5608.html:text/html
+  \endverb
+  \field{journaltitle}{Annals of the Association of American Geographers}
+  \field{day}{01}
+  \field{month}{09}
+  \field{year}{2000}
+  \field{urlday}{14}
+  \field{urlmonth}{10}
+  \field{urlyear}{2016}
 \endentry
 
 \entry{perez-heydrich_guidelines_2013}{misc}{}
@@ -558,8 +1034,8 @@
   \strng{fullhash}{PHCWJLBCREME1}
   \field{labelyear}{2013}
   \field{sortinit}{P}
-  \field{title}{Guidelines on the use of {DHS} {GPS} {Data}: {DHS} {Spatial}
-  {Analysis} {Reports} 8}
+  \field{title}{Guidelines on the use of {DHS} {GPS} Data: {DHS} Spatial
+  Analysis Reports 8}
   \verb{url}
   \verb https://dhsprogram.com/pubs/pdf/SAR8/SAR8.pdf
   \endverb
@@ -571,20 +1047,21 @@
   \name{author}{2}{}{%
     {{}%
      {Rettie}{R.}%
-     {WJ}{W.}%
+     {{WJ}}{W.}%
      {}{}%
      {}{}}%
     {{}%
-     {McLoughlin}{M.}%
-     {PD}{P.}%
+     {{McLoughlin}}{M.}%
+     {{PD}}{P.}%
      {}{}%
      {}{}}%
   }
-  \keyw{Animal behavior, ANIMAL LOCATION SYSTEM, Animals, AVAILABILITY, Bias,
-  BIOTELEMETRY, DIFFERENTIAL CORRECTION, Geographic information systems,
-  Habitats, Habitat selection, Identification systems, Methods, Models, Monte
-  Carlo methods, PERFORMANCE, RADIO-LOCATION, Radio-tagging, RESOURCE
-  SELECTION, STATISTICAL TECHNIQUES, TELEMETRY, TRIANGULATION ERROR, ZOOLOGY}
+  \keyw{Animal behavior, {ANIMAL} {LOCATION} {SYSTEM}, Animals, {AVAILABILITY},
+  Bias, {BIOTELEMETRY}, {DIFFERENTIAL} {CORRECTION}, Geographic information
+  systems, Habitats, Habitat selection, Identification systems, Methods,
+  Models, Monte Carlo methods, {PERFORMANCE}, {RADIO}-{LOCATION},
+  Radio-tagging, {RESOURCE} {SELECTION}, {STATISTICAL} {TECHNIQUES},
+  {TELEMETRY}, {TRIANGULATION} {ERROR}, {ZOOLOGY}}
   \strng{namehash}{RWMP1}
   \strng{fullhash}{RWMP1}
   \field{labelyear}{1999}
@@ -608,9 +1085,9 @@
   circular area best able to overcome the bias is related to habitat patch size
   and to the level of association between two or more habitat types.
   Furthermore, we argue that the characteristics of habitat mosaics selected by
-  animals can and should be studied in this way.;   Rettie and McLoughlin used
-  Monte Carlo simulations to assess the effect of habitat-dependent bias in
-  radiotelemetry studies on the assessment of habitat selection. The size of
+  animals can and should be studied in this way.;   Rettie and {McLoughlin}
+  used Monte Carlo simulations to assess the effect of habitat-dependent bias
+  in radiotelemetry studies on the assessment of habitat selection. The size of
   the circular area best able to overcome the bias is related to habitat patch
   size and to the level of association between two or more habitat types.; For
   many species, determination of habitat selection is based on habitat-use data
@@ -653,8 +1130,8 @@
   \verb kvED
   \endverb
   \field{volume}{77}
-  \field{journaltitle}{CANADIAN JOURNAL OF ZOOLOGY-REVUE CANADIENNE DE
-  ZOOLOGIE}
+  \field{journaltitle}{{CANADIAN} {JOURNAL} {OF} {ZOOLOGY}-{REVUE} {CANADIENNE}
+  {DE} {ZOOLOGIE}}
   \field{year}{1999}
 \endentry
 
@@ -662,11 +1139,11 @@
   \name{author}{1}{}{%
     {{}%
      {Robinson}{R.}%
-     {WS}{W.}%
+     {{WS}}{W.}%
      {}{}%
      {}{}}%
   }
-  \keyw{CITIES, PUBLIC, ENVIRONMENTAL \& OCCUPATIONAL HEALTH}
+  \keyw{{CITIES}, {PUBLIC}, {ENVIRONMENTAL} \& {OCCUPATIONAL} {HEALTH}}
   \strng{namehash}{RW1}
   \strng{fullhash}{RW1}
   \field{labelyear}{2009}
@@ -677,7 +1154,8 @@
   \field{issn}{0300-5771}
   \field{number}{2}
   \field{pages}{337\bibrangedash 341}
-  \field{title}{Ecological {Correlations} and the {Behavior} of {Individuals}}
+  \field{shortjournal}{Int.J.Epidemiol.}
+  \field{title}{Ecological Correlations and the Behavior of Individuals}
   \verb{url}
   \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwjV1LS8NAEB6K
   \verb BxGKj_qKVVmw19gku9kkRwktehBBFLyFfYJCo7SV4r93t5vURLR6zmZJdjYz32Tm-xYAR5e
@@ -694,11 +1172,75 @@
   \field{year}{2009}
 \endentry
 
+\entry{runfola_migration_2016}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Runfola}{R.}%
+     {Daniel~Miller}{D.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Napier}{N.}%
+     {Ashley}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{adaptive capacity, aid, migration, mitigation, resilience}
+  \strng{namehash}{RDMNA1}
+  \strng{fullhash}{RDMNA1}
+  \field{labelyear}{2016}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  Over the last ten years, an increasing quantity and quality of data regarding
+  migration and climate risk has become available, leading to a broad body of
+  research examining the relationships between climate impacts on livelihoods
+  and corresponding migratory patterns. This research has provided evidence
+  that migration can serve as an adaptive strategy if local livelihoods are
+  threatened. However, little research has examined the response – or lack of
+  – from the international aid and donor community in response to these
+  shifts. In this paper, we take the first step toward examining this
+  relationship, utilizing a recently produced database on the sub-national
+  spatial allocation of international aid from 1998 to 2012 in Malawi. We
+  examine the research question: what is the sub-national relationship between
+  international aid and migratory patterns? To analyze this question, we
+  integrate sub-national micro-census information with satellite-derived
+  measurements of climate and the spatial location and amount of international
+  aid. We find evidence that (1) aid does not reduce the likelihood of
+  migration from a location and (2) increased levels of migration do not
+  increase the likelihood of aid being sent to a location.%
+  }
+  \verb{doi}
+  \verb 10.1080/21632324.2015.1022969
+  \endverb
+  \field{issn}{2163-2324}
+  \field{number}{2}
+  \field{pages}{275\bibrangedash 292}
+  \field{shorttitle}{Migration, climate, and international aid}
+  \field{title}{Migration, climate, and international aid: examining evidence
+  of satellite, aid, and micro-census data}
+  \verb{url}
+  \verb http://dx.doi.org/10.1080/21632324.2015.1022969
+  \endverb
+  \field{volume}{5}
+  \verb{file}
+  \verb Snapshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\w
+  \verb csyeyq4.default\\zotero\\storage\\28TZDDRG\\21632324.2015.html:text/htm
+  \verb l
+  \endverb
+  \field{journaltitle}{Migration and Development}
+  \field{day}{03}
+  \field{month}{05}
+  \field{year}{2016}
+  \field{urlday}{14}
+  \field{urlmonth}{10}
+  \field{urlyear}{2016}
+\endentry
+
 \entry{selvin_durkheims_1958}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {SELVIN}{S.}%
-     {HANAN~C.}{H.~C.}%
+     {{SELVIN}}{S.}%
+     {{HANAN}~C.}{H.~C.}%
      {}{}%
      {}{}}%
   }
@@ -709,7 +1251,7 @@
   \field{issn}{0002-9602}
   \field{number}{5}
   \field{pages}{607}
-  \field{title}{Durkheim's {Suicide} and {Problems} of {Empirical} {Research}}
+  \field{title}{Durkheim's Suicide and Problems of Empirical Research}
   \verb{url}
   \verb http://wm.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMw3V1dS8MwFL1M
   \verb nwQRP9E5ISDMp0rbrE334EOZlQkyRKevo2kSLNJN1g7x39s0TVoV-gN8baEpOXDuvck95wJ
@@ -725,6 +1267,160 @@
   \field{year}{1958}
 \endentry
 
+\entry{strange_tracking_2015}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Strange}{S.}%
+     {Austin~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dreher}{D.}%
+     {Axel}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fuchs}{F.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parks}{P.}%
+     {Bradley}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tierney}{T.}%
+     {Michael~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Africa, aid shocks, China, civil war, development finance, foreign aid,
+  intrastate war, non-{DAC} donors, South-South cooperation, violent armed
+  conflict}
+  \strng{namehash}{SAM+1}
+  \strng{fullhash}{SAMDAFAPBTMJ1}
+  \field{labelyear}{2015}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  China’s provision of development finance to other countries is sizable but
+  reliable information is scarce. We introduce a new open-source methodology
+  for collecting project-level development finance information and create a
+  database of Chinese official finance ({OF}) to Africa from 2000 to 2011. We
+  find that China’s commitments amounted to approximately {US}\$73 billion,
+  of which {US}\$15 billion are comparable to Official Development Assistance
+  following Organization for Economic Cooperation and Development definitions.
+  We provide details on 1,511 projects to fifty African countries. We use this
+  database to extend previous research on aid and conflict, which suffers from
+  omitted-variable bias due to the exclusion of Chinese development finance.
+  Our results show that sudden withdrawals of “traditional” aid no longer
+  induce conflict in the presence of sufficient alternative funding from China.
+  Our findings highlight the importance of gathering more complete data on the
+  development activities of “nontraditional donors” to better understand
+  the link between aid and conflict.%
+  }
+  \verb{doi}
+  \verb 10.1177/0022002715604363
+  \endverb
+  \field{issn}{0022-0027, 1552-8766}
+  \field{pages}{0022002715604363}
+  \field{shortjournal}{Journal of Conflict Resolution}
+  \field{title}{Tracking Underreported Financial Flows China’s Development
+  Finance and the Aid–Conflict Nexus Revisited}
+  \verb{url}
+  \verb http://jcr.sagepub.com/content/early/2015/09/18/0022002715604363
+  \endverb
+  \field{langid}{english}
+  \verb{file}
+  \verb Full Text PDF:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profil
+  \verb es\\wcsyeyq4.default\\zotero\\storage\\UFDJC6TA\\Strange et al. - 2015
+  \verb - Tracking Underreported Financial Flows China’s Dev.pdf:application/
+  \verb pdf;Snapshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profile
+  \verb s\\wcsyeyq4.default\\zotero\\storage\\EMUR8CPG\\0022002715604363.html:t
+  \verb ext/html
+  \endverb
+  \field{journaltitle}{Journal of Conflict Resolution}
+  \field{day}{20}
+  \field{month}{09}
+  \field{year}{2015}
+  \field{urlday}{18}
+  \field{urlmonth}{10}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{wang_bias_1998}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Naisyin}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Xihong}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gutierrez}{G.}%
+     {Roberto~G.}{R.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carroll}{C.}%
+     {Raymond~J.}{R.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Asymptotic bias, Corrected penalized quasi-likelihood, Measurement
+  error, Random effects, Variance components}
+  \strng{namehash}{WN+1}
+  \strng{fullhash}{WNLXGRGCRJ1}
+  \field{labelyear}{1998}
+  \field{sortinit}{W}
+  \field{abstract}{%
+  We consider generalized linear mixed models ({GLMMs}) for clustered data when
+  one of the predictors is measured with error. When the measurement error is
+  additive and normally distributed and the error-prone predictor is itself
+  normally distributed, we show that the observed data also follow a {GLMM} but
+  with a different fixed effects structure from the original model, a different
+  and more complex random effects structure, and restrictions on the
+  parameters. This characterization enables us to compute the biases that
+  result in common {GLMMs} when one ignores measurement error. For instance, in
+  one common situation the biases in parameter estimates become larger as the
+  number of observations within a cluster increases, both for regression
+  coefficients and for variance components. Parameter estimation is described
+  using the {SIMEX} method, a relatively new functional method that makes no
+  assumptions about the structure of the unobservable predictors. Simulations
+  and an example illustrate the results.%
+  }
+  \verb{doi}
+  \verb 10.1080/01621459.1998.10474106
+  \endverb
+  \field{issn}{0162-1459}
+  \field{number}{441}
+  \field{pages}{249\bibrangedash 261}
+  \field{title}{Bias Analysis and {SIMEX} Approach in Generalized Linear Mixed
+  Measurement Error Models}
+  \verb{url}
+  \verb http://www.tandfonline.com/doi/abs/10.1080/01621459.1998.10474106
+  \endverb
+  \field{volume}{93}
+  \verb{file}
+  \verb Full Text PDF:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profil
+  \verb es\\wcsyeyq4.default\\zotero\\storage\\JG75FZPJ\\Wang et al. - 1998 - B
+  \verb ias Analysis and SIMEX Approach in Generalized Li.pdf:application/pdf;S
+  \verb napshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\wc
+  \verb syeyq4.default\\zotero\\storage\\4TA36NE5\\01621459.1998.html:text/html
+  \endverb
+  \field{journaltitle}{Journal of the American Statistical Association}
+  \field{day}{01}
+  \field{month}{03}
+  \field{year}{1998}
+  \field{urlday}{14}
+  \field{urlmonth}{10}
+  \field{urlyear}{2016}
+\endentry
+
 \entry{weng_global_2014}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -733,11 +1429,8 @@
      {}{}%
      {}{}}%
   }
-  \list{language}{1}{%
-    {en}%
-  }
   \list{publisher}{1}{%
-    {CRC Press}%
+    {{CRC} Press}%
   }
   \keyw{Social Science / Human Geography, Technology \& Engineering / Civil /
   General, Technology \& Engineering / Environmental / General, Technology \&
@@ -751,15 +1444,15 @@
   environmental problems related to waste disposal, and air and water
   pollution. There is a rapidly growing need for technologies that will enable
   monitoring of the world’s natural resources and urban assets, and managing
-  exposure to natural and man-made risks. The Group on Earth Observation (GEO)
-  calls for strengthening the cooperation and coordination among global
+  exposure to natural and man-made risks. The Group on Earth Observation
+  ({GEO}) calls for strengthening the cooperation and coordination among global
   observing systems and research programs. Global Urban Monitoring and
   Assessment through Earth Observation introduces this important international
   collaborative effort, reviews the current state of global urban remote
   sensing, and expands on future directions in the field. The book reviews the
   current state of global urban monitoring, assessment, modeling, and
   prediction through Earth observation and related technologies. It then
-  introduces GEO’s important international collaborative effort—Global
+  introduces {GEO}’s important international collaborative effort—Global
   Urban Observation and Information Task—and the current state of global
   urban remote sensing and future directions. It explores groundbreaking work
   in urban remote sensing and examines how it could contribute to the
@@ -767,7 +1460,7 @@
   development. Despite significant progress in recent years, there remain
   substantial gaps in ongoing national, regional, and global efforts to address
   environmental challenges. Edited by a well-known expert in the field of
-  remote sensing, GIS, and other geospatial technologies, this book addresses
+  remote sensing, {GIS}, and other geospatial technologies, this book addresses
   the gaps in an effective and long-term manner, highlighting the importance of
   increased coordination and networking among major stakeholders and of working
   together with other key international mechanisms. Drawing on the expertise of
@@ -777,8 +1470,11 @@
   development—one of the most important issues facing society in the future.%
   }
   \field{isbn}{978-1-4665-6450-3}
-  \field{title}{Global {Urban} {Monitoring} and {Assessment} through {Earth}
-  {Observation}}
+  \field{pagetotal}{412}
+  \field{title}{Global Urban Monitoring and Assessment through Earth
+  Observation}
+  \field{langid}{english}
+  \field{day}{23}
   \field{month}{05}
   \field{year}{2014}
 \endentry
@@ -800,12 +1496,127 @@
   \strng{fullhash}{WCMK1}
   \field{labelyear}{2001}
   \field{sortinit}{W}
-  \field{title}{Terrestrial {Air} {Temperature} and {Precipitation}: {Monthly}
-  and {Annual} {Time} {Series} (1950-1999)}
+  \field{title}{Terrestrial Air Temperature and Precipitation: Monthly and
+  Annual Time Series (1950-1999)}
   \verb{url}
   \verb http://climate.geog.udel.edu/~climate/html_pages/README.ghcn_ts2.html
   \endverb
   \field{year}{2001}
+\endentry
+
+\entry{wong_modifiable_2004}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wong}{W.}%
+     {David W.~S.}{D.~W.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{3}{}{%
+    {{}%
+     {Janelle}{J.}%
+     {Donald~G.}{D.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Warf}{W.}%
+     {Barney}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hansen}{H.}%
+     {Kathy}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Netherlands}%
+  }
+  \keyw{Environment, general, Geography, general, Sociology, general}
+  \strng{namehash}{WDWS1}
+  \strng{fullhash}{WDWS1}
+  \field{labelyear}{2004}
+  \field{sortinit}{W}
+  \field{abstract}{%
+  Even though Gehlke and Biehl (1934) discovered certain aspects of the
+  modifiable areal unit problem ({MAUP}), the term {MAUP} was not coined
+  formally until Openshaw and Taylor (1979) evaluated systematically the
+  variability of correlation values when different boundaries systems were used
+  in the analysis. The problem is called “the modifiable areal unit”
+  because the boundaries of many geographical units are often demarcated
+  artificially, and thus can be changed. For example, administrative
+  boundaries, political districts, and census enumeration units are all subject
+  to be redrawn. When data are gathered according to different boundary
+  definitions, different data sets are generated. Analyzing these data sets
+  will likely provide inconsistent results. This is the essence of the {MAUP}.%
+  }
+  \field{booktitle}{{WorldMinds}: Geographical Perspectives on 100 Problems}
+  \field{isbn}{978-1-4020-1613-4 978-1-4020-2352-1}
+  \field{note}{{DOI}: 10.1007/978-1-4020-2352-1\_93}
+  \field{pages}{571\bibrangedash 575}
+  \field{title}{The Modifiable Areal Unit Problem ({MAUP})}
+  \verb{url}
+  \verb http://link.springer.com/chapter/10.1007/978-1-4020-2352-1_93
+  \endverb
+  \field{langid}{english}
+  \verb{file}
+  \verb Snapshot:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\w
+  \verb csyeyq4.default\\zotero\\storage\\NR6UM9C3\\978-1-4020-2352-1_93.html:t
+  \verb ext/html
+  \endverb
+  \field{year}{2004}
+  \field{urlday}{14}
+  \field{urlmonth}{10}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{worboys_imprecision_????}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Worboys}{W.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WM1}
+  \strng{fullhash}{WM1}
+  \field{sortinit}{W}
+  \field{abstract}{%
+  An important component of spatial data quality is the imprecision resulting
+  from the resolution at which data are represented. Current research on topics
+  such as spatial data integration and generalization needs to be well-founded
+  on a theory of multi-resolution. This paper provides a formal framework for
+  treating the notion of resolution and multi-resolution in geographic spaces.
+  It goes further to develop an approach to reasoning with imprecision about
+  spatial entities and relationships resulting from finite resolution
+  representations. The approach is similar to aspects of rough and fuzzy set
+  theories. The paper concludes by providing the beginnings of a geometry of
+  vague spatial entities and relationships.%
+  }
+  \verb{doi}
+  \verb 10.1023/A:1009769705164
+  \endverb
+  \field{issn}{1384-6175, 1573-7624}
+  \field{number}{3}
+  \field{pages}{257\bibrangedash 279}
+  \field{shortjournal}{{GeoInformatica}}
+  \field{title}{Imprecision in Finite Resolution Spatial Data}
+  \verb{url}
+  \verb http://link.springer.com/article/10.1023/A:1009769705164
+  \endverb
+  \field{volume}{2}
+  \field{langid}{english}
+  \verb{file}
+  \verb Full Text PDF:C\:\\Users\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profil
+  \verb es\\wcsyeyq4.default\\zotero\\storage\\PGQENPRR\\Worboys - Imprecision
+  \verb in Finite Resolution Spatial Data.pdf:application/pdf;Snapshot:C\:\\Use
+  \verb rs\\dan\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\wcsyeyq4.default\\
+  \verb zotero\\storage\\Q3Z7FX8G\\A1009769705164.html:text/html
+  \endverb
+  \field{journaltitle}{{GeoInformatica}}
+  \field{urlday}{06}
+  \field{urlmonth}{07}
+  \field{urlyear}{2016}
 \endentry
 
 \entry{zhu_combined_2004}{article}{}
@@ -836,8 +1647,8 @@
      {}{}%
      {}{}}%
   }
-  \keyw{AGRICULTURE, SOIL SCIENCE, Data combining, Downscaling, FIELD,
-  PREDICTION, Soil mapping, Spatial prediction, Upscaling, WATER CONTENT}
+  \keyw{{AGRICULTURE}, {SOIL} {SCIENCE}, Data combining, Downscaling, {FIELD},
+  {PREDICTION}, Soil mapping, Spatial prediction, Upscaling, {WATER} {CONTENT}}
   \strng{namehash}{ZJ+1}
   \strng{fullhash}{ZJMCLSNJMYWLB1}
   \field{labelyear}{2004}
@@ -867,6 +1678,7 @@
   \field{issn}{0016-7061}
   \field{number}{3}
   \field{pages}{321\bibrangedash 334}
+  \field{shortjournal}{Geoderma}
   \field{title}{Combined mapping of soil properties using a multi-scale
   tree-structured spatial model}
   \verb{url}

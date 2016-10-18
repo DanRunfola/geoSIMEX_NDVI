@@ -9,3 +9,9 @@ Following commonly employed procedures which do not incorporate spatial imprecis
 We use these findings to argue for the importance of incorporating spatial imprecision into analyses, and introduce new software in the R programming language to enable similar analyses.
 
 \textbf{Keywords}: SIMEX, Spatial Uncertainty, Spatial Data Integration, Simulation, Ecological Fallacy\\
+
+\section{Software}
+Accompanying this analysis, we provide a new software package for researchers interested in adopting geoSimex in the R environment.
+This package is designed explicitly for a large body of researchers examining the impacts of international aid, but the main functions are generally adaptable to other use cases.
+All code is provided and made available under an open source license at https://github.com/itpir/geoSIMEX.
+Further, extensive documentation on the use of this software, as well as the ability to download datasets customized for use with this software, can be found at http://geo.aiddata.org.

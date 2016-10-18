@@ -1,2 +1,3 @@
 \section{Acknowledgements}
-Remember: USAID grant, Relevant SciClone grants, Ben Dykstra, Ariel
+This work was performed in part using computational facilities at the College of William and Mary which were provided with the assistance of the National Science Foundation, Virginia Port Authority, Virginia Commonwealth Technology Research Fund, and the Office of Naval Research. 
+The authors would also like to thank Ben Dykstra and Miranda Lv for their valuable insights.

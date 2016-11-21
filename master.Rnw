@@ -6,7 +6,7 @@
 
 %Authors and Affiliations
 \author[1]{Daniel Runfola}
-\author[1]{Rob Marty}
+\author[1]{Robert Marty}
 \author[1]{Seth Goodman}
 \author[1]{Michael LeFew}
 \author[2]{Ariel BenYishay}

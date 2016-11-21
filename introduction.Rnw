@@ -4,15 +4,15 @@ This has become increasingly evident as more scholars integrate geographic data 
 Many scholars have engaged in research seeking to integrate information on the precision of geographic data to improve the accuracy of modeling efforts, variably referred to as spatial (im)precision and spatial uncertainty \cite{worboys_imprecision_????,aerts_accounting_2003,ogryczak_efficient_2009}.
 This paper presents a generalizeable approach to integrating information on the precision of geographic data into both linear and non-linear models - geoSIMEX.
 We illustrate the capability of geoSIMEX to provide more accurate parameter estimates than traditional approaches through a simulation framework. 
-Using a novel dataset, we then apply both tradional models and a geoSIMEX model to examine the causal impact of Chinese Aid on vegetation in Africa.
+Using a novel dataset, we then apply both tradional models and a geoSIMEX model to examine the causal impact of Chinese aid on vegetation in Southeast Asia.
 We use this case study to illustrate the importance of including information on spatial imprecision into analyses.
-Finally, we provide all data and an accompanying R package for users seeking to incorporate information on spatila imprecision into analyses.
+Finally, we provide all data and an accompanying R package for users seeking to incorporate information on spatial imprecision into analyses.
 
 \subsection{Literature}
 
 Past literature has shown that uncertainty in the locations of where measurements are taken can produce biased estimates in empirical analyses (\cite{perez-heydrich_guidelines_2013,rettie_overcoming_1999}). 
 For example, Perez-Heydrich et al. show that regression coefficients will be biased when using raster data in conjunction with point data, where the true locations of the point data are only known to exist within some 5-10km radius of the measured location (\cite{perez-heydrich_guidelines_2013}). 
-One frequently cited "best practice" to overcome this challenge is to take average raster values within a buffer encompassing where the point could have fallen, instead of the single raster value associated with the point (\cite{perez-heydrich_guidelines_2013, rettie_overcoming_1999}). 
+One frequently cited ``best practice" to overcome this challenge is to take average raster values within a buffer encompassing where the point could have fallen, instead of the single raster value associated with the point (\cite{perez-heydrich_guidelines_2013, rettie_overcoming_1999}). 
 Another practice to address spatial uncertainty is to aggregate to some higher spatial scale where there is no spatial uncertainty (\cite{perez-heydrich_guidelines_2013}). 
 Yet another is to only use information for which exact (or, otherwise very precise) geographic information is known (\cite{runfola_migration_2016,dreher_aid_2015}).
 \par
@@ -21,7 +21,7 @@ Most predominantly are the challenges highlighted by the large and well-establis
 As a simple example, using data from the 1930 US census, \cite{robinson_ecological_2009} found a negative correlation between the proportion of immigrants in a state and average literacy levels, but a positive correlation between being an immigrant and literacy level. 
 A number of techniques have been proposed to address such biases, but most rely on additional assumptions (or, covariates) to aid in an effective dis-aggregation of data to finer scales (i.e.,\cite{gotway_combining_2002, zhu_combined_2004,oloughlin_can_2000,wong_modifiable_2004}).
 \par
-The simulation and extrapolation method (SIMEX) provides one solution to address measurement error in covariates (\cite{wang_bias_1998,kuchenhoff_general_2006,li_functional_2003}), but has not previously been applied explicitly to spatial imprecision. 
+The simulation and extrapolation method (SIMEX) provides one solution to address measurement error in covariates (\cite{wang_bias_1998,kuchenhoff_general_2006,li_functional_2003,cook_simulation-extrapolation_1994}), but has not previously been applied explicitly to spatial imprecision. 
 In it's traditional application, SIMEX leverages the relationship between increasing measurement error and bias following a two step process. 
 First, SIMEX simulates additional measurement error to establish a relation between measurement error and covariate bias:
 \begin{equation}

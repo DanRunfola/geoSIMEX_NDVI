@@ -11,10 +11,10 @@ Under low levels of spatial imprecession the model averaging approach captures t
 The geoSIMEX model outperforms the model averaging approach in its ability to capture the true coefficient at all levels of spatial imprecession. 
 At low levels of spatial imprecession the geoSIMEX model captures the true coefficient 90\% of the time. 
 Higher spatial imprecesion leads to larger standard errors in the geoSIMEX model, reflected by the percentage of time the geoSIMEX model captures the true relation as spatial imprecesion grows. 
-At high levels of spatial imprecesion ($\lambda > 0.7$), the geoSIMEX model captures the true relation 100\% of the time; however, large standard errors results in it capturing the true relation and statistical significance 0\% of the time.
+At high levels of spatial imprecesion ($\lambda > 0.7$), the geoSIMEX model captures the true relation 100\% of the time; however, large standard errors result in geoSIMEX capturing the true relation and statistical significance 0\% of the time.
 
 \subsection{Chinese Aid in Southeast Asia}
-We examine the model results from our analysis of the impact of Chinese Aid in southeast Asia to provide an illustrative example of how accounting for spatial imprecision can lead to substantively different conclusions than alternative modeling approaches.
+We examine the model results from our analysis of the impact of Chinese Aid in Southeast Asia to provide an illustrative example of how accounting for spatial imprecision can lead to substantively different conclusions than alternative modeling approaches.
 Table \ref{seresults} summarizes these findings.
 In (1) a linear model that ignores spatial imprecision (i.e., commits an ecological fallacy), (2) a linear model that omits imprecise spatial information, and (3) a Monte Carlo model averaging approach, findings suggest that Chinese Aid has contributed to deforestation. Specifically, an additional aid project within a district is associated with a 1.1 to 1.7 percentage point increase in forest loss (p < 0.05).
 However, when the spatial imprecision of the data is explicitly modeled (4), we find that insufficient evidence exists to determine if Chinese Aid has had a positive or negative impact on vegetation (p > 0.1).

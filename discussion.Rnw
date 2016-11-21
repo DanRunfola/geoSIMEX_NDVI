@@ -1,12 +1,12 @@
 \section{Discussion}
 These results highlight the importance of incorporating spatial imprecision into analytic approaches which seek to establish causal relationships using spatial data.
-Under current "best practice" approaches, a researcher would find that Chinese aid has had a statistically significant, detrimental and causal impact on deforestation in southeast Asia, even after controlling for a wide variety of potential confounding variables.
+Under current ``best practice" approaches, a researcher would find that Chinese aid has had a statistically significant, detrimental and causal impact on deforestation in Southeast Asia, even after controlling for a wide variety of potential confounding variables.
 This result - which could have strong political and policy ramifications - is illustrated to have insufficient evidence to support it when the geoSIMEX procedure is followed, largely due to the relatively imprecise nature of the measurements of aid.
 Failing to account for spatial imprecision can thus bias results in key ways, and lead researchers to conclusions that may be inaccurate.
 Further, we find nearly all (98.5\%) of the remaining variance can be ascribed to spatial imprecision; this offers compelling evidence that the true relationship between Chinese aid and deforestation could be better understood if more precise information was collected.
 \subsection{geoSimex}
 Broadly, this paper is related to papers that seek to overcome issues related to the Ecological Fallacy - i.e., the fallacy of measuring data at a course resolution and applying it to units of a finer resolution.
-By treating this "fallacy" as a source of explicit uncertainty in the modeling process, we argue that the use of relatively coarse resolution data not only can provide more insight into processes of interest, but that by ignoring coarse-scale information researchers may be commiting a seperate fallacy - that of ignoring "known unknowns".
+By treating this ``fallacy" as a source of explicit uncertainty in the modeling process, we argue that the use of relatively coarse resolution data not only can provide more insight into processes of interest, but that by ignoring coarse-scale information researchers may be commiting a seperate fallacy - that of ignoring ``known unknowns".
 This can be particularly troublesome in analyses which seek to establish causal relationships between variables, as bias that results from spatial imprecision can lead to incorrect statements of the statistical significance of such relationships.
 \par
 While geoSIMEX mitigates many issues related to spatial imprecision, it is not a silver bullet solution.
@@ -23,7 +23,7 @@ Such multidimensional approaches to SIMEX have been examined in other fields, bu
 Second, the authors hypothesize that the SIMEX procedure could be applied not only to cases of imprecision in observed variables (the ecological fallacy), but may also provide a solution to the ever-present concern of arbitrary units of observation (the modifiable area unit problem, or MAUP).
 By treating the boundaries of units of observation as a unique cause of spatial imprecision (i.e., the exact - or correct - boundaries may not be known), geoSIMEX could be modified to provide estimates unbiased by covariates or boundary selection.
 However, both computational and methodological barriers remain to this solution.
-Finally, in non-hierarchical datasets the application of geoSIMEX is currently not feasible due to a lack of a relevant "weights" matrix to establish how data should be permuted at higher levels of $\lambda$.
+Finally, in non-hierarchical datasets the application of geoSIMEX is currently not feasible due to a lack of a relevant ``weights" matrix to establish how data should be permuted at higher levels of $\lambda$.
 For example, in a raster dataset coarsening data can be done simply by aggregating nearby grid cells; conversely, if one sought to examine the impact of global international aid on non-contigious protected areas, it is unclear how imprecisions should be introduced into the system.
 
 

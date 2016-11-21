@@ -1,7 +1,7 @@
 \section{Conclusion}
 In this piece, we introduce a flexible method to account for spatial imprecison in datasets for the purpose of fitting linear or non-linear models - geoSIMEX.
 We illustrated the relative accuracy of geoSIMEX as contrasted to other methods which do not account for spatial imprecision, finding that geoSIMEX outperforms all other tested approaches under cases of imprecision.
-Additionally, as an illustrative example we applied geoSIMEX to the case of Chinese Aid's impact on NDVI in southeast Asia.  
-In models which did not account for spatial imprecision, it was found that Chinese Aid had a statistically significant, detrimental impact on forest cover.
+Additionally, as an illustrative example we applied geoSIMEX to the case of Chinese aid's impact on NDVI in Southeast Asia.  
+In models which did not account for spatial imprecision, it was found that Chinese aid had a statistically significant, detrimental impact on forest cover.
 By accounting for spatial imprecision, we illustrated that there was insufficient evidence to draw this conclusion.
 We use these findings to argue for the importance of incorporating spatial imprecision into analyses, and introduce new software in the R programming language to enable similar analyses for other purposes.

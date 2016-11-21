@@ -1,27 +1,28 @@
 \section{Methods and Data}
 \subsection{Methods}
-Two different approaches are followed. 
+Two different approaches are followed to illustrate the validity and applicability of the geoSIMEX process.
 First, we use a monte carlo simulation procedure to examine the relative accuracy of geoSIMEX as contrasted to other procedures.  
 Second, we apply geoSIMEX to a case study of the impact of Chinese aid on environmental outcomes in Southeast Asia to provide an illustrative example of when the geoSIMEX approach might lead a researcher to a different conclusion than traditional approaches.
 
 \subsubsection{geoSIMEX}
-In this section, we detail the geoSIMEX approach using an illustrative example, in which we solve the following simplified equation:
+In this section, we detail the geoSIMEX approach using an illustrative example, in which we solve the following simplified equation, with hypothetical districts as units of analysis:
 \begin{equation}
 NDVI = \theta * \text{Chinese aid} + \epsilon
 \label{eqn:ndvi_aid}
 \end{equation}
-in which Chinese aid is measured with spatial imprecision (due to, for example, limited documentation). 
-Through using geoSIMEX we account for this spatial imprecision to accurately estimate the model coefficient $\theta$. 
+in which Chinese aid is measured with spatial imprecision (due to, for example, limited documentation on which district aid is being sent to). 
+Through using geoSIMEX we account for this spatial imprecision to accurately estimate the model coefficient $\theta$, as well as relevant metrics of significance. 
 \par
 In figure \ref{fig:nepalex}, we present a hypothetical country with sixteen districts for which we seek to solve equation \ref{eqn:ndvi_aid}. 
-Four of these sixteen units of analysis, districts 5,6,7, and 8 are distinguished on the map. 
-Within this study area, a hypothetical data set contains three geocoded Chinese aid project locations of various levels of spatial precision, projects A, B, and C. 
+Four of these sixteen units of analysis, districts 5, 6, 7, and 8 are distinguished on the map. 
+Within this study area, a hypothetical data set contains three Chinese aid project locations of various levels of spatial precision, projects A, B, and C. 
 Project A is assigned a coordinate pair in District 5 and had strong documentation, resulting
 in precise geographic information (i.e. an exact latitude and longitude). 
-Due to weaker project documentation, location B has a precision level indicating that it was allocated anywhere in the region that includes districts 5,6,7, and 8. 
+Due to weaker project documentation, location B has a precision level indicating that it could have been allocated anywhere in the region that includes districts 5, 6, 7, and 8, but the exact location is unknown. 
 Project C has very uncertain spatial information, such that it may be anywhere in the country. 
-The area (in square kilometers) of the unit of analysis in which each project location may have been allocated gives us the size of the project location's area of coverage, which is summarized in table \ref{precision_example}.
-Using the spatial overlap between each region of interest (the sixteen districts) and the area an aid project might exist in, we calculate a probability that each district contains a given project\footnote{Here, probabilities are only based on geographic overlap, as opposed to integrating other factors which might mediate where aid is allocated. This equation can be modified to incorporate more information on spatial location, thus allowing a researcher to trade off additional assumptions or information about factors that mediate spatial allocation in exchange for higher degrees of spatial precision (i.e., through dasymetric mapping approaches).}:
+\par
+The area (in square kilometers) in which each project location may have been allocated is summarized in table \ref{precision_example}.
+Using the spatial overlap between each unit of analysis (the sixteen districts) and the known area an aid project might exist in, we calculate a probability that each district contains a given project\footnote{Here, probabilities are only based on geographic overlap, as opposed to integrating other factors which might mediate where aid is allocated. This equation can be modified to incorporate more information on spatial location, thus allowing a researcher to trade off additional assumptions or information about factors that mediate spatial allocation in exchange for higher degrees of spatial precision (i.e., through dasymetric mapping approaches).}:
 
 \begin{equation}\label{eq:overlaps}
 V_{t} = \sum_{S}^{s=1}U_{s}\left ( \frac{a_{st}}{\sum_{T}^{t=1}a_{st}} \right )
@@ -29,7 +30,7 @@ V_{t} = \sum_{S}^{s=1}U_{s}\left ( \frac{a_{st}}{\sum_{T}^{t=1}a_{st}} \right )
 \noindent 
 These probabilities are used in the below steps of the geoSIMEX procedure to estimate model parameters while accounting for spatial imprecision.
 \par
-\textbf{The first step} of geoSIMEX is to calculate the initial level of spatial imprecision in a given dataset, defined by $\lambda$.
+Before geoSIMEX is run, users must calculate the initial level of spatial imprecision in a given dataset, defined by $\lambda$.
 To reflect imprecision across a given set of aid projects and a set of units of analysis (i.e., districts), we calculate (\begin{math}\lambda\end{math}) following:
 
 \begin{equation}\label{lambda}
@@ -42,33 +43,33 @@ $Total \ Possible \ Area \ of \ Coverage_i$ is the area of coverage of project $
 \par
 If the latitude and longitude of every aid project was known, $\lambda$ would resolve to 0---indicating zero spatial imprecision. 
 If spatial data was only available for the entire study area (e.g., aid provided for general budget support without indication of where the project was allocated), $\lambda$ would resolve to 1---indicating 100\% spatial uncertainty. 
-In practice, combinations of different levels of precision in the documentation of individual aid projects result in $\lambda$ values between these two extremes, resulting in a measurement of spatial imprecision between 0 and 1.
+In practice, combinations of different levels of precision in the documentation of individual aid projects result in $\lambda$ values between these two extremes, resulting in $\lambda$ between 0 and 1, in which larger values indicate higher spatial imprecision across all measurements.
 \par
-\textbf{The second step} involves estimating a naive model (which can be of variable functional forms; for illustration we use ordinary least squares regression) using the source data.
-For each unit of observation (i.e., district), the total dollars of aid is estimated by calculating the spatial overlap between the possible region aid could be in and the unit of observation (i.e., see table \ref{precision_example}).
-In figure \ref{fig:steps}, we provide an example of the geoSIMEX procedure applied to a dataset with an initial $\lambda$ value of 0.4.
+After $\lambda$ is known, \textbf{the first step} of geoSIMEX involves estimating a naive model (which can be of variable functional forms; for illustration we use ordinary least squares regression) using the source data.
+In this example case, for each unit of observation (i.e., district), the total dollars of Chinese Aid in equation 2 is estimated by equally spreading aid according to geographic overlap - i.e., dollars from each project are weighted by the size of each district a given dollar could fall in to, and the final value is the weighted sum across all projects for each district.
+In figure \ref{fig:steps}, we provide an example of the geoSIMEX procedure applied to a dataset with an initial $\lambda$ value of 0.4; figure \ref{fig:steps}A illustrates the result from this step for the example dataset.
 In this figure, the x-axis represents the $\lambda$ value (spatial imprecision) for a dataset, with higher values indicating more imprecision.
 The y-axis represents the estimated value of $\theta$ in equation \ref{eqn:ndvi_aid}.
-In \ref{fig:steps}a, the orange line represents the 95\% confidence interval of the coefficient on aid in the naive model fit in step 2. 
+In \ref{fig:steps}a, the orange line represents the 95\% confidence interval of the coefficient on aid in the naive model fit in step 2, this estimate is plotted at $\lambda = 0.4$, following the estimate of spatial imprecision calculated using equation \ref{lambda}. 
 The horizontal black line represents the true model coefficient generated for this example ($\theta$ = 1), which the naive model fails to capture.
 \par 
-In \textbf{the third step}, additional imprecision is simulated by randomly decreasing the precision of observations (in this case, Chinese aid projects), and re-calculating the total dollars of aid for each unit of observation according to the updated areas-of-overlap between each unit and aid project (see table \ref{precision_example}). 
-For example, a project that has a measurement with an exact latitude and longitude will randomly be assigned a lower level of precision - i.e., a county, state, or even the entire country. 
+In \textbf{the second step}, additional imprecision is simulated by randomly decreasing the spatial precision of information (in this case, the spatial precision with which Chinese aid projects are known), and re-calculating the total dollars of aid for each unit of observation according to the updated areas-of-overlap between each unit and aid project. 
+For example, a project that has a measurement with an exact latitude and longitude will randomly be assigned a lower level of spatial precision - i.e., a county, state, or even the entire country. 
 Using these new, reduced levels of precision a model is fit in an identical fashion to step 1, and the estimated $\theta$ parameter, standard errors of the model, and $\lambda$ value for a given permutation are saved.
-In figure \ref{fig:steps}b, the black points represent individual iterations, with the saved model coefficients (y axis) and their associated $\lambda$ (x axis) values. 
+In figure \ref{fig:steps}b, the black points represent individual iterations, with the saved model coefficients ($\theta$, y axis) and their associated $\lambda$ (x axis) values. 
 \par
-\textbf{The fourth step} subdivides this set of iterations into four equally-sized bins based on the level of spatial uncertainty ($\lambda$) of the aid variable (e.g., if $\lambda$ values range from 0.4 to 1, coefficients are separated into bins of 0.40-0.55, 0.55-0.70, 0.70-0.85 and 0.85-1.00). 
+\textbf{The third step} subdivides this set of iterations into four equally-sized bins based on the level of spatial uncertainty ($\lambda$) of the aid variable (e.g., if $\lambda$ values range from 0.4 to 1, coefficients are separated into bins of 0.40-0.55, 0.55-0.70, 0.70-0.85 and 0.85-1.00). 
 Average coefficient and $\lambda$ values are calculated within each bin, represented as red dots in figure \ref{fig:steps}c. 
-A quadratic trend is fit on the resulting average coefficient and lambda values. 
-The trend is then extrapolated back to $\lambda=0$, thus providing an estimate of $\theta$ with perfect spatial precision. 
+\textbf{The fourth step} (\ref{fig:steps}d) fits a quadratic trend to the average coefficient and lambda values estimated in step 3.  
+The trend is then extrapolated back to $\lambda=0$, providing an estimate of $\theta$ with perfect spatial precision. 
 In figure \ref{fig:steps}d, the red line represents the extrapolated trend, and the blue dot represents the extrapolated estimate of the coefficient on aid. 
 \par 
 
-\textbf{In the fifth step}, the variance and standard errors of these estimates are calculated. 
-We employ a bootstrapping method to calculate the component of the standard error resulting from spatial imprecision. Here, a point from each bin is sampled, a quadratic trend is fit on the resulting values, and the trend is extrapolated back to $\lambda$ = 0. 
+\textbf{In the fifth step}, the variance and standard errors of these estimates are calculated using a bootstrap procedure. 
+An iterative procedure is followed in which a single point from each bin (defined in step 3) is sampled, a quadratic trend is fit on the resulting values, and the trend is extrapolated back to $\lambda$ = 0. 
 This process is repeated iteratively to capture as many permutations as is computationally feasible (with the number of iterations defined as $R$). 
 In figure \ref{fig:steps}e, each blue line represents one extrapolated trend and $\lambda$ = 0 estimate. 
-Following the approach outlined in \cite{burnham_information_2002}, we explicitly quantify both the original standard errors and the additional error from spatial imprecision:
+Following the approach outlined in \cite{burnham_information_2002}, we use this information to explicitly quantify both the original standard errors and the additional error from spatial imprecision:
 
 \begin{equation}\label{variance}
 var(\hat{\bar{\theta}}) = \sum_i^R \frac{1}{R} \{ var(\hat{\theta_i}) + (\hat{\theta_i}-\hat{\bar{\theta_i}})^2 \}
@@ -84,23 +85,24 @@ We employ a monte carlo simulation procedure to examine the accuracy of geoSIMEX
 Each simulation follows 7 steps:
 
 \begin{enumerate}
-\item One of three hypothetical countries with different administrative heirarchices is generated: (1) a country with 60 subcounties, 30 counties, 10 districts, and 2 regions, (2) a country with 120 subcounties, 40 counties, 20 districts, and 5 regions, or (3) a country with 120 subcounties, 60 counties, 30 districts, and 10 regions. Each subcounty is randomly assigned a spatial area and a probability of recieving aid. 
+\item One of three hypothetical countries with different administrative heirarchices is generated: (1) a country with 60 subcounties, 30 counties, 10 districts, and 2 regions, (2) a country with 120 subcounties, 40 counties, 20 districts, and 5 regions, or (3) a country with 120 subcounties, 60 counties, 30 districts, and 10 regions. Each subcounty is randomly assigned (a) a spatial area, and (b) a probability of recieving aid. 
 \item 50 to 250 aid projects are randomly allocated to subcounties, according to the assigned probability of a subcounty receiving aid. 
 \item A simulated measurement of NDVI is generating according to equation \ref{eqn:ndvi_aid} (defined as the number of aid projects plus random error).
 \item Each aid project is given a code indicating the spatial precision that a researcher might see. Codes range from indicating the project fell within a sub-county (no spatial imprecision), to falling somewhere within a county, district, region, or the country. 
-\item The expected value of aid is calculated for each subcounty. For projects with spatial imprecission, aid is disbursed to subcounties based on spatial area, with larger subcounties having a larger probability of receiving aid.\footnote{For example, consider a project where \$1 million was disbursed to either subcounty A (spatial area of 400km) or subcounty B (spatial area 100km). Because subcounty A is four times as large as subcounty B, subcounty A will be assigned four times as much aid from the project as subcounty B. Specifically, subcounty A will be assigned \$800,000 and subcounty B will be assigned \$200,000. Disbursing aid using spatial area assumes that each location (e.g., each sq. kilometer) within a country has an equal chance of receiving aid; this assumption could be modified according to dasymetric mapping approaches if desired by the researcher.}
+\item For each iteration, based on the spatial precision our hypothetical researcher would have access to the expected value of aid is calculated for each subcounty. For projects with spatial imprecission, aid is disbursed to subcounties based on spatial area, with larger subcounties having a larger probability of receiving aid.\footnote{For example, consider a project where \$1 million was disbursed to either subcounty A (spatial area of 400km) or subcounty B (spatial area 100km). Because subcounty A is four times as large as subcounty B, subcounty A will be assigned four times as much aid from the project as subcounty B. Specifically, subcounty A will be assigned \$800,000 and subcounty B will be assigned \$200,000. Disbursing aid using spatial area assumes that each location (e.g., each sq. kilometer) within a country has an equal chance of receiving aid; this assumption could be modified according to dasymetric mapping approaches if desired by the researcher.}
 \item Equation \ref{eqn:ndvi_aid} is estimated using  models that do not incorporate spatial imprecision: the first uses the expected value of aid, and the second only includes aid projects with complete spatial preceision (dropping out other information).
 \item Equation \ref{eqn:ndvi_aid} is estimated using models that seek to incorporate spatial imprecision: geoSIMEX and a model averaging approach. In the model averaging approach, subcounties are assigned a probability of receiving aid according to their spatial size, and the expected value of aid is calculated iteratively according to that probability.  500 models are estimated, where the average coefficient is used with the standard error estimated using equation \ref{variance}. This approach is contrasted to the geoSIMEX approach.
 \end{enumerate}
 
-This process is repeated 100,000 times. 
+This process is repeated approximately 6000 times, and the rate at which each modeling approach is able to capture the true relationship between aid and NDVI is contrasted along two dimensions.  First, we examine the percent of times that each approach captured the true relationship between Chinese aid and NDVI ($\theta$) within a 95\% confidence interval.  Second, we assess the percent of iterations a hypothetical researcher would have identified these results as being statistically significant at the 95\% level.
 
 \subsubsection{Chinese Aid in Southeast Asia}
 In an illustrative case study of geoSIMEX, we examine the causal impact that Chinese aid distributed from 2005 to 2010 had on vegetation (measured using NDVI) in Southeast Asia.  
 This study leverages a novel dataset on the location of Chinese international aid in Southeast Asia available at varying levels of precision (i.e., the exact location of each aid project is not always known).  
-It integrates this information with a variety of other ancillary datasets, including the NASA Long Term Data Record (LTDR) to examine the causal impact of Chinese aid on vegetation.  
+It integrates this information with a variety of other ancillary datasets, including the NASA Long Term Data Record (LTDR); all data sources are summarized in section 4.2.  
 Employing geoSIMEX, we use this case study to illustrate the importance of incorporating information on spatial imprecision into analyses.
-A difference-in-difference modeling strategy is followed, in which the average of NDVI before aid was allocated (pre-2004) is contrasted to the average of NDVI after aid was allocated (post-2011) for each of 351 districts:
+\par
+A difference-in-difference modeling strategy is followed, in which the average of NDVI before aid was allocated (pre-2004) is contrasted to the average of NDVI after aid was allocated (post-2011) for each of 351 districts (see section 4.2 for more information):
 \begin{equation}\label{eq:caseStudy}
 Y_{i} = \beta_0 + \theta * Aid_{i} + \sum_{k=1}^{n}(\beta_{k} * X_{i})
 \end{equation}
@@ -120,19 +122,17 @@ While relatively coarse resolution, this dataset represents the longest consiste
 To facilitate our difference-in-difference modeling efforts, we further select a number of covariates we believe could also impact shifts in NDVI (other than Chinese aid).
 These include:
 \begin{enumerate}
-\item{Long-term climate data from the University of Delaware, providing precipitation and temperature data at a monthly time-step for the full data record, which is permuted to produce yearly mean, minimum, and maximum values for each project location.}
+\item{Long-term climate data from the University of Delaware, providing precipitation and temperature data at a monthly time-step for the full data record, which is permuted to produce yearly mean, minimum, and maximum values for each project location. (\cite{willmott_terrestrial_2001})}
 \item{Population Data is retrieved from CIESIN at Columbia University, specifically leveraging the Gridded Population of the World (GPW) data record.}
-\item{Slope and Elevation data are derived from the Shuttle Radar Topography Mission (SRTM).}
+\item{Slope and Elevation data are derived from the Shuttle Radar Topography Mission (SRTM). (\cite{farr_shuttle_2007})}
 \item{Distance to rivers is calculated based on the USGS Hydrosheds database.}
 \item{Distance to roads is calculated based on the Global Roads Open Access Dataset (gRoads), which represents roads circa 2010, though the actual date of datasets is highly variable by country.}
 \item{Urban travel time, calculated by the European Commission Joint Research Centre.}
-\item{Nighttime Lights are retrieved from the NOAA Earth Observation Group, calculated from the Department of Defense Defense Meteorological Satellite Program (DMSP).  Lights values are temporally intercalibrated following the procedure outlined in \cite{weng_global_2014}}
+\item{Nighttime Lights are retrieved from the NOAA Earth Observation Group, calculated from the Department of Defense Defense Meteorological Satellite Program (DMSP).  Lights values are temporally intercalibrated following the procedure outlined in \cite{weng_global_2014}.}
 \end{enumerate}
 Each of these datasets are processed and aggregated according to their average values within each district included in this analysis.  
 Further, the size of districts are controlled for to mitigate the challenge of variably-sized districts across the study area.
 In cases where covariates were measured at a resolution coarser than the unit of observation, the relative area of overlap was used to generate a weighted mean.
-Further information on this decision can be found in the discussion.
-
 
 
 

@@ -1,27 +1,26 @@
 \section{Introduction}
 The lack of exact geographic information on where measurements are obtained presents a barrier to research.
-This has become increasingly evident as more scholars integrate geographic data from multiple sources - for example, census, satellite, and GPS sources - to try and establish causal or predictive relationships (c.f., \cite{bare_assessing_2015,buntaine_titling_2015,gallo_mapping_2012,andam_measuring_2008}).
-Many scholars have engaged in research seeking to integrate information on the precision of geographic data to improve the accuracy of modeling efforts, variably referred to as spatial (im)precision and spatial uncertainty \cite{worboys_imprecision_????,aerts_accounting_2003,ogryczak_efficient_2009}.
+This has become increasingly evident as more scholars integrate geographic data from multiple sources - for example, census, satellite, and GPS sources - to try and establish causal or predictive relationships (c.f., \cite{bare_assessing_2015,buntaine_titling_2015,gallo_mapping_2012,andam_measuring_2008,buchanan_impacts_2016,benyishay_indigenous_2016,runfola_migration_2016,runfola_multi-criteria_2015}).
 This paper presents a generalizeable approach to integrating information on the precision of geographic data into both linear and non-linear models - geoSIMEX.
 We illustrate the capability of geoSIMEX to provide more accurate parameter estimates than traditional approaches through a simulation framework. 
 Using a novel dataset, we then apply both tradional models and a geoSIMEX model to examine the causal impact of Chinese aid on vegetation in Southeast Asia.
 We use this case study to illustrate the importance of including information on spatial imprecision into analyses.
-Finally, we provide all data and an accompanying R package for users seeking to incorporate information on spatial imprecision into analyses.
+Finally, we introduce the geo(query) software - with which all data used in this analysis can be retrieved - as well as an accompanying R package - geoSIMEX - for users seeking to incorporate information on spatial imprecision into analyses.
 
 \subsection{Literature}
 
 Past literature has shown that uncertainty in the locations of where measurements are taken can produce biased estimates in empirical analyses (\cite{perez-heydrich_guidelines_2013,rettie_overcoming_1999}). 
-For example, Perez-Heydrich et al. show that regression coefficients will be biased when using raster data in conjunction with point data, where the true locations of the point data are only known to exist within some 5-10km radius of the measured location (\cite{perez-heydrich_guidelines_2013}). 
+For example, \cite{perez-heydrich_guidelines_2013} show that regression coefficients can be biased when using raster data in conjunction with point data, where the true locations of the point data are only known to exist within some 5-10km radius of the measured location. 
 One frequently cited ``best practice" to overcome this challenge is to take average raster values within a buffer encompassing where the point could have fallen, instead of the single raster value associated with the point (\cite{perez-heydrich_guidelines_2013, rettie_overcoming_1999}). 
-Another practice to address spatial uncertainty is to aggregate to some higher spatial scale where there is no spatial uncertainty (\cite{perez-heydrich_guidelines_2013}). 
-Yet another is to only use information for which exact (or, otherwise very precise) geographic information is known (\cite{runfola_migration_2016,dreher_aid_2015}).
+Another practice to address spatial uncertainty is to aggregate to some higher spatial scale where there is no -or, less - spatial uncertainty (\cite{runfola_using_2014,giner_creating_2014,heydrich_guidelines_2013}). 
+Yet another is to only use information for which exact (or, otherwise very precise) geographic information is known (\cite{runfola_migration_2016,dreher_aid_2015,runfola_what_2014}).
 \par
 There are many limitations, assumptions, and biases that these approaches incur.
-Most predominantly are the challenges highlighted by the large and well-established body of literature illustrating that analyzing data at different levels of aggregation can produce different regression coefficients and correlation coefficients (\cite{clark_effects_1976, selvin_durkheims_1958, gotway_combining_2002, gehlke_certain_1934, cramer_efficient_1964}). 
-As a simple example, using data from the 1930 US census, \cite{robinson_ecological_2009} found a negative correlation between the proportion of immigrants in a state and average literacy levels, but a positive correlation between being an immigrant and literacy level. 
-A number of techniques have been proposed to address such biases, but most rely on additional assumptions (or, covariates) to aid in an effective dis-aggregation of data to finer scales (i.e.,\cite{gotway_combining_2002, zhu_combined_2004,oloughlin_can_2000,wong_modifiable_2004}).
+Most predominant are the challenges highlighted by the large and well-established body of literature illustrating that analyzing data at different levels of aggregation can produce different regression coefficients and correlation coefficients; given the established nature of this literature we do not provide a full review here, but suggest a number of resources for readers new to employing spatial information (see \cite{clark_effects_1976, goodchild_models_2001, selvin_durkheims_1958, gotway_combining_2002, gehlke_certain_1934, cramer_efficient_1964}). 
+As a simple example of this concern, using data from the 1930 US census, \cite{robinson_ecological_2009} found a negative correlation between the proportion of immigrants in a state and average literacy levels, but a positive correlation between being an immigrant and literacy level. 
+A number of techniques have been proposed to address such biases, but most rely on additional assumptions (or, covariates) to aid in an effective disaggregation of data to finer scales (i.e.,\cite{gotway_combining_2002, zhu_combined_2004,oloughlin_can_2000,wong_modifiable_2004}).
 \par
-The simulation and extrapolation method (SIMEX) provides one solution to address measurement error in covariates (\cite{wang_bias_1998,kuchenhoff_general_2006,li_functional_2003,cook_simulation-extrapolation_1994}), but has not previously been applied explicitly to spatial imprecision. 
+The simulation and extrapolation method (SIMEX) provides a solution to address measurement error in covariates (\cite{wang_bias_1998,kuchenhoff_general_2006,li_functional_2003,cook_simulation-extrapolation_1994}) with a minimal set of assumptions and no additional covariate information, but has not previously been applied to spatial imprecision. 
 In it's traditional application, SIMEX leverages the relationship between increasing measurement error and bias following a two step process. 
 First, SIMEX simulates additional measurement error to establish a relation between measurement error and covariate bias:
 \begin{equation}
@@ -30,7 +29,7 @@ X(\lambda) = X + \sqrt{\lambda}U
 where X is the measured covariate, U is the variance of the measurement error and $\lambda$ is a parameter that simulates additional measurement error. 
 $\lambda=0$ corresponds to the original amount of measurement error in the measured covariate, X. 
 SIMEX uses increasing values of $\lambda$ (e.g., 0.5, 1, 1.5, and 2) to estimate models with simulated amounts of additional measurement error. 
-Second, SIMEX estimates a trend between $\lambda$ and the coefficient on X, and uses the trend to extrapolate back to $\lambda = -1$ (point of no measurement error).
+Second, SIMEX estimates a trend between $\lambda$ and the coefficient on X, and uses the trend to extrapolate back to $\lambda = -1$ (point of no measurement error).  In the next section, we describe a novel deriviation of this approach - geoSIMEX - which adapts SIMEX to the case of geographic imprecision.  
 
 
 

@@ -50,19 +50,15 @@ source("/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Code/CaseStudy_SEAsi
 
 %Introduction
 \SweaveInput{introduction}
-\newpage
 
 %Data and Methods
 \SweaveInput{dataMethods}
-\newpage
 
 %Results
 \SweaveInput{results}
-\newpage
 
 %Discussion
 \SweaveInput{discussion}
-\newpage
 
 %Conclusion
 \SweaveInput{conclusion}

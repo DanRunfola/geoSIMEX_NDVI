@@ -81,7 +81,7 @@
       <file>master-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>geoSIMEX.bib</file>
+      <file>geoSimex.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

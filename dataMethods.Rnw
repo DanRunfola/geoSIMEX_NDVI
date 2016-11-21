@@ -42,10 +42,10 @@ $Area \ of \ Coverage_i$ is project $i$'s known area of coverage defined by the 
 $Total \ Possible \ Area \ of \ Coverage_i$ is the area of coverage of project $i$ under complete spatial imprecision - e.g., the geographic area of the study area.
 \par
 If the latitude and longitude of every aid project was known, $\lambda$ would resolve to 0---indicating zero spatial imprecision. 
-If spatial data was only available for the entire study area (e.g., aid provided for general budget support without indication of where the project was allocated), $\lambda$ would resolve to 1---indicating 100\% spatial uncertainty. 
+If spatial data was only available for the entire study area (e.g., aid provided to a country without any indication of where the project was allocated), $\lambda$ would resolve to 1---indicating 100\% spatial uncertainty. 
 In practice, combinations of different levels of precision in the documentation of individual aid projects result in $\lambda$ values between these two extremes, resulting in $\lambda$ between 0 and 1, in which larger values indicate higher spatial imprecision across all measurements.
 \par
-After $\lambda$ is known, \textbf{the first step} of geoSIMEX involves estimating a naive model (which can be of variable functional forms; for illustration we use ordinary least squares regression) using the source data.
+After $\lambda$ is known, the first step of geoSIMEX involves estimating a naive model (which can be of variable functional forms; for illustration we use ordinary least squares regression) using the source data.
 In this example case, for each unit of observation (i.e., district), the total dollars of Chinese Aid in equation 2 is estimated by equally spreading aid according to geographic overlap - i.e., dollars from each project are weighted by the size of each district a given dollar could fall in to, and the final value is the weighted sum across all projects for each district.
 In figure \ref{fig:steps}, we provide an example of the geoSIMEX procedure applied to a dataset with an initial $\lambda$ value of 0.4; figure \ref{fig:steps}A illustrates the result from this step for the example dataset.
 In this figure, the x-axis represents the $\lambda$ value (spatial imprecision) for a dataset, with higher values indicating more imprecision.
@@ -53,19 +53,19 @@ The y-axis represents the estimated value of $\theta$ in equation \ref{eqn:ndvi_
 In \ref{fig:steps}a, the orange line represents the 95\% confidence interval of the coefficient on aid in the naive model fit in step 2, this estimate is plotted at $\lambda = 0.4$, following the estimate of spatial imprecision calculated using equation \ref{lambda}. 
 The horizontal black line represents the true model coefficient generated for this example ($\theta$ = 1), which the naive model fails to capture.
 \par 
-In \textbf{the second step}, additional imprecision is simulated by randomly decreasing the spatial precision of information (in this case, the spatial precision with which Chinese aid projects are known), and re-calculating the total dollars of aid for each unit of observation according to the updated areas-of-overlap between each unit and aid project. 
+In the second step, additional imprecision is simulated by randomly decreasing the spatial precision of information (in this case, the spatial precision with which Chinese aid projects are known), and re-calculating the total dollars of aid for each unit of observation according to the updated areas-of-overlap between each unit and aid project. 
 For example, a project that has a measurement with an exact latitude and longitude will randomly be assigned a lower level of spatial precision - i.e., a county, state, or even the entire country. 
 Using these new, reduced levels of precision a model is fit in an identical fashion to step 1, and the estimated $\theta$ parameter, standard errors of the model, and $\lambda$ value for a given permutation are saved.
 In figure \ref{fig:steps}b, the black points represent individual iterations, with the saved model coefficients ($\theta$, y axis) and their associated $\lambda$ (x axis) values. 
 \par
-\textbf{The third step} subdivides this set of iterations into four equally-sized bins based on the level of spatial uncertainty ($\lambda$) of the aid variable (e.g., if $\lambda$ values range from 0.4 to 1, coefficients are separated into bins of 0.40-0.55, 0.55-0.70, 0.70-0.85 and 0.85-1.00). 
+The third step subdivides this set of iterations into four equally-sized bins based on the level of spatial uncertainty ($\lambda$) of the aid variable (e.g., if $\lambda$ values range from 0.4 to 1, coefficients are separated into bins of 0.40-0.55, 0.55-0.70, 0.70-0.85 and 0.85-1.00). 
 Average coefficient and $\lambda$ values are calculated within each bin, represented as red dots in figure \ref{fig:steps}c. 
-\textbf{The fourth step} (\ref{fig:steps}d) fits a quadratic trend to the average coefficient and lambda values estimated in step 3.  
+The fourth step (\ref{fig:steps}d) fits a quadratic trend to the average coefficient and lambda values estimated in step 3.  
 The trend is then extrapolated back to $\lambda=0$, providing an estimate of $\theta$ with perfect spatial precision. 
 In figure \ref{fig:steps}d, the red line represents the extrapolated trend, and the blue dot represents the extrapolated estimate of the coefficient on aid. 
 \par 
 
-\textbf{In the fifth step}, the variance and standard errors of these estimates are calculated using a bootstrap procedure. 
+In the fifth step, the variance and standard errors of these estimates are calculated using a bootstrap procedure. 
 An iterative procedure is followed in which a single point from each bin (defined in step 3) is sampled, a quadratic trend is fit on the resulting values, and the trend is extrapolated back to $\lambda$ = 0. 
 This process is repeated iteratively to capture as many permutations as is computationally feasible (with the number of iterations defined as $R$). 
 In figure \ref{fig:steps}e, each blue line represents one extrapolated trend and $\lambda$ = 0 estimate. 

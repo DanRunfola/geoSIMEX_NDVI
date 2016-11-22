@@ -15,7 +15,7 @@
 \renewcommand\Authands{ and }
 
 %Title
-\title{Introducing geoSIMEX: A Generalized Approach To Modeling Spatial Imprecision}
+\title{geoSIMEX: A Generalized Approach To Modeling Spatial Imprecision}
 
 %-------------------------------------
 %-------------------------------------

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.3)  21 NOV 2016 13:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.3)  22 NOV 2016 09:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,43 +644,38 @@ e
 (./master-concordance.tex) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 56--66
+Underfull \hbox (badness 10000) in paragraph at lines 56--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--66
+Underfull \hbox (badness 10000) in paragraph at lines 56--62
 
  []
 
 [2]
-Overfull \hbox (37.1562pt too wide) in paragraph at lines 69--70
+Overfull \hbox (40.18924pt too wide) in paragraph at lines 65--66
 \T1/aer/m/n/10.95 http://geo.aiddata.org/query - and the geoSIMEX R pack-age - 
-https://github.com/itpir/geoSIMEX
+https://github.com/itpir/geoSIMEX.
  []
 
-[3]
-
-LaTeX Warning: Citation 'heydrich_guidelines_2013' on page 4 undefined on input
- line 87.
-
-[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 344.
+[3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+LaTeX Font Info:    Try loading font information for T1+aett on input line 340.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Underfull \hbox (badness 1460) in paragraph at lines 354--355
+Underfull \hbox (badness 1460) in paragraph at lines 350--351
 []|\T1/aer/m/n/10.95 University of Delaware (Will-mott and
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 356--357
+Underfull \hbox (badness 3375) in paragraph at lines 352--353
 []|\T1/aer/m/n/10.95 European Com-mis-sion Joint Re-search
  []
 
-[20] [21]
+[19] [20]
 (/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Simulation_Results/sim_res
 ults.tex
 Overfull \hbox (8.85117pt too wide) in paragraph at lines 1--1
@@ -692,142 +687,142 @@ Overfull \hbox (69.03543pt too wide) in paragraph at lines 1--1
  [][] 
  []
 
-) [22]
+) [21]
 (/home/aiddata/Desktop/Github/geoSIMEX_NDVI/Analysis/Results/CaseTable.tex)
-[23] <images/nepal_ex.jpg, id=111, 446.41782pt x 251.43938pt>
+[22] <images/nepal_ex.jpg, id=108, 446.41782pt x 251.43938pt>
 File: images/nepal_ex.jpg Graphic file (type jpg)
 
 <use images/nepal_ex.jpg>
-Package pdftex.def Info: images/nepal_ex.jpg used on input line 398.
+Package pdftex.def Info: images/nepal_ex.jpg used on input line 394.
 (pdftex.def)             Requested size: 346.89732pt x 195.38911pt.
 
-<images/steps.png, id=112, 2094.82625pt x 2434.09375pt>
+<images/steps.png, id=109, 2094.82625pt x 2434.09375pt>
 File: images/steps.png Graphic file (type png)
  <use images/steps.png>
-Package pdftex.def Info: images/steps.png used on input line 403.
+Package pdftex.def Info: images/steps.png used on input line 399.
 (pdftex.def)             Requested size: 346.89732pt x 403.05666pt.
 
-<images/geoSIMEX_plot.png, id=114, 481.8pt x 481.8pt>
+<images/geoSIMEX_plot.png, id=111, 481.8pt x 481.8pt>
 File: images/geoSIMEX_plot.png Graphic file (type png)
 
 <use images/geoSIMEX_plot.png>
-Package pdftex.def Info: images/geoSIMEX_plot.png used on input line 412.
+Package pdftex.def Info: images/geoSIMEX_plot.png used on input line 408.
 (pdftex.def)             Requested size: 346.89732pt x 346.90308pt.
- [24 <./images/nepal_ex.jpg>] [25 <./images/steps.png>] [26 <./images/geoSIMEX_
-plot.png>] [27]
-Overfull \hbox (192.08443pt too wide) in paragraph at lines 426--426
+ [23 <./images/nepal_ex.jpg>] [24 <./images/steps.png>] [25 <./images/geoSIMEX_
+plot.png>] [26]
+Overfull \hbox (192.08443pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 epE3abjIEj15LeKR5X9 -[] P8r0vAOA4jIK1mEAjnfKEC0wSmzC1UohpqoR
 GMZe0lGujVv7m0vbZf3H8bcvSuOELPswnpq2ecE9stBVmJdBs _
  []
 
 
-Overfull \hbox (180.60887pt too wide) in paragraph at lines 426--426
+Overfull \hbox (180.60887pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 eNUSbpVqrsZ _ fnnAs _ oqah54TAPW5Jsbs5m2cyXuWkGWQ _ YMdow05o
 YiWjAsAs7qg2LhOKVuJl24EE6MZC4ae86nZJavGVzpPamQ7uZ -[]
  []
 
 
-Overfull \hbox (19.9511pt too wide) in paragraph at lines 426--426
+Overfull \hbox (19.9511pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 kc1yTyHsyuPvZa2GjJhp40xtgprq7C2Cmer -[] LqyMuozOS0X12oePD1um
 R49tZ06ehg1aTtm9V3a _
  []
 
 
-Overfull \hbox (25.18887pt too wide) in paragraph at lines 426--426
+Overfull \hbox (25.18887pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 vWdQq2jfW3Y5Wo1s5rMq0Q8PgD7rrWAeQ2JQ9BT8yOw4325PAbMQAM6aMAXD
 S00YAcacDqHHWhA7 _
  []
 
 
-Overfull \hbox (94.5422pt too wide) in paragraph at lines 426--426
+Overfull \hbox (94.5422pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 kTML67HY _ uA3dxRlCyLAoUKTMmqKJcaWS1Xq36ayYTK9yEkIgEiwknTGcZ
 jwjXSVRGkqZYJBJzUy8ifAr2uJ2vmC -[]
  []
 
 
-Overfull \hbox (190.87968pt too wide) in paragraph at lines 426--426
+Overfull \hbox (190.87968pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 qOUx5BqDCWHDEsFCmAicCm -[] VUi1gzKVTKy6wPsD -[] I4rXWSSl -[]
  d0wfDPyZFe4Tei -[] sAJRZalqJ8z8ZvQC7La4HYHvx9qEuQe9z9g0Os2ax$\T1/aer/m/n/10.95
  . 
  []
 
-[28]
-Overfull \hbox (94.0422pt too wide) in paragraph at lines 426--426
+[27]
+Overfull \hbox (94.0422pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 eLvHCXMwlV3LTsMwEFxVnCoh3ohHK _ kDCMQbO3ZPCFWtOKNyjhw _ EIhG
 pbT09 _ EjgQoOiA9IFNnJ7Gw8OwNQ4HWe _
  []
 
 
-Overfull \hbox (180.60887pt too wide) in paragraph at lines 426--426
+Overfull \hbox (180.60887pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 cAELYwZaW4cjhgV2pZaa4dUGaasEVH8vjVqBV2oYxBZRpVgPNP3dKl -[] t
 TcYugSBt4u3LIRHhUPWNknDIzH1BS7Z5H7jsYjpk57bYEYZ _
  []
 
 
-Overfull \hbox (19.9511pt too wide) in paragraph at lines 426--426
+Overfull \hbox (19.9511pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 1Ie _ kLfiJDTfXjsBnOSkmQz3xJXb7k0 _ vPhDmCv5ZjkLr0Uh9CzzRH0A
 61MrszHMJ1E5whfcEj8 -[]
  []
 
 
-Overfull \hbox (737.17331pt too wide) in paragraph at lines 426--426
+Overfull \hbox (737.17331pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 eTr1xV5sE9JFNsQ1RgyDrkdSSlHnhsyCepXMl4vPyzpnExOYDadzMb3WZuok
 L1ISrMRK3OnkSnpiiI3BjF31ncUqIXjohCeyklNdSkldQppzTz21ZzKnEuLyjOZU9hVQXjfrOKAnjkD
 4kxpaen8vZhgPMeaC1SestvcITemOIdhXKRqkdwzKt91BPF51a7UOQy6Xajaz -[]
  []
 
-[29]
-Overfull \hbox (128.96887pt too wide) in paragraph at lines 426--426
+[28]
+Overfull \hbox (128.96887pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 wavIPXatNkTXeSURxePLmdS2IzEFxXXWXgX7 _ 3kg63HRRvgUBIacj7te _
  3ASCTuzjauRMIVWeDMnudaqWcFKyHlKxMsCYu -[]
  []
 
 
-Overfull \hbox (182.60887pt too wide) in paragraph at lines 426--426
+Overfull \hbox (182.60887pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 8K6bakVrEMdmWTpWYK -[] p09wyb67 -[] yTRVNb0Q _ 0RcXgUN1nbJA2
 6iQUVuGCT -[] 3Mfa58 -[] SdgmiYTq7zAPfR0ZHcJkrcYJ9JHlbINRvWHN -[]
  []
 
 
-Overfull \hbox (191.58443pt too wide) in paragraph at lines 426--426
+Overfull \hbox (191.58443pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 M8dHcFBCyxxGE7CMXRcdQJdxpLBivkUTB7a _ xgcixc4n6L _ 9UTVCyf1v
 EICg _ jy9u14hsc5R3cEshyNnXeboCKFtEbOERkLHLPICp9N4w _
  []
 
 
-Overfull \hbox (49.13998pt too wide) in paragraph at lines 426--426
+Overfull \hbox (49.13998pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 yGdyOHsf5U -[] T3XtTByaKgLwAmghftA8hz2DdMrK8aL8ArLwDLNDN2oA3
 3a1RqCZDHUsnY0svXokzFJfR -[]
  []
 
 
-Overfull \hbox (3.23776pt too wide) in paragraph at lines 426--426
+Overfull \hbox (3.23776pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 c1LVjf9 -[] cNNvqBRFfSiG9pD3pyXdOvn4HgGQXSfzFJ9DEcjmUiuRDnDC
 tMSmz1CibZlLTUn_ -[]
  []
 
 
-Overfull \hbox (99.77998pt too wide) in paragraph at lines 426--426
+Overfull \hbox (99.77998pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 1QoWqhDB2gsn6T23fi0xaX6J4RSjLMmv3t5jrCKFq62hpMYabGRZQnCUs8en
 lWdmvg6lQzlZnOYoT9qai4JHbliJn _
  []
 
 
-Overfull \hbox (95.0422pt too wide) in paragraph at lines 426--426
+Overfull \hbox (95.0422pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 XISA1R0GCMVW72YQYU77lTkmh7Aw -[] j2 _ uYuDiUW4jIrUh4TriwdGmI
 KmnFpqNWUUeMgAEegw0vNOdG4gKIdvMXoR -[]
  []
 
 
-Overfull \hbox (966.68442pt too wide) in paragraph at lines 426--426
+Overfull \hbox (966.68442pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 VMF7y0CdOyyBPSg02JVPxJ7X _ Z04cwMIQomTKijANruXIhsKJWZZZpZbgs
 iwjOF29dvDWSGsKHIgUXaBpnGRcrU9SxdNFfBGdoGBFqcrpNhVmL6lnOqkpcc47MUkYj6PvD8AVMkDP
 zrb0X2u1rPZWlWDUceIsvu0IcCKWMRXC8MJeQCtNOZV0Jhw8pEofareGjr8TSkq7P7SGzvLRXJ6K4cO
 qzmhGkfznsJoi1o0hBffTrjY -[]
  []
 
-[30]
-Overfull \hbox (26.03009pt too wide) in paragraph at lines 426--426
+[29]
+Overfull \hbox (26.03009pt too wide) in paragraph at lines 422--422
 \T1/aer/m/it/10.95 tis-ti-cal As-so-ci-a-tion \T1/aer/m/n/10.95 98.461, pp. 191
 ^^U203. \T1/aer/m/sc/10.95 issn\T1/aer/m/n/10.95 : 0162-1459. \T1/aer/m/sc/10.9
 5 doi\T1/aer/m/n/10.95 : $\T1/aett/m/n/10.95 10 . 1198 / 016214503388619210$\T1
@@ -835,162 +830,154 @@ Overfull \hbox (26.03009pt too wide) in paragraph at lines 426--426
  []
 
 
-Overfull \hbox (1.71243pt too wide) in paragraph at lines 426--426
+Overfull \hbox (1.71243pt too wide) in paragraph at lines 422--422
 [][]\T1/aer/m/n/10.95 Rettie, WJ and PD McLough-lin (1999). ``Over-com-ing ra-d
 ioteleme-try bias in habitat-selection
  []
 
 
-Overfull \hbox (53.87776pt too wide) in paragraph at lines 426--426
+Overfull \hbox (53.87776pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 http : / / wm . summon . serialssolutions . com / 2 . 0 . 0 
 / link / 0 / eLvHCXMwnV1NS8QwEB1WRRDEb7GuQg _
  []
 
 
-Overfull \hbox (495.68665pt too wide) in paragraph at lines 426--426
+Overfull \hbox (495.68665pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 irdo2bdLiQWRx8eZFL15KmqSwwn64rSz6651J27WKiHhum5RMMvOSvHkDwMI
 L3 _ vmE6LAL5goYtKnCiT3i1Cj7Q1nMi1kUZivqVbQqkI01m6dpPXceqro0PySMkQRDghxPXvxqIoU
 3bY2JTVWYC1En0wUr2R4u _
  []
 
 
-Overfull \hbox (37.16443pt too wide) in paragraph at lines 426--426
+Overfull \hbox (37.16443pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 TMXAR1SoqfeBFr6sAsY9EnwPwhBNlwM9yua6qWVqWQWCaLcYd43VFw _ O -
 [] P78BWA0Tdm3rm7ELPTPZg _
  []
 
 
-Overfull \hbox (576.51553pt too wide) in paragraph at lines 426--426
+Overfull \hbox (576.51553pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 Wlqj9n34eoe5zi2h5HNnUs9mlaGiObV _ M3NR7J0RxOXJL4RqnqlLaWD9nX
 LmpR4AI _ D24fBndcUWvAUBvzASwi0SMH9lJFqMdOI4bhQEvdmeZTmvEh1qBKjQh3qVMfGRBJxWxrx
 WGphZMEOYVMSIX9S2cQ9fQQuNohfcgSELIkiX -[]
  []
 
 
-Overfull \hbox (357.97998pt too wide) in paragraph at lines 426--426
+Overfull \hbox (357.97998pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 VKITjhWopEYlw2Dpy3Y5 _ NamGNzG5IWJqp5 _ dMiCwhJfLYgX47jJnM6f
 xHVWVGG6kYfUv3abP6ymw5wg6cdU257MgiZSZiEdrbDQeCv7w2aFTTSS2gOv614z5s1PoOxBQ8gdVq 
 _
  []
 
-[31]
-Overfull \hbox (71.5911pt too wide) in paragraph at lines 426--426
+[30]
+Overfull \hbox (71.5911pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 eLvHCXMwjV1LS8NAEB6KBxGKj _ qKVVmw19gku9kkRwktehBBFLyFfYJCo7
 SV4r93t5vURLR6zmZJdjYz32Tm -[]
  []
 
 
-Overfull \hbox (186.84665pt too wide) in paragraph at lines 426--426
+Overfull \hbox (186.84665pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 xYAR5eB _ 80n0ECnLGYck9gGTK1UmGiquA4jJqmQbaoVDH4p6Gd4 -[] Py
 ihvKjxPGSQU6wTbju755WlQNCHOTFQeDHSRLWkqStW1tBqEVsa -[]
  []
 
 
-Overfull \hbox (54.37776pt too wide) in paragraph at lines 426--426
+Overfull \hbox (54.37776pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 DLH0PR0quOdyCvyTuu22QxaTRgN5Qc177ALmxXqBNduW2yBx1V9mDztqqr96
 Dr _ t4hR0rah2QkaqeIcnt -[]
  []
 
 
-Overfull \hbox (203.55998pt too wide) in paragraph at lines 426--426
+Overfull \hbox (203.55998pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 R9Uxh1gpkYGMqJJVnKJXjW5WnK7ZATyORw _ 5tV8dseALK9HpYy0YVSKW3M
 BGbfBPZuBbFKQkZjK0h48HMhMqiam20FAoqw4Ym4jGI8qVYhk -[]
  []
 
 
-Overfull \hbox (42.4022pt too wide) in paragraph at lines 426--426
+Overfull \hbox (42.4022pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 hC6zrfjlfEnZk8eAFMachQnmyoA1wk0KzKnmkU4kVykTmQcX9eIXb05So3Cl
 cFyYxSnc4nhwbuyydkC _
  []
 
 
-Overfull \hbox (135.20665pt too wide) in paragraph at lines 426--426
+Overfull \hbox (135.20665pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 NllRfXezIrLpp _ GboQdHzopfM2TWFxHqwaBp1tV1GxsoSTO7c4yr8yD8z7
 C8UlK3CgLzk7 -[] euQ9bdTUqCE9hYz59V2fQWUw -[]
  []
 
-[32]
-Overfull \hbox (197.8222pt too wide) in paragraph at lines 426--426
+[31]
+Overfull \hbox (197.8222pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 serialssolutions . com / 2 . 0 . 0 / link / 0 / eLvHCXMw3V1d
 S8MwFL1MnwQRP9E5ISDMp0rbrE334EOZlQkyRKevo2kSLNJN1g7x39s0TVoV -[]
  []
 
 
-Overfull \hbox (393.40665pt too wide) in paragraph at lines 426--426
+Overfull \hbox (393.40665pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 gN8baEpOXDuvck95wJg99q2fnGCb4sg9mKKR54MmIJzhwifU -[] G4MfMT9
 lNqZayfm2f _ Afjbzfr9jcshySQveSFNUmY0AXJ2TNW7EWUfqTIH0a137SzVXOO00lWjbDFnMtHD63
 3VJDANZ -[]
  []
 
 
-Overfull \hbox (43.9022pt too wide) in paragraph at lines 426--426
+Overfull \hbox (43.9022pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 GsPm5lSlHnBU27XsuMtqsBRBNnWewo4uSaK4nlYTXtU5NpzVZp -[] 7q6Yk
 bfJkPpZp6xNClu -[] NJ6ed4qS -[]
  []
 
 
-Overfull \hbox (170.13332pt too wide) in paragraph at lines 426--426
+Overfull \hbox (170.13332pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 VAFsxPk8eW5Zft6pJFLvgnRlZxbL4Pe _ UWoFDt9AH0 -[] PIQ -[] mY7
 0BApiTNSjitfR -[] BpCK5yVAOASgCQBgCtBDIAIA3AMVzeRfPJ1NI _
  []
 
 
-Overfull \hbox (88.80443pt too wide) in paragraph at lines 426--426
+Overfull \hbox (88.80443pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 sqjhzhdldB9LC0GP4BPYjaUoYVlU4kV2CohjTGOHYMrLtHVEcYCpL6grCKM8
 iJPxGQy6Ptnvfn0OOw2cA9gu1ht -[]
  []
 
-[33]
-Overfull \hbox (13.71332pt too wide) in paragraph at lines 426--426
+[32]
+Overfull \hbox (13.71332pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 0 . 0 / link / 0 / eLvHCXMwpV1LT8MwDLYGu4AQb8R4SDlwgEOhjy1tj
 mNi4gA3JnGrksaZJjGYGBJ _
  []
 
 
-Overfull \hbox (157.15776pt too wide) in paragraph at lines 426--426
+Overfull \hbox (157.15776pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 HzvNxkAgEFx6iJqktS3bST5 _ AcjS8zj65BMoarqsk2iVWlu1FSplM4OG0h
 OZFMavGxdKrerSmACyDJGg9vDed4eWiyDbi8loxBW _
  []
 
 
-Overfull \hbox (134.70665pt too wide) in paragraph at lines 426--426
+Overfull \hbox (134.70665pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 icwpOJHRcpqtlqDJ5kuG3ry8ub _ tzY8W8jhwNSYy4g7vZT31IL7xNM7O _
  DiR -[] i5gfRGnfEzqb4CeVfbUUJTX8QI6e4Hm8R9 _
  []
 
 
-Overfull \hbox (174.8711pt too wide) in paragraph at lines 426--426
+Overfull \hbox (174.8711pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 twnrIWEV3fq9LWjg4zasdofPgbQDd2BAToUW2GjFWDPdw1A8OTF9Gj2ICW _
  1PzNnq2CA _ VBo4RGM0ZRMAwWfiEc1gy0NZMWU4d00mb -[]
  []
 
 
-Overfull \hbox (100.27998pt too wide) in paragraph at lines 426--426
+Overfull \hbox (100.27998pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 eZxcG _ au73nUUrmuIKkobswhV7BKXt6WrnHTSxqaTKUwQM61iLHSKHVcZt
 GhpUVnkiCY3Ric6t5Rk8d2Re7CmGdb_ -[]
  []
 
 
-Overfull \hbox (20.9511pt too wide) in paragraph at lines 426--426
+Overfull \hbox (20.9511pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 OLL_ -[] w -[] CM3sQGidS51tG0lTkPoq107jqkql0y04nymnnNT0HOU7b
 o2fLLUyzkovt1K1oJipsPwg -[]
  []
 
 
-Overfull \hbox (29.72191pt too wide) in paragraph at lines 426--426
+Overfull \hbox (29.72191pt too wide) in paragraph at lines 422--422
 \T1/aett/m/n/10.95 5JCyE9dTxZVPp -[] P02RapyhZ -[] IS6BclvXusFCnamHng5 -[] PtXH
 cJKDSbiXaEjWCad4TE0XsdvQPELRw$\T1/aer/m/n/10.95 . 
  []
 
-[34] (./master.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                master
-(biblatex)                and rerun LaTeX afterwards.
-
+[33] (./master.aux)
 Package logreq Info: Writing requests to 'master.run.xml'.
 \openout1 = `master.run.xml'.
 
@@ -998,11 +985,11 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 Here is how much of TeX's memory you used:
  9414 strings out of 494985
  149625 string characters out of 6180357
- 343399 words of memory out of 5000000
+ 343386 words of memory out of 5000000
  12409 multiletter control sequences out of 15000+600000
  40308 words of font info for 84 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,16n,54p,1606b,955s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,16n,54p,1606b,953s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1018,10 +1005,10 @@ mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on master.pdf (34 pages, 761912 bytes).
+Output written on master.pdf (33 pages, 759442 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 202 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
